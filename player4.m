@@ -1,5 +1,9 @@
 function [ decision ] = player4(K,op,turn)
 %Tit for tat
+%
+%
+%
+%
 if (turn == 1)
     decision = 1; %cooperate in turn 1
 else
