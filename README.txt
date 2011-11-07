@@ -1,10 +1,10 @@
-MATLAB FS11 – Research Plan
+MATLAB FS11 - Research Plan
 =========================================================================
 
 
 Document Version: 2 
 Group Name: The Prisoners
-Group participants' names: Andermatt Samuel, Bösser Jonathan, Meier David
+Group participants' names: Andermatt Samuel, Boesser Jonathan, Meier David
 
 -------------------------------------------------------------------------
 
