@@ -1,0 +1,12 @@
+Changed language to english.
+The loop that goes trough all turns is now outside the loop trough all players. This way we could later implement that one player can watch how his contrahent decides with other players.
+All player decisions get stored (information about their decisions does not get overritten so we can tack everything in the end.
+Added Noise.
+Players now acces the noised information.
+Added TFt, Friedman, Pavlov, TF2T, Joss and Diekmann as players.
+Added time measurement.
+Added plot that shows the players performances.
+Changed wind to be the same as in axelrods tournament.
+
+Suggestion:
+Make players objects so that they can stire values, and give out their names.
