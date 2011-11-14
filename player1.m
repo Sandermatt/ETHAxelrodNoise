@@ -1,4 +1,11 @@
-function [decision] = player1(K,op,turn)
-%Always cooperates
-decision=1;
+classdef player1
+properties
+    name='Cooperate';
 end
+methods
+    function decision=decide(obj,K,op,turn)
+        decision=1;
+    end
+end
+end
+        

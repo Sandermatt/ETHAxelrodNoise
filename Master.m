@@ -1,7 +1,7 @@
 clear all;close all; home               % Initalisation
 
 tic                                     % start time measurement
-N = 1000                                 % Number of turns
+N = 200                                 % Number of turns
 maxplayers = 9;                         % Maximum number of players
 K = zeros(maxplayers,maxplayers,N );    % Contains the information about the players true decisions: 1=Cooperate   2=Betray
 K2 = zeros(maxplayers,maxplayers,N );   % Contains the information about the players decision disturbed by noise
@@ -15,17 +15,24 @@ Points=zeros(maxplayers);               % Total amount of points of a player
 Winner=0;                               % most succesful player
 
 list = playerlist(player, maxplayers);
+for i=1:maxplayers
+    if list(i)==1
+        i2=int2str(i);
+        eval(['P' i2 '=player' i2]);
+        Names{i}=eval(['P' i2 '.name']);
+    end
+end
+
+Names
 
 for i=1:N % loop trough all turns
     for j=1:maxplayers % loop trough all players
         for k=1:j      % let each player interact with all other players
             j2=int2str(j);    
-            k2=int2str(k);                
-            playerA=strcat(player, j2); % Gives the path to the player function for player j
-            playerB=strcat(player, k2); % Gives the path to the player function for player k     
+            k2=int2str(k);                    
             if list(j)==1 && list(k)==1
-                K(j,k,i)=eval([playerA '(K2,k,i)']);  % player j decides how to behave to player k
-                K(k,j,i)=eval([playerB '(K2,j,i)']);  % player k decides how to behave to player j
+                K(j,k,i)=eval(['P' j2 '.decide(K2,k,i)']);  % player j decides how to behave to player k
+                K(k,j,i)=eval(['P' k2 '.decide(K2,j,i)']);  % player k decides how to behave to player j
                 Reward=win([K(j,k,i) K(k,j,i)]); % Rewards are calculated
                 if (j == k)
                     Reward=Reward/2; % otherwise the interaction with itself get counted double

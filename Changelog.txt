@@ -7,6 +7,4 @@ Added TFt, Friedman, Pavlov, TF2T, Joss and Diekmann as players.
 Added time measurement.
 Added plot that shows the players performances.
 Changed wind to be the same as in axelrods tournament.
-
-Suggestion:
-Make players objects so that they can stire values, and give out their names.
+Made players to objects.
