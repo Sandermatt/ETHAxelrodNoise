@@ -1,4 +1,4 @@
-classdef player4
+classdef player4 < handle
 properties
     name='Tit for tat';
 end

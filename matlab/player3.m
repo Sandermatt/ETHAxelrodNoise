@@ -1,4 +1,4 @@
-classdef player3
+classdef player3 < handle
 properties
     name='Random';
 end

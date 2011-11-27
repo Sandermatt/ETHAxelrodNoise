@@ -1,4 +1,4 @@
-classdef player2
+classdef player2 < handle
 properties
     name='Defect';
 end

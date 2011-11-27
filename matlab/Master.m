@@ -2,7 +2,7 @@ close all; home               % Initalisation
 
 tic                                     % start time measurement
 N = 200                                 % Number of turns
-maxplayers = 10;                        % Maximum number of players
+maxplayers = 11P;                        % Maximum number of players
 K = zeros(maxplayers,maxplayers,N );    % Contains the information about the players true decisions: 1=Cooperate   2=Betray
 K2 = zeros(maxplayers,maxplayers,N );   % Contains the information about the players decision disturbed by noise
 minNoise1 = 0                           % The chance that cooperation gets recieved as betrayal goes from the value minNoise1 to maxNoise1

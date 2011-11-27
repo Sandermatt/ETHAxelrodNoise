@@ -1,4 +1,4 @@
-classdef player10
+classdef player10 < handle
     %created by Meier David
 properties
     name='Tit for average tat';

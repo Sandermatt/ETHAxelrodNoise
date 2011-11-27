@@ -1,4 +1,4 @@
-classdef player1
+classdef player1 < handle
 properties
     name='Cooperate';
 end

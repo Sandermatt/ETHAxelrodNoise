@@ -1,4 +1,4 @@
-classdef player5
+classdef player5 < handle
 properties
     name='Friedmann';
 end

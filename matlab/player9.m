@@ -1,4 +1,4 @@
-classdef player9
+classdef player9 < handle
 properties
     name='Diekmann'; %source:www.socio.ethz.ch/vlib/pesb/pesb9.pdf
 end

@@ -1,4 +1,4 @@
-classdef player8
+classdef player8 < handle
 properties
     name='Joss';
     r=0.1; %random rejection chance
