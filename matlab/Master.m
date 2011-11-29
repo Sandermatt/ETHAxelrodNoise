@@ -1,14 +1,16 @@
-close all; home               % Initalisation
+clear all;close all; home               % Initalisation
+
+%Note: Most standard players are taken from the lecture http://www.socio.ethz.ch/education/fs11/igt/notes/Evolution_von_Kooperation_2011.pdf
 
 tic                                     % start time measurement
-N = 200                                 % Number of turns
-maxplayers = 11P;                        % Maximum number of players
+N = 100                                 % Number of turns
+maxplayers = 14;                        % Maximum number of players
 K = zeros(maxplayers,maxplayers,N );    % Contains the information about the players true decisions: 1=Cooperate   2=Betray
 K2 = zeros(maxplayers,maxplayers,N );   % Contains the information about the players decision disturbed by noise
 minNoise1 = 0                           % The chance that cooperation gets recieved as betrayal goes from the value minNoise1 to maxNoise1
-maxNoise1 = 0.05
+maxNoise1 = 0
 minNoise2 = 0                           % The chance that betrayal gets recieved as cooperation goes from the value minNoise2 to maxNoise2
-maxNoise2 = 0.05
+maxNoise2 = 0
 NoiseInc=0.05;                          % Noise increment with each simulation
 maxX=(maxNoise1-minNoise1)/NoiseInc+1;  % number of points of the x-axis
 maxY=(maxNoise2-minNoise2)/NoiseInc+1;  % number of points of the y-axis
@@ -23,7 +25,7 @@ list = playerlist(player, maxplayers);
 for i=1:maxplayers
     if list(i)==1
         i2=int2str(i);
-        eval(['P' i2 '=player' i2]);
+        eval(['P' i2 '=player' i2 '(' num2str(maxplayers) ')']);
         Names{i}=eval(['P' i2 '.name']);
     end
 end

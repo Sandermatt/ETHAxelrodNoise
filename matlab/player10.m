@@ -1,4 +1,4 @@
-classdef player10 < handle
+classdef player10
     %created by Meier David
 properties
     name='Tit for average tat';
@@ -6,6 +6,8 @@ properties
     erase=50; %erase memory after this amount of turns
 end
 methods
+    function P10 = player10(np)
+    end
     function decision=decide(obj,K,op,turn)
         if (mod(turn,obj.erase)<obj.mem+2) %play tft in the first 10 rounds
             if (mod(turn,obj.erase) == 1)

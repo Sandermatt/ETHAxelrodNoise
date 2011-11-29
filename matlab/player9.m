@@ -1,8 +1,10 @@
-classdef player9 < handle
+classdef player9
 properties
     name='Diekmann'; %source:www.socio.ethz.ch/vlib/pesb/pesb9.pdf
 end
 methods
+    function P9 = player9(np)
+    end
     function decision=decide(obj,K,op,turn)
         if (turn == 1)
             decision = 1; % cooperate in turn 1

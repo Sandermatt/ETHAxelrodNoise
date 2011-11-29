@@ -1,8 +1,10 @@
-classdef player5 < handle
+classdef player5
 properties
     name='Friedmann';
 end
 methods
+    function P5 = player5(np)
+    end
     function decision=decide(obj,K,op,turn)
     if (turn == 1)
         decision = 1; %cooperate in turn 1
