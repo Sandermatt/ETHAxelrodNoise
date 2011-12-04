@@ -4,13 +4,13 @@ clear all;close all; home               % Initalisation
 
 tic                                     % start time measurement
 N = 100                                 % Number of turns
-maxplayers = 14;                        % Maximum number of players
+maxplayers = 17;                        % Maximum number of players
 K = zeros(maxplayers,maxplayers,N );    % Contains the information about the players true decisions: 1=Cooperate   2=Betray
 K2 = zeros(maxplayers,maxplayers,N );   % Contains the information about the players decision disturbed by noise
 minNoise1 = 0                           % The chance that cooperation gets recieved as betrayal goes from the value minNoise1 to maxNoise1
-maxNoise1 = 0
+maxNoise1 = 0.05
 minNoise2 = 0                           % The chance that betrayal gets recieved as cooperation goes from the value minNoise2 to maxNoise2
-maxNoise2 = 0
+maxNoise2 = 0.05
 NoiseInc=0.05;                          % Noise increment with each simulation
 maxX=(maxNoise1-minNoise1)/NoiseInc+1;  % number of points of the x-axis
 maxY=(maxNoise2-minNoise2)/NoiseInc+1;  % number of points of the y-axis
@@ -29,6 +29,9 @@ for i=1:maxplayers
         Names{i}=eval(['P' i2 '.name']);
     end
 end
+
+Noise(1,1:maxX)=(minNoise1:NoiseInc:maxNoise1);
+Noise(2,1:maxY)=(minNoise2:NoiseInc:maxNoise2);
 
 for x=1:maxX
     Noise1=(x-1)*NoiseInc;
@@ -83,4 +86,7 @@ for x=1:maxX
         end
     end
 end
+
+save simulation Rewardmatrix N list Noise;
 toc % end time measurement
+
