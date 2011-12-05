@@ -18,7 +18,7 @@ methods
     
     function decision=decide(obj,K2,op,turn)
         if (turn == 1 || turn == 2)
-            decision = 2;           
+            decision = 1;           
         else
             [obj.n_c_cd, obj.n_c_dd, obj.n_cd, obj.n_dd] = update_rounds(obj, obj.n_c_cd, obj.n_c_dd, obj.n_cd, obj.n_dd, K2, op, turn);
             p_c_cd=obj.n_c_cd(op)/(turn-1);
