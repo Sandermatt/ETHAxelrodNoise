@@ -26,18 +26,21 @@ methods
             p_cd=obj.n_cd(op)/(turn-1);
             p_dd=obj.n_dd(op)/(turn-1);
             
-            if(p_cd == 0 || p_dd == 0)
-                p1 = 0.5;
+            if (p_cd == 0)
+                p1=0.5;
+            else
+                p1=p_c_cd/p_cd;
+            end
+            if (p_dd == 0)
                 p2 = 0.5;
             else
-                p1=p_c_cd/p_cd;  
                 p2=p_c_dd/p_dd;
-            end    
+            end 
 
             E1 = p1*3 + (1-p1) * 0;
             E2 = p2*5 + (1-p2) * 1;
             
-            if(E2<E1)
+            if(E2>E1)
                 decision = 2;
             else 
                 decision = 1;       
@@ -59,9 +62,9 @@ methods
             end
         end
         if (K(obj.playernumber,op,turn-2) == 1)
-            n_cd_new = n_cd_old + 1;
+            n_cd_new(op) = n_cd_old(op) + 1;
         else
-            n_dd_new = n_dd_old + 1;
+            n_dd_new(op) = n_dd_old(op) + 1;
         end
     end
 end

@@ -18,7 +18,7 @@ methods
         P14.ps=zeros(5,np);
     end
     function decision=decide(P14,K,op,turn)
-        if (turn==1 || turn == 2) %cooperate in turn 1
+        if (turn==1) %cooperate in turn 1
             decision=1;
         elseif (P14.s(op) == 1) %strategy one is active
             %TFT

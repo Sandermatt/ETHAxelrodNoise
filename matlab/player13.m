@@ -15,7 +15,7 @@ methods
             decision = 1; %cooperate in turn 1
         elseif (K(op,obj.playernumber,turn-1) == 1)
             decision = 1;
-        elseif (mean(K(op,:,turn-1))-1 > obj.threshold) %average of oponents decision is higher than threshold
+        elseif (mean(K(op,:,turn-1))-1 < (1-obj.threshold)) %average of oponents decision is higher than threshold
             decision = 1;
         else
             decision = 2;
