@@ -8,6 +8,7 @@ classdef player11  < handle
     %exploitable
 properties
     name='Reconcilation TFT';
+    short='RTFT';
     playernumber=11;
     k=zeros(1); %this is a number that allows the object to switch between a recoonciling state and a TFT state. 0 means TFt, 1 means reconcile.
     memory=20; %determines how many turns you go back at max

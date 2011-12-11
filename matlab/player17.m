@@ -1,6 +1,7 @@
 classdef player17 < handle
 properties
     name='LookBack_DDowning';
+    short='LDDO';
     n_c_cd=0;           % number of cases with oponent: c, downing: c
     n_c_dd=0;           % number of cases with oponent: c, downing: d
     n_cd=0;             % number of cases with downing: c

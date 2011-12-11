@@ -1,6 +1,7 @@
 classdef player7
 properties
     name='Tit for 2tat';
+    short='TF2T';
 end
 methods
     function P7 = player7(np)

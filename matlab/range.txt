@@ -1,0 +1,99 @@
+Players in a 0.05 range for each noise level 
+
+Noise level 1: 0.15, Noise level 2: 0.15, highest reward: 2.5300, in range (>2.4035):
+Defect (2.5200)
+Tit for tat (2.5000)
+Friedmann (2.4500)
+Tit for 2tat (2.4300)
+Diekmann (2.5100)
+Tit for average tat (2.5300)
+
+Noise level 1: 0.15, Noise level 2: 0.20, highest reward: 2.7200, in range (>2.5840):
+Defect (2.7200)
+
+Noise level 1: 0.15, Noise level 2: 0.25, highest reward: 2.4100, in range (>2.2895):
+Defect (2.4000)
+Random (2.3500)
+Tit for tat (2.3500)
+Friedmann (2.4000)
+Joss (2.4100)
+
+Noise level 1: 0.15, Noise level 2: 0.30, highest reward: 2.9200, in range (>2.7740):
+Defect (2.9200)
+
+Noise level 1: 0.15, Noise level 2: 0.35, highest reward: 2.6100, in range (>2.4795):
+Defect (2.5600)
+Random (2.6100)
+Friedmann (2.5200)
+Joss (2.5400)
+
+Noise level 1: 0.20, Noise level 2: 0.15, highest reward: 2.5600, in range (>2.4320):
+Random (2.5600)
+Tit for tat (2.4700)
+
+Noise level 1: 0.20, Noise level 2: 0.20, highest reward: 2.5800, in range (>2.4510):
+Defect (2.5200)
+Friedmann (2.5800)
+
+Noise level 1: 0.20, Noise level 2: 0.25, highest reward: 3.0800, in range (>2.9260):
+Defect (3.0800)
+
+Noise level 1: 0.20, Noise level 2: 0.30, highest reward: 2.7600, in range (>2.6220):
+Defect (2.7600)
+
+Noise level 1: 0.20, Noise level 2: 0.35, highest reward: 3.1200, in range (>2.9640):
+Defect (3.1200)
+
+Noise level 1: 0.25, Noise level 2: 0.15, highest reward: 2.7600, in range (>2.6220):
+Defect (2.7600)
+
+Noise level 1: 0.25, Noise level 2: 0.20, highest reward: 2.5600, in range (>2.4320):
+Defect (2.5600)
+
+Noise level 1: 0.25, Noise level 2: 0.25, highest reward: 2.6000, in range (>2.4700):
+Defect (2.6000)
+
+Noise level 1: 0.25, Noise level 2: 0.30, highest reward: 2.7200, in range (>2.5840):
+Defect (2.7200)
+
+Noise level 1: 0.25, Noise level 2: 0.35, highest reward: 2.8100, in range (>2.6695):
+Friedmann (2.8100)
+
+Noise level 1: 0.30, Noise level 2: 0.15, highest reward: 2.4400, in range (>2.3180):
+Defect (2.4400)
+Friedmann (2.3300)
+Tit for 2tat (2.3400)
+
+Noise level 1: 0.30, Noise level 2: 0.20, highest reward: 2.7600, in range (>2.6220):
+Defect (2.7600)
+
+Noise level 1: 0.30, Noise level 2: 0.25, highest reward: 2.8500, in range (>2.7075):
+Friedmann (2.8500)
+
+Noise level 1: 0.30, Noise level 2: 0.30, highest reward: 2.8900, in range (>2.7455):
+Defect (2.7600)
+Friedmann (2.8900)
+
+Noise level 1: 0.30, Noise level 2: 0.35, highest reward: 2.8100, in range (>2.6695):
+Friedmann (2.8100)
+
+Noise level 1: 0.35, Noise level 2: 0.15, highest reward: 2.4800, in range (>2.3560):
+Defect (2.4800)
+Friedmann (2.4500)
+
+Noise level 1: 0.35, Noise level 2: 0.20, highest reward: 2.4500, in range (>2.3275):
+Defect (2.4400)
+Tit for tat (2.4500)
+Friedmann (2.3300)
+
+Noise level 1: 0.35, Noise level 2: 0.25, highest reward: 2.6400, in range (>2.5080):
+Defect (2.6400)
+Friedmann (2.5300)
+
+Noise level 1: 0.35, Noise level 2: 0.30, highest reward: 2.8400, in range (>2.6980):
+Defect (2.8400)
+
+Noise level 1: 0.35, Noise level 2: 0.35, highest reward: 2.6800, in range (>2.5460):
+Defect (2.6800)
+Friedmann (2.6600)
+

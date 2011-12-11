@@ -1,20 +1,21 @@
 clear all;close all; home               % Initalisation
-
+% [a, MSGID] = lastwarn();
+% warning('off', MSGID)
 %Note: Most standard players are taken from the lecture http://www.socio.ethz.ch/education/fs11/igt/notes/Evolution_von_Kooperation_2011.pdf
 
 tic                                     % start time measurement
-N = 1000                               % Number of turns
-maxplayers = 20;                        % Maximum number of players
+N = 10                               % Number of turns
+maxplayers = 10;                        % Maximum number of players
 K = zeros(maxplayers,maxplayers,N );    % Contains the information about the players true decisions: 1=Cooperate   2=Betray
 K2 = zeros(maxplayers,maxplayers,N );   % Contains the information about the players decision disturbed by noise
-minNoise1 = 0                          % The chance that cooperation gets recieved as betrayal goes from the value minNoise1 to maxNoise1
-maxNoise1 = 0.05
-minNoise2 = 0                           % The chance that betrayal gets recieved as cooperation goes from the value minNoise2 to maxNoise2
-maxNoise2 = 0.05
+minNoise1 = 0.15                          % The chance that cooperation gets recieved as betrayal goes from the value minNoise1 to maxNoise1
+maxNoise1 = 0.35
+minNoise2 = 0.15                           % The chance that betrayal gets recieved as cooperation goes from the value minNoise2 to maxNoise2
+maxNoise2 = 0.35
 NoiseInc=0.05;                          % Noise increment with each simulation
 maxX=(maxNoise1-minNoise1)/NoiseInc+1+10^-15;  % number of points of the x-axis, the last addition is to prevent floating point errors
 maxY=(maxNoise2-minNoise2)/NoiseInc+1+10^-15;  % number of points of the y-axis
-player = 'player'                       % Name of the player functions
+player = 'player';                       % Name of the player functions
 Rewardmatrix=zeros(maxplayers,maxplayers,maxX,maxY); % Matrix that tracks how many points the players get out of each encounter
 Reward=zeros(2,1);                      % Rewards that the players get in an encounter
 Points=zeros(maxplayers);               % Total amount of points of a player
@@ -38,6 +39,7 @@ for x=1:maxX
                 i2=int2str(i);
                 eval(['P' i2 '=player' i2 '(' num2str(maxplayers) ');']);
                 Names{i}=eval(['P' i2 '.name']);
+                Shorts{i}=eval(['P' i2 '.short']);
             end
         end
         for i=1:N % loop trough all turns
@@ -108,6 +110,6 @@ for x=1:maxX
     end
 end
 
-save simulation Rewardmatrix N Names Noise AverageCoop;
+save simulation Rewardmatrix N Names Noise AverageCoop Shorts;
 toc % end time measurement
 

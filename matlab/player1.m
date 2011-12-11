@@ -1,6 +1,7 @@
 classdef player1
 properties
-    name='Cooperate';
+    name = 'Cooperate';
+    short = 'COOP';
 end
 methods
     function P1 = player1(np)

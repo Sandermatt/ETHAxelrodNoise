@@ -1,6 +1,7 @@
 classdef player12 < handle
 properties
     name='CDowning';
+    short='CDO';
     n_c_cd=0;           % number of cases with oponent: c, downing: c
     n_c_dd=0;           % number of cases with oponent: c, downing: d
     n_cd=0;             % number of cases with downing: c

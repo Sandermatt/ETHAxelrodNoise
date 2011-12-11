@@ -1,6 +1,7 @@
 classdef player2
 properties
     name='Defect';
+    short='DEF';
 end
 methods
     function P2 = player2(np)

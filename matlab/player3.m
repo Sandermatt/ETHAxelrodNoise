@@ -1,6 +1,7 @@
 classdef player3
 properties
     name='Random';
+    short='RAN';
 end
 methods
     function P3 = player3(np)

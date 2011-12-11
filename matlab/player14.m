@@ -3,6 +3,7 @@ classdef player14 < handle
     %this is an attempt to create a simple learning player
 properties
     name='Strategy Switcher';
+    short='SSW';
     playernumber=14;
     s=zeros(1,1); %current strategy
     lastS=zeros(1,1); %strategy of last turn

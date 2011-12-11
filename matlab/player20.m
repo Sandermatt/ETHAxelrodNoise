@@ -8,6 +8,7 @@ classdef player20 < handle
     %exploitable
 properties
     name='Limited Reconcilation TFT';
+    short='LTFT';
     playernumber=20;
     k=zeros(1); %this is a number that allows the object to switch between a recoonciling state and a TFT state. 0 means TFt, 1 means reconcile.
     recnum=zeros(1); %how often reconciliation was attempted

@@ -4,6 +4,7 @@ classdef player13
     %account (works with signaling)
 properties
     name='TFT with Reputation';
+    short='TFTR';
     playernumber=13;
     threshold=0.85; %number of cooperations that have to be made with other players on average to ensure cooperation
 end

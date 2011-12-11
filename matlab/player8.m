@@ -1,6 +1,7 @@
 classdef player8
 properties
     name='Joss';
+    short='JOSS';
     r=0.1; %random rejection chance
     playernumber=8;
 end

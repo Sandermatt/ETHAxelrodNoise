@@ -3,6 +3,7 @@ classdef player19 < handle
     %evolutionary algorithms. I am not familiar with this field.
 properties
     name='Evolutionary';
+    short='EVO';
     playernumber=19;
     stratlen=10; %length of the strategy that has to be optimized
     subsegs=1; %decides in how many segments each strategy is split

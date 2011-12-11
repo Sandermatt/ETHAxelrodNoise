@@ -1,6 +1,7 @@
 classdef player9
 properties
     name='Diekmann'; %source:www.socio.ethz.ch/vlib/pesb/pesb9.pdf
+    short='DIE';
 end
 methods
     function P9 = player9(np)

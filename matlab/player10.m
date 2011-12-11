@@ -2,6 +2,7 @@ classdef player10
     %created by Meier David
 properties
     name='Tit for average tat';
+    short='TFAT';
     mem=5; %how many moves does the player remember
     playernumber=10; %the number of the player
     erase=50; %erase memory after this amount of turns

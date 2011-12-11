@@ -1,6 +1,7 @@
 classdef player4
 properties
     name='Tit for tat';
+    short='TFT';
 end
 methods
     function P4 = player4(np)

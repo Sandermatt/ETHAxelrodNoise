@@ -3,6 +3,7 @@ classdef player18 < handle
     %this is an attempt to create a simple learning player
 properties
     name='Watcher';
+    short='WAT';
     playernumber=18;
     memory=6; %decides how many turns the player looks back to determine the most succesful strategy
     strategy; %decides which players strategy is chosen

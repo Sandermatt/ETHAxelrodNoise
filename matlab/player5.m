@@ -1,6 +1,7 @@
 classdef player5
 properties
     name='Friedmann';
+    short='FRI';
 end
 methods
     function P5 = player5(np)
