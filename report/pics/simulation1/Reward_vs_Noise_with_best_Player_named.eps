@@ -1,12 +1,13 @@
-%!PS-Adobe-2.0 EPSF-1.2
-%%Creator: MATLAB, The MathWorks, Inc. Version 7.11.0.584 (R2010b). Operating System: Microsoft Windows 7.
-%%Title: pics\simulation1\Reward vs Noise with best Player named.eps
-%%CreationDate: 12/15/2011  16:44:21
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The MathWorks, Inc. Version 7.12.0.635 (R2011a). Operating System: Linux 3.0.0-12-generic #20-Ubuntu SMP Fri Oct 7 14:56:25 UTC 2011 x86_64.
+%%Title: /home/jonathan/GIT/GESS/matlab/untitled.eps
+%%CreationDate: 12/16/2011  16:22:08
 %%DocumentNeededFonts: Helvetica
 %%+ Helvetica-Bold
 %%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
 %%Pages: 1
-%%BoundingBox:    70   212   543   583
+%%BoundingBox:  -256    76   870   716
 %%EndComments
 
 %%BeginProlog
@@ -52,14 +53,6 @@
 /FontSize 0 def
 /FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
   makefont setfont} bdef
-/ISOLatin1Encoding where {pop /WindowsLatin1Encoding 256 array bdef
-ISOLatin1Encoding WindowsLatin1Encoding copy pop
-/.notdef/.notdef/quotesinglbase/florin/quotedblbase/ellipsis/dagger
-/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE/.notdef/.notdef
-/.notdef/.notdef/quoteleft/quoteright/quotedblleft/quotedblright/bullet
-/endash/emdash/tilde/trademark/scaron/guilsinglright/oe/.notdef/.notdef
-/Ydieresis WindowsLatin1Encoding 128 32 getinterval astore pop}
-{/WindowsLatin1Encoding StandardEncoding bdef} ifelse
 /reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
   exch dup 3 1 roll findfont dup length dict begin
   { 1 index /FID ne {def}{pop pop} ifelse } forall
@@ -144,12 +137,17 @@ ISOLatin1Encoding WindowsLatin1Encoding copy pop
   smat stri tri_to_matrix tmat2 concatmatrix } bdef
 /ds {stri astore pop} bdef
 /dt {dtri astore pop} bdef
-/db {2 copy /cols xdef /rows xdef mul dup string
-  currentfile exch readhexstring pop
-  /bmap xdef pop pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
 /it {gs np dtri aload pop moveto lineto lineto cp c
   cols rows 8 compute_transform 
-  {bmap} image gr}bdef
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
 /il {newpath moveto lineto stroke}bdef
 currentdict end def
 %%EndProlog
@@ -164,7 +162,7 @@ end
 
 %%Page: 1 1
 %%BeginPageSetup
-%%PageBoundingBox:    70   212   543   583
+%%PageBoundingBox:  -256    76   870   716
 MathWorks begin
 bpage
 %%EndPageSetup
@@ -173,9 +171,9 @@ bpage
 bplot
 
 /dpi2point 12 def
-portraitMode 0216 7344 csm
+portraitMode -3072 8592 csm
 
-  631   341  5680  4448 MR c np
+    0     0 13516  7680 rc
 85 dict begin %Colortable dictionary
 /c0 { 0.000000 0.000000 0.000000 sr} bdef
 /c1 { 1.000000 1.000000 1.000000 sr} bdef
@@ -188,227 +186,248 @@ portraitMode 0216 7344 csm
 c0
 1 j
 1 sg
-   0    0 6919 5187 PR
+   0    0 13517 7681 rf
 6 w
-0 -4227 5362 0 0 4227 899 389 4 MP
+0 -6259 10475 0 0 6259 1757 576 4 MP
 PP
--5362 0 0 -4227 5362 0 0 4227 899 389 5 MP stroke
-gs 899 389 5363 4228 MR c np
-gs np 899 389 mt 0 4227 rl 5362 0 rl 0 -4227 rl cp c np
-[5362 0 0 4227 899 389] cc
-/picstr 4 string def
-4 4 8 [4.000000 0 0 4.000000 0 0] L1i
-7BA4A0A4507445385252494B361C3C2F
+-10475 0 0 -6259 10475 0 0 6259 1757 576 5 MP stroke
+gs 1757 576 10476 6260 rc
+/mwscm { [/Indexed /DeviceRGB 63
+  <
+    0000ff 0004fc 0008fa 000cf8 0010f6 0014f4 0018f2 001cf0 0020ee 0024ec 
+    0028ea 002ce8 0030e6 0034e4 0038e2 003ce0 0040de 0044dc 0048da 004cd8 
+    0050d6 0055d4 0059d2 005dd0 0061ce 0065cc 0069ca 006dc8 0071c6 0075c4 
+    0079c2 007dc0 0081be 0085bc 0089ba 008db8 0091b6 0095b4 0099b2 009db0 
+    00a1ae 00a5ac 00aaaa 00aea7 00b2a5 00b6a3 00baa1 00be9f 00c29d 00c69b 
+    00ca99 00ce97 00d295 00d693 00da91 00de8f 00e28d 00e68b 00ea89 00ee87 
+    00f285 00f683 00fa81 00ff7f 
+  >
+] setcolorspace } bdef mwscm
+gs np 1757 576 mt 0 6259 rl 10475 0 rl 0 -6259 rl cp c np
+[10475 0 0 6259 1757 576] cc
+<< % Image dictionary
+  /ImageType 1
+  /Width 4 /Height 4
+  /BitsPerComponent 8
+  /Decode [0 255]
+  /ImageMatrix [4.000000 0 0 4.000000 0 0]
+  /DataSource currentfile
+  /ASCII85Decode filter
+  /RunLengthDecode filter
+>>
+image
+%kKq.58Yg_%2g#u((:0R$%N
+~>
 gr
 gr
 
 0 sg
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
-1225  885 mt 
+2722 1326 mt 
 (Diekmann) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-1386 1028 mt 
+2883 1469 mt 
 (2.6491) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
-2016  885 mt 
+4792 1326 mt 
 (Limited Reconcilation TFT) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-2726 1028 mt 
+5502 1469 mt 
 (2.7623) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
-3357  885 mt 
+7410 1326 mt 
 (Limited Reconcilation TFT) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-4067 1028 mt 
+8120 1469 mt 
 (2.7483) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
-5279  885 mt 
+10611 1326 mt 
 (Tit for tat) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-5407 1028 mt 
+10739 1469 mt 
 (2.7633) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
- 962 1942 mt 
+2459 2891 mt 
 (Strategy Switcher) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-1386 2085 mt 
+2883 3034 mt 
 (2.5293) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
-2302 1942 mt 
+5078 2891 mt 
 (Strategy Switcher) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-2726 2085 mt 
+5502 3034 mt 
 (2.6311) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
-3643 1942 mt 
+7696 2891 mt 
 (Strategy Switcher) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-4100 2085 mt 
+8153 3034 mt 
 (2.499) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
-4983 1942 mt 
+10315 2891 mt 
 (Strategy Switcher) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-5407 2085 mt 
+10739 3034 mt 
 (2.4639) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
- 962 2998 mt 
+2459 4455 mt 
 (Strategy Switcher) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-1386 3141 mt 
+2883 4598 mt 
 (2.5327) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
-2302 2998 mt 
+5078 4455 mt 
 (Strategy Switcher) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-2726 3141 mt 
+5502 4598 mt 
 (2.5345) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
-3643 2998 mt 
+7696 4455 mt 
 (Strategy Switcher) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-4067 3141 mt 
+8120 4598 mt 
 (2.5067) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
-4983 2998 mt 
+10315 4455 mt 
 (Strategy Switcher) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-5407 3141 mt 
+10739 4598 mt 
 (2.5158) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
- 962 4055 mt 
+2459 6020 mt 
 (Strategy Switcher) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-1386 4198 mt 
+2883 6163 mt 
 (2.4574) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
-2302 4055 mt 
+5078 6020 mt 
 (Strategy Switcher) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-2726 4198 mt 
+5502 6163 mt 
 (2.3803) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
-3643 4055 mt 
+7696 6020 mt 
 (Strategy Switcher) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-4067 4198 mt 
+8120 6163 mt 
 (2.4728) s
 %%IncludeResource: font Helvetica-Bold
-/Helvetica-Bold /WindowsLatin1Encoding 144 FMSR
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
 
-4983 4055 mt 
+10315 6020 mt 
 (Strategy Switcher) s
 %%IncludeResource: font Helvetica
-/Helvetica /WindowsLatin1Encoding 120 FMSR
+/Helvetica /ISOLatin1Encoding 120 FMSR
 
-5407 4198 mt 
+10739 6163 mt 
 (2.4402) s
 4 w
 DO
 SO
 6 w
- 899 4616 mt 6261 4616 L
- 899  389 mt 6261  389 L
-6261  389 mt 6261 4616 L
- 899  389 mt  899 4616 L
- 899 4616 mt 6261 4616 L
- 899  389 mt  899 4616 L
-1569 4616 mt 1569 4562 L
-1569  389 mt 1569  442 L
-1536 4761 mt 
+1757  576 mt 12232  576 L
+1757 6835 mt 12232 6835 L
+1757  576 mt 1757 6835 L
+12232  576 mt 12232 6835 L
+1757 6835 mt 12232 6835 L
+1757  576 mt 1757 6835 L
+3066 6835 mt 3066 6730 L
+3066  576 mt 3066  680 L
+3033 6980 mt 
 (0) s
-2909 4616 mt 2909 4562 L
-2909  389 mt 2909  442 L
-2793 4761 mt 
+5685 6835 mt 5685 6730 L
+5685  576 mt 5685  680 L
+5569 6980 mt 
 (0.05) s
-4250 4616 mt 4250 4562 L
-4250  389 mt 4250  442 L
-4167 4761 mt 
+8303 6835 mt 8303 6730 L
+8303  576 mt 8303  680 L
+8220 6980 mt 
 (0.1) s
-5590 4616 mt 5590 4562 L
-5590  389 mt 5590  442 L
-5474 4761 mt 
+10922 6835 mt 10922 6730 L
+10922  576 mt 10922  680 L
+10806 6980 mt 
 (0.15) s
- 899  917 mt  952  917 L
-6261  917 mt 6207  917 L
- 798  961 mt 
+1757 1358 mt 1861 1358 L
+12232 1358 mt 12127 1358 L
+1656 1402 mt 
 (0) s
- 899 1974 mt  952 1974 L
-6261 1974 mt 6207 1974 L
- 631 2018 mt 
+1757 2923 mt 1861 2923 L
+12232 2923 mt 12127 2923 L
+1489 2967 mt 
 (0.05) s
- 899 3030 mt  952 3030 L
-6261 3030 mt 6207 3030 L
- 698 3074 mt 
+1757 4487 mt 1861 4487 L
+12232 4487 mt 12127 4487 L
+1556 4531 mt 
 (0.1) s
- 899 4087 mt  952 4087 L
-6261 4087 mt 6207 4087 L
- 631 4131 mt 
+1757 6052 mt 1861 6052 L
+12232 6052 mt 12127 6052 L
+1489 6096 mt 
 (0.15) s
- 899 4616 mt 6261 4616 L
- 899  389 mt 6261  389 L
-6261  389 mt 6261 4616 L
- 899  389 mt  899 4616 L
+1757  576 mt 12232  576 L
+1757 6835 mt 12232 6835 L
+1757  576 mt 1757 6835 L
+12232  576 mt 12232 6835 L
 
 end %%Color Dict
 

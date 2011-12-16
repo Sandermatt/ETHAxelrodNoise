@@ -2,7 +2,6 @@
 \usepackage{geometry}                
 \geometry{letterpaper}                   
 
-
 %packages
 \usepackage{graphicx}
 \usepackage{amssymb}
@@ -23,6 +22,7 @@
 \usepackage[colorlinks=true]{hyperref}
 \usepackage{url}
 \usepackage{rotating}
+\usepackage{subfig}
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
@@ -115,293 +115,55 @@ postbreak=\space, breakindent=5pt, breaklines
 \begin{document}
 
 \input{cover}
-\newpage
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
 
-\newpage
- \pagenumbering{Roman}
-\section*{Agreement for free download}
-\bigskip
+\pagenumbering{Roman}
 
-\bigskip
+\input{agreement.tex}
 
-\large We hereby agree to make our source code for this project freely available for download from the web pages of the SOMS chair. Furthermore, we assure that all source code is written by ourselves and is not violating any copyright restrictions.
-
-\begin{center}
-\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip
-
-
-\large Andermatt Samuel
-\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip
-
-\large B\"osser Jonathan
-\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip
-
-\large Meier David
-
-\end{center}
-\newpage
-
-%\includepdf{confirmation_en.pdf}
+\clearpage
 
 \tableofcontents
 
-\newpage
+\clearpage
+
+\listoffigures
+
+\clearpage
+
+\listoftables
+
+\clearpage
 
 \renewcommand{\lstlistlistingname}{Matlabcode}
 \lstlistoflistings
 
+\clearpage 
 
-\listoffigures
- \listoftables
-\newpage
 \fancyfoot[LE,RO]{Page\ \thepage}
 \pagenumbering{arabic}
-\section{Abstract}
+
+\input{abstract.tex}
 
 \clearpage
 
-%\begin{figure}[htbp]
-%	\centering
-%	\includegraphics[width=10cm]{Bildli/DSC_5744}
-%	\caption{Bildbeschrieb}
-%	\label{kafe}
-%\end{figure}
-
-%\ref{kafe}
-
-\section{Individual contributions}
-
-
-
-\subsection{Andermatt Samuel}
-\begin{itemize}
-\item Further development of the game master
-\item Development and implemention of multiple players 
-\item Data analysis and interpretation
-\item Contributions to the report
-\item Contributed experience in game theory
-\end{itemize}
-
-\subsection{B\"osser Jonathan}
-\begin{itemize}
-\item Explore and explain GitHub [www.github.com]
-\item Development and implementation of multiple players 
-\item Data analysis and interpretation
-\item Contributions to the report
-\item Literature study
-\end{itemize}
-
-\subsection{Meier David}
-\begin{itemize}
-\item Write the first version of the program
-\item Development and implementation of multiple players
-\item Responsible for the report
-\item Literature study
-\end{itemize}
+\input{contributions.tex}
 
 \clearpage
 
-\section{Introduction and Motivations}
-\subsection{The Prisoner's Dilemma}
-The prisoner's dilemma is a model from game theory. 2 people are suspected to have done a crime together. Now they are examined separately in different rooms. In this situation, they can either whistle-blowing the other person to protect oneself or keep silent. Over all, it is of advantage, if both keep silent. But for the single person it is better to betray the other person. The risk of betraying is the following: if both accused people betray the other, the penalty for both is the highest. This problem is in game theory called "Prisoner's dilemma" \cite{stanford}.
-
-\subsection{The Axelrod Experiment}
-In the year 1981, Robert Axelrod invited for a competition to the iterated prisoner's dilemma. People from different fields like mathematics, politics, economy or psychology have been asked to develop a winning strategy for this competition. All the different strategies were playing against another to find the most successive strategy. Interestingly, the very simple strategy "Tit for Tat" (TFT) won the tournament. During the first round, TFT keeps silent (cooperation) and during the rest of the game, just does, what its counter player did the round before.
-This sort of experiment is very interesting, because the results can be applied in many different fields in real life. Just one out of many examples: 2 countries make an agreement on their amount of weapons. For the single country it is of advantage to haves more wmilitary strenth than the other nation. But as in the prisoner's dilema, if both nations rise their military strenth, for both it is just a loss money and an increase in danger. \cite{axelrod}
-
-\subsection{Introduction of Noise}
-A further development in the Axelrod Experiment is the introduction of noise. This means, cooperation is wrongly understood as defection and vise versa. The introduction of noise to the axelrod experiment ist nothing new, but very important, because in real world, noise and small distortions is always present. This can lead to serious complications. Just as an example: \textit{"On September 1,1983 a South Korean airliner mistakenly
-flew over the Soviet Union (Hersh 1989). It was shot down by the Soviets, killing all 269
-people aboard. The Americans and Soviets echoed their anger at each other in a short,
-but sharp escalation of cold war tensions."}\cite{wu}
+\input{introductions.tex}
 
 \clearpage
-\section{Description of the Model and Players}
 
-\subsection{Simple Players}
-\subsubsection{Cooperative Player}
-The player 1 is a very simple player: He always cooperates. This "decision" does not depend on any circumstances like the decisions of its antagonist. 
+\input{model.tex}
 
-\subsubsection{Defective Player}
-Also the player 2 is a very simple player: He always defects. 
-
-\subsubsection{Random Player}
-Like all players from this subsection, the decision of the random player does not depend on the results of the previous tournaments. The decision is randomly distributed and no decision is preferred.
-
-\subsection{Players from Literature}
-
-All players in this subsection are taken from the first Axelrod's Tournament and implemented by us. Source: Lecture "Game Theory" \cite{donninger}
-
-\subsubsection{Tit for Tat}
-The Player 4 during to the Axelrod Turnament the most successive player of all\cite{donninger}. The decision is the decision of the counter player from the last tournament. In the first round, the decision is cooperation. If the counter player cooperated during the last round, this player will cooperate in the current round.
-
-\subsubsection{Friedmann}
-The Player "Friedmann" cooperates until its counter player defects once. After that, Friedmann now deflects for the rest of the game. This corresponds to "everlasting death".
-
-\subsubsection{Pavlov}
-Pavlov changes its decision every time when the counter player defects. But if the counter player cooperates, Pavlov gives the same decision as in the round before. The first decision is cooperation. 
-
-\subsubsection{Tit for two Tat}
-The first decision is cooperation. If the counter player cooperates, Tit for 2Tat" cooperates as well. Tit for 2 Tat only defects, if the counter player defected the last 2 rounds.
-
-\subsubsection{Joss}
-This is basically the same player like the player "Tit for Tat". The only difference: 10\% of the cooperative decisions are randomly defected.
-www.socio.ethz.ch/vlib/pesb/pesb9.pdf
-
-\subsubsection{Diekmann}
-The player "Diekmann" plays basically Tit for Tat. The difference is, that every 10th move, he playes cooperative twice.
-www.socio.ethz.ch/vlib/pesb/pesb9.pdf
-
-\subsubsection{D-Downing}
-
-Starts always with defection and is calculating afterwards the expected value of the reward if he cooperates or defects. The decision is taken based on the bigger expected value. 
-
-\subsubsection{C-Downing}
-
-Same algorithm as D-Downing, but is starting with cooperation. This algorithm is better than D-Downing, actually C-Downing would have won the tournament of Axelrod \cite{evolution of cooperation}, but there was only D-Downing implemented.
-
-\subsection{Own Players}
-
-\subsubsection{Tit for Average Tat}
-Based on the idea "Tit for Tat", we developed a player who averages the decisions of its opponent over the most recent Rounds. The first few rounds he plays Tit for Tat. Then he starts averaging over the most recent rounds and reacts to the opponents most frequent decision. After a fixed number of rounds, the player restarts from the very beginning. This can prevent beeing stuck in mutual defection.
-
-\subsubsection{Watcher}
-For this player, we investigated one possible concept for a learning algorithm. The idea is to learn by observing and copy the moves of the most succesful player. 
-During the first few rounds, Watcher plays Tit for tat. 
-
-\subsubsection{Reconciliation Tit for tat}
-TFT has a disadvantage. Once the players start a mutual defection it is stable. This makes TFT very susceptible to miscommunications and performs poorly against players like Joss. The approach here is to break this cycle by adding cooperative moves. The risk of adding cooperative moves is that the opponents exploit this strategy.
-This strategy tries to make these moves without becoming exploitable. In case the opponent defects, his recent performance gets calculated. It is also calculated, how good the opponent would have performed if both players were cooperating. In case the damage by the mutual defections is large enough that by defecting the reconciliation attempt he cannot gain enough to outperform cooperation. This way the strategy is not explotaible.
-
-\subsubsection{Tit for Tat with Reputation}
-This is a further Tit for Tat  mutant. The basic strategy remains the same, but the opponents moves against other players are also observed. In case the opponent is mostly cooperative against others, then defection of the oponent is regarded as miscommunication and interpreted as cooperation. 
-
-\subsubsection{Strategy Switcher}
-The strategy switcher is another example for a learning player. The player is equipped with a set of predefined strategies. In our case we chose the strategies TFT, TF2T, Pavlov, always cooperate and always defect. Initially he tries out all five strategies. After he tried out every strategy he calculates each strategies performance. In the subsequent turns he always plays the most successful strategy. After a given set of turns he will reevaluate the performance of the current strategy and compare it with the others. If one of its other strategies has a higher performance this strategy is chosen instead.
-
-\subsubsection{Evolutionary}
-This player tries to find the optimal sequence of moves by an evolutionary algorithm. The strategy of the player consists of a given set of moves. To determine the first set of moves he plays TFT in the first rounds.
-Once he has a sequence of moves he creates clones of this sequence and adds mutations to them. A mutation means that the decision in one move is altered.
-In the next step he plays each clone. After all clones are played he evaluates their performance.
-The clones are split into segments, for each segment the winnings are calculated. The performance includes the one move after the segment ended, otherwise the players would always reject in the last move.
-Then a new parent strategy is formed. Each segment is evaluated, if the first segment of a clone performed stronger then the parent strategy, the parents segment is replaced by the more successful segment.
-This parent is then played and cloned again.
-There is an assumption that with increasing simulation length the sequence becomes closer to the optimal sequence. At this point the mutations become a disadvantage. Therefore the mutability is lowered with time (but does not go to zero).
-
-\subsubsection{Limited Reconciliation Tit for tat}
-This strategy is similar to the Reconciliation Tit for tat. In this case however the number of reconciliation attempts is limited. Some players tend to reject all reconciliation attempts and while this does not exploit this player, it still limits its performance. This player will stop to try to reconcile after he was unsuccessful doing so for a given time. However, if the opponent has two consecutive cooperative rounds the counter for the reconciliation attempts is reseted. 
-
-\subsubsection{Look Back D-Downing}
-
-Is basically the same as D-Downing, but this one is looking back two rounds on his own decisions and just one round on the opponent's decisions. To be able to look back two rounds the player always defects the first two rounds. The idea behind this is, to see the reaction of the opponent on the decisions the player took before. By means of this the player has an advantage (in theory) compared to D-Downing, because the player is looking at two decisions, whereof one is the action (own decision) and the other (opponent's decision) is the reaction.   
-
-\subsubsection{Look Back C-Downing}
-
-Same algorithm as Look Back D-Downing, but is starting with two times cooperation.
-
-\subsection{General view}
-
-In table~\ref{overview} every player is listed and some of theirs characteristics are evaluated. 
-
-%\begin{landscape}
- \renewcommand\headrulewidth{0pt}
-\fancyhead{} % clear all header fields
-\begin{sidewaystable}
-%\begin{table}
-\begin{tabular}[]{|l|c|c|c|c|c|c|c|}
-  \hline
-  			& Cooperates in&responsive& Memory	&Exploitable	& Can Exploit&Global view	&Learning	\\
-  			&  First Round&		&      		&		&		&		&		\\
-  \hline
-  Cooperative Player& $\times$	&		&0		&$\times$	&		&		&		\\
- \hline
-  Defective Player 	&  		&		&0		&		&$\times$	&		&		\\
- \hline  
-Random Player 	& random	&		&0		&		&$\times$	&		&		\\
- \hline  
-Tit for Tat 		& $\times$	&$\times$	&1		&		&		&		&		\\
- \hline
-  Friedmann 		& $\times$	&$\times$	&inf		&		&$\times$	&		&		\\
- \hline
- Pavlov		& $\times$	&$\times$	&1		&		&		&		&		\\
- \hline
-Tit for two Tat	& $\times$	&$\times$	&2		&$\times$	&		&		&		\\
- \hline
- Joss 			& 90\%	&$\times$	&1		&		&$\times$	&		&		\\
- \hline
-Diekmann 		& $\times$	&$\times$	&1		&$\times$	&		&		&		\\
- \hline
-D-Downing 		&  		&$\times$	&inf		&$\times$	&$\times$	&		&($\times$)	\\
- \hline
-C-Downing 		& $\times$	&$\times$	&inf		&$\times$	&$\times$	&		&($\times$)	\\
- \hline
-Tit for Average Tat	& $\times$	&slow		&5		&$\times$	&		&		&		\\
- \hline
-Watcher 		& $\times$	&		&6		&$\times$	&$\times$	&$\times$	&$\times$	\\
- \hline
-Recon Tit for Tat	& $\times$	&$\times$	&20		&		&		&		&		\\
- \hline
-TfT with Reputation& $\times$	&$\times$	&1		&$\times$	&		&$\times$	&		\\
- \hline
-Strategy Switcher	& $\times$	&$\times$	&inf		&$\times$	&$\times$	&		&$\times$	\\
- \hline
-Evolutionary		& $\times$	&very slow	&31		&$\times$	&$\times$	&		&$\times$	\\
- \hline
-Lim. Recon. TFT	& $\times$	&$\times$	&20		&		&		&		&		\\
- \hline
-Look back D-Downing& 		&$\times$	&inf		&$\times$	&$\times$	&		&($\times$)	\\
- \hline
-Look back C-Downing& $\times$	&$\times$	&inf		&$\times$	&$\times$	&		&($\times$)	\\
- \hline
-\end{tabular}
-\caption{General view of all the players and their characteristics}
-\label{overview}
-%\end{table}
-\end{sidewaystable}
-%\end{landscape}
-
-\fancyhead[LE,RO]{ \rightmark}
-\fancyhead[LO,RE]{ \leftmark}
- \renewcommand\headrulewidth{0.4pt}
 \clearpage
-\section{Implementation}
 
-As described in the Introduction, the tournament is a repeated prisoners dilemma. the payoff matrix for this game is shown in figure ....
+\input{implementation.tex}
 
-. To make the simulation more realistc, we added noise to it. Noise means that defection can be transmitted as cooperation and vice versa. The noise applied on cooperation and defection was varied independantly. The two noiselevels are set independantly to 0, 5, 10 and 15\%. The noise only changed the information the players recieved, but not their payoff. For each combination of noise, we performed a tournament with 20000 rounds. In each round, every player plays agains all others and himself. To make the decisions, the player is provided with all the decisions made in the previsous rounds by all players. The playersdo not have information about the noise level. 
-
-The basic structure of a player is shown .... . And an example (TFT) of such a player would be:
-
-
-In the following table 1 is shown the payoff matrix applied in our program.
-
-\begin{table}[h]
-
- \begin{center}
-\caption{Reward Matrix} \vspace{3mm}
-\begin{tabular}{|l|c|c|}
-
-\hline
-   & Player B cooperates & Player B defects \\
-  \hline
-  Player A cooperates & A:3 B:3 & A:0 B:5 \\
- \hline
-  Player A defects & A:5 B:0 &A:1 B:1 \\
- \hline
-\end{tabular}
- \end{center}
-\end{table}
-
-
-\begin{itemize}
-\item Spielablauf
-\item Informationen, die die Spieler sehen könnten
-\item Art des Noises
-\item 
-\end{itemize}
 \clearpage
+
 \input{results.tex}
 
 \clearpage
@@ -415,7 +177,6 @@ In the following table 1 is shown the payoff matrix applied in our program.
 \clearpage
 
 \appendix
-
 
 \input{appendix.tex}
 

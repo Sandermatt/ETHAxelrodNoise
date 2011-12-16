@@ -447,7 +447,7 @@ for i = 1:lengthOfNoise
        
    end
 end
-saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\'get(h,'Name') '.eps'])
+saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\' get(h,'Name') '.eps'])
 
 
 
@@ -537,19 +537,19 @@ surf(totalReward)
 colormap(hot);
  
 % set the view angle.
-view(225,35);
+view(135,35);
  
 % labels
-set(gca,'XTick',0:1:lengthOfNoise)
-set(gca,'YTick',0:1:lengthOfNoise)
-set(gca,'XTickLabel',noise(1,:))
-set(gca,'YTickLabel',noise(2,:))
+set(gca,'XTick',1:1:lengthOfNoise)
+set(gca,'YTick',1:1:lengthOfNoise)
+set(gca,'XTickLabel',noise(2,:))
+set(gca,'YTickLabel',noise(1,:)')
 
  
-xlabel('Noise 1');
-ylabel('Noise 2');
+xlabel('Noise 2');
+ylabel('Noise 1');
 zlabel('Reward');
-saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\'get(h,'Name') '.eps'])
+saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\' get(h,'Name') '.eps'])
 h = figure(figureCounter+2);                               % initialize figure
 set(h,'NumberTitle','off')
 set(h,'Position',[10 500 800 800])         % position and size of figure
@@ -563,19 +563,19 @@ surf(totalCoop)
 colormap(jet);
  
 % set the view angle.
-view(225,35);
+view(135,35);
  
 % labels
-set(gca,'XTick',0:1:lengthOfNoise)
-set(gca,'YTick',0:1:lengthOfNoise)
-set(gca,'XTickLabel',noise(1,:))
-set(gca,'YTickLabel',noise(2,:))
+set(gca,'XTick',1:1:lengthOfNoise)
+set(gca,'YTick',1:1:lengthOfNoise)
+set(gca,'XTickLabel',noise(2,:))
+set(gca,'YTickLabel',noise(1,:))
 
  
-xlabel('Noise 1');
-ylabel('Noise 2');
+xlabel('Noise 2');
+ylabel('Noise 1');
 zlabel('Cooperation');
-saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\'get(h,'Name') '.eps'])
+saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\' get(h,'Name') '.eps'])
 file = fopen(filename,'w');     % open file with given filename
 fprintf(file, 'Total Rewardmatrix: \n\nNoise ',range);      
                                                    % print header for rewardmatrix

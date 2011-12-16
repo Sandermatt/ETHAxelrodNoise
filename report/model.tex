@@ -1,0 +1,146 @@
+\section{Description of the Model and Players}
+
+\subsection{Simple Players}
+
+\subsubsection{Cooperative Player}
+Player $1$ is a very simple player: He always cooperates. This "decision" does not depend on any circumstances, like the decisions of its antagonist or other evaluations by himself. Short name: \verb0COOP0.
+
+\subsubsection{Defective Player}
+Also player $2$ is a very simple player: He always defects.  Short name: \verb0DEF0.
+
+\subsubsection{Random Player}
+Like all players from this subsection, the decision of the random player does not depend on the results of the previous tournaments. The decision is randomly distributed and no decision is preferred. Short name: \verb0RAN0.
+
+\subsection{Players from Literature}
+
+All players in this subsection are taken from the first of Axelrod's Tournaments and implemented by us. Source: Lecture "Game Theory" \cite{donninger}. 
+
+\subsubsection{Tit for Tat}
+Player $4$, according to the Axelrod Turnament, is the most successive player of all \cite{donninger}. The decision is the decision of the counter player from the last tournament. In the first round, the decision is cooperation. If the counter player cooperated during the last round, this player will cooperate in the current round. Short name: \verb0TFT0.
+
+\subsubsection{Friedmann}
+Friedmann cooperates until its counter player defects once. After that, Friedmann now deflects for the rest of the game. This corresponds to "everlasting death". Sometimes this kind of strategy is also called "grim trigger". Short name: \verb0FRI0.
+
+\subsubsection{Pavlov}
+Pavlov changes its decision every time when the counter player defects. But if the counter player cooperates, Pavlov gives the same decision as in the round before. The first decision is cooperation. In literature this strategy is also called "win-stay-lose-shift". Short name: \verb0PAV0. 
+
+\subsubsection{Tit for two Tat}
+The first decision is cooperation. If the counter player cooperates, Tit for $2$Tat cooperates as well. Tit for $2$Tat only defects, if the counter player defected the last $2$ rounds. Short name: \verb0TF2T0.
+
+\subsubsection{Joss}
+This is basically the same player like the player \verb0TFT0. The only difference: $10\%$ of the cooperative decisions are randomly defected. Source of this player: \cite{joss}. Short name: \verb0JOSS0.
+
+\subsubsection{Diekmann}
+Player Diekmann plays basically \verb0TFT0. The difference is, that every $10$th move, he plays cooperative twice, regardless of his opponents decision. Source of this player: \cite{joss}. Short name: \verb0DIE0. 
+
+\subsubsection{D-Downing}
+
+Starts always with defection and is calculating afterwards the expected value of the reward if he cooperates or defects. The decision is taken based on the bigger expected value. Short name: \verb0DDO0.
+
+\subsubsection{C-Downing}
+
+Same algorithm as \verb0DDO0, but is starting with cooperation. This algorithm is better than \verb0DDO0, actually C-Downing would have won the tournament of Axelrod \cite{axelrod}, but there was only \verb0DDO0 implemented. Short name: \verb0CDO0.
+
+\subsection{Own Players}
+
+\subsubsection{Tit for Average Tat}
+Based on the idea of \verb0TFT0, we developed a player who averages the decisions of its opponent over the most recent rounds. The first few rounds he plays \verb0TFT0. Then he starts averaging over the most recent rounds and reacts to the opponents most frequent decision. After a fixed number of rounds, the player restarts from the very beginning. This can prevent being stuck in mutual defection. Short name: \verb0TFAT0.
+
+\subsubsection{Watcher}
+For this player, we investigated one possible concept for a learning algorithm. The idea is to learn by observing and copy the moves of the most successful player. 
+During the first few rounds, Watcher plays \verb0TFT0, after that he evaluates all other players decisions against his opponent and takes the best one. Short name: \verb0WAT0. 
+
+\subsubsection{Reconciliation Tit for tat}
+\verb0TFT0 has a disadvantage. Once the players start a mutual defection it is stable. This makes \verb0TFT0 very susceptible to miscommunication and performs poorly against players like \verb0JOSS0. The approach here is to break this cycle by adding cooperative moves. The risk of adding cooperative moves is that the opponents exploit this strategy.
+This strategy tries to make these moves without becoming exploitable. In case the opponent defects, his recent performance gets calculated. It is also calculated, how good the opponent would have performed if both players were cooperating. In case the damage by the mutual defections is large enough that by defecting the reconciliation attempt he cannot gain enough to outperform cooperation. This way the strategy is not explotaible. Short name: \verb0RTFT0.
+
+\subsubsection{Tit for Tat with Reputation}
+This is a further \verb0TFT0  mutant. The basic strategy remains the same, but the opponents moves against other players are also observed. In case the opponent is mostly cooperative against others, then defection of the opponent is regarded as miscommunication and interpreted as cooperation. Short name: \verb0TFTR0.
+
+\subsubsection{Strategy Switcher}
+The strategy switcher is another example for a learning player. The player is equipped with a set of predefined strategies. In our case we chose the strategies \verb0TFT0, \verb'TF2T', \verb'PAV', always cooperate and always defect. Initially he tries out all five strategies. After he tried out every strategy he calculates each strategies performance. In the subsequent turns he always plays the most successful strategy. After a given set of turns he will reevaluate the performance of the current strategy and compare it with the others. If one of its other strategies has a higher performance this strategy is chosen instead. Short name: \verb0SSW0.
+
+\subsubsection{Evolutionary}
+This player tries to find the optimal sequence of moves by an evolutionary algorithm. The strategy of the player consists of a given set of moves. To determine the first set of moves he plays \verb0TFT0 in the first rounds.
+Once he has a sequence of moves he creates clones of this sequence and adds mutations to them. A mutation means that the decision in one move is altered.
+In the next step he plays each clone. After all clones are played he evaluates their performance.
+The clones are split into segments, for each segment the winnings are calculated. The performance includes the one move after the segment ended, otherwise the players would always reject in the last move.
+Then a new parent strategy is formed. Each segment is evaluated, if the first segment of a clone performed stronger then the parent strategy, the parents segment is replaced by the more successful segment.
+This parent is then played and cloned again.
+There is an assumption that with increasing simulation length the sequence becomes closer to the optimal sequence. At this point the mutations become a disadvantage. Therefore the mutability is lowered with time (but does not go to zero). Short name: \verb0EVO0.
+
+\subsubsection{Limited Reconciliation Tit for tat}
+This strategy is similar to the \verb0RTFT0. In this case however the number of reconciliation attempts is limited. Some players tend to reject all reconciliation attempts and while this does not exploit this player, it still limits its performance. This player will stop to try to reconcile after he was unsuccessful doing so for a given time. However, if the opponent has two consecutive cooperative rounds the counter for the reconciliation attempts is reseted. Short name: \verb0LTFT0.
+
+\subsubsection{Look Back D-Downing}
+
+Is basically the same as \verb0DDO0, but this one is looking back two rounds on his own decisions and just one round on the opponent's decisions. To be able to look back two rounds the player always defects the first two rounds. The idea behind this is, to see the reaction of the opponent on the decisions the player took before. By means of this the player has an advantage (in theory) compared to \verb0DDO0, because the player is looking at two decisions, whereof one is the action (own decision) and the other (opponent's decision) is the reaction. Short name: \verb0LDDO0.   
+
+\subsubsection{Look Back C-Downing}
+
+Same algorithm as \verb0LDDO0, but is starting with two times cooperation in a row. Short name: \verb0LCDO0.
+
+\subsection{General view}
+
+In table~\ref{overview} every player is listed and some of theirs characteristics are evaluated. 
+
+%\begin{landscape}
+ \renewcommand\headrulewidth{0pt}
+\fancyhead{} % clear all header fields
+\begin{sidewaystable}
+%\begin{table}
+\begin{tabular}[]{|l|c|c|c|c|c|c|c|}
+  \hline
+  			& Cooperates in&responsive& Memory	&Exploitable	& Can Exploit&Global view	&Learning	\\
+  			&  First Round&		&      		&		&		&		&		\\
+  \hline
+  Cooperative Player& $\times$	&		&0		&$\times$	&		&		&		\\
+ \hline
+  Defective Player 	&  		&		&0		&		&$\times$	&		&		\\
+ \hline  
+Random Player 	& random	&		&0		&		&$\times$	&		&		\\
+ \hline  
+Tit for Tat 		& $\times$	&$\times$	&1		&		&		&		&		\\
+ \hline
+  Friedmann 		& $\times$	&$\times$	&inf		&		&$\times$	&		&		\\
+ \hline
+ Pavlov		& $\times$	&$\times$	&1		&		&		&		&		\\
+ \hline
+Tit for two Tat	& $\times$	&$\times$	&2		&$\times$	&		&		&		\\
+ \hline
+ Joss 			& 90\%	&$\times$	&1		&		&$\times$	&		&		\\
+ \hline
+Diekmann 		& $\times$	&$\times$	&1		&$\times$	&		&		&		\\
+ \hline
+D-Downing 		&  		&$\times$	&inf		&$\times$	&$\times$	&		&($\times$)	\\
+ \hline
+C-Downing 		& $\times$	&$\times$	&inf		&$\times$	&$\times$	&		&($\times$)	\\
+ \hline
+Tit for Average Tat	& $\times$	&slow		&5		&$\times$	&		&		&		\\
+ \hline
+Watcher 		& $\times$	&		&6		&$\times$	&$\times$	&$\times$	&$\times$	\\
+ \hline
+Recon Tit for Tat	& $\times$	&$\times$	&20		&		&		&		&		\\
+ \hline
+TfT with Reputation& $\times$	&$\times$	&1		&$\times$	&		&$\times$	&		\\
+ \hline
+Strategy Switcher	& $\times$	&$\times$	&inf		&$\times$	&$\times$	&		&$\times$	\\
+ \hline
+Evolutionary		& $\times$	&very slow	&31		&$\times$	&$\times$	&		&$\times$	\\
+ \hline
+Lim. Recon. TFT	& $\times$	&$\times$	&20		&		&		&		&		\\
+ \hline
+Look back D-Downing& 		&$\times$	&inf		&$\times$	&$\times$	&		&($\times$)	\\
+ \hline
+Look back C-Downing& $\times$	&$\times$	&inf		&$\times$	&$\times$	&		&($\times$)	\\
+ \hline
+\end{tabular}
+\caption{General view of all the players and their characteristics}
+\label{overview}
+%\end{table}
+\end{sidewaystable}
+%\end{landscape}
+
+\fancyhead[LE,RO]{ \rightmark}
+\fancyhead[LO,RE]{ \leftmark}
+ \renewcommand\headrulewidth{0.4pt}

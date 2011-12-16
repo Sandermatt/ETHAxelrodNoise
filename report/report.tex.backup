@@ -2,7 +2,6 @@
 \usepackage{geometry}                
 \geometry{letterpaper}                   
 
-
 %packages
 \usepackage{graphicx}
 \usepackage{amssymb}
@@ -59,6 +58,9 @@ xleftmargin= -24mm,
 postbreak=\space, breakindent=5pt, breaklines
 }
 
+\newenvironment{definition}[1][Definition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries Definition (#1).}]}{\end{trivlist}}
+
 %footer and header
 \newcommand{\reportTitle}{Axelrod’s Tournament with Noise}
 \pagestyle{fancy}
@@ -112,11 +114,7 @@ postbreak=\space, breakindent=5pt, breaklines
 \begin{document}
 
 \input{cover}
-\newpage
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newpage
+\clearpage
  \pagenumbering{Roman}
 \section*{Agreement for free download}
 \bigskip
@@ -399,100 +397,22 @@ In the following table 1 is shown the payoff matrix applied in our program.
 \item 
 \end{itemize}
 \clearpage
-\section{Results and Discussion}
+\input{results.tex}
 
-\subsection{General Findings}
-
-\begin{itemize}
-	\item A noise that interprets cooperation as defection decreases cooperation drastically.
-	\item A noise that interprets defections as cooperations increases cooperation, but the effect is weaker.
-	\item Perfect information is not what’s best for the system. If decisions are transmitted better than they are, the whole system gets more efficient.
-	\item Friendly/cooperative players performance drastically decreases if the chance that cooperation is transmitted correct is less than 100\%.
-	\item Players that do not react immediately to defections look non-responsive.
-\end{itemize}
-
-\subsection{Problem caused by unreliably transmitted cooperation}
-Many of the friendly players perform well without noise, because they have an infinitely long sequence of mutual cooperations with other friendly players. Noise will trigger defections. This state requires then a way to come back into cooperation. Most cooperative players do not have a mechanism to reestablish cooperation if it has been destroyed, because they rely on a cooperation caused by the first turn decision being cooperative. 
-
-\subsection{Benefit caused by unreliably transmitted defection}
-Some players try out defective moves. For TFT mutants this can likely result in mutual defections. A noise that inserts cooperative moves results in the TFT player reacting cooperative again, driving the game in mutual cooperation again. Another thing is that hiding defections allows aggresive players to exploit players that would retaliate otherwise, and an aggresive player exploiting a weak one is better than if both players are defecting each other.
-
-\subsection{Axelrods recommendations}
-Axelrod proposed a certain behavior to be successful. This behavior is: Be Nice, Retaliatory, Forgiving and  Clear.  Under noise the opponent will see defections from a player, even if he never defected. This diminishes the use of being nice. It is more successful to find out if he responds to defections and exploit the opponent if he is exploitable. In Axelrods tournament this was not the case, because this attempt might have long lasting effects. However noise somewhat covers up the past. The other recommendations still hold.
 \clearpage
-\section{Summary and Outlook}
+
+\input{summary.tex}
+
 \clearpage
-\section{References}
 
-\begin{thebibliography}{99}
-	\bibitem[1]{donninger} 
-		Donninger, C., "Is it always efficient to be nice?". Wien: Physica-Verlag Heidelverg (1986)
-		%Internet: URL: www.socio.ethz.ch/vlib/pesb/pesb9.pdf
+\input{references.tex}
 
-	\bibitem[2]{stanford}
-		Kuhn, S., "Prisoner's Dilemma". URL: http://plato.stanford.edu/entries/prisoner-dilemma (accessed october 15, 2011)
-
-	\bibitem[3]{axelrod} 
-		Axelrod, R., "Die Evolution der Kooperation". Munich: Oldenbourg Wissenschaftsverlag GmbH, German Edition (2000)
-
-	\bibitem[4]{nowak}
-		Nowak, M., "Five Rules for the Evolution of Cooperation".  Science 314, page 1560 (2006)
-
-	\bibitem[5]{sandholm}
-		Sandholm, T. et al, "Multiagent Reinforcement Learning in the Iterated Prisoner's Dilemma". Biosystems Vol 37, pages 147-166 (1995)
-
-	\bibitem[6]{quek}
-		Queck, H. et al, "Adaptation of Iterated Prisoner's Dilemma Strategies by Evolution and Learning". Computational Intelligence and Games, pages: 40-47 (2007)
-
-	\bibitem[7]{wu}
-		Wu, J. et al, "How to Cope with Noise in the Iterated Prisoner's Dilemma". Journal of Conflict Resolution, Vol. 39, pages 183-189 (1995)
-
-\end{thebibliography}
+\clearpage
 
 \appendix
 
-\section{Submitted Researchplan}
-\subsection{General Introduction}
-Tournament like simulation of the prisoner's dilemma with repeated inter-
-actions. Random errors are introduced in the information about the player's 
-recent behavior. We want to observe the different outcome of the traditional
-players if noise is introduced. Further we want to try to implement new 
-players with learning strategies. \\
-We believe that this makes the simulation more realistic.\\
-Extension of Axelrod's Tournaments.
-
-\subsection{Fundamental Questions}
-Can a dispute based on miscommunication be overcome?\\
-Can treason be hidden behind pretended miscommunication?\\
-Does miscommunication discourage cooperation?\\
-How much miscommunication can cooperation survive?\\
-Do learning strategies have an advantage over the other ones?\\
-How do the traditional players act and how does the final result change, 
-if noise is introduced?\\
-Independent variables: length of simulation, reliability of communication, rewards\\
-Dependent variables: correlation between cooperation and success, frequency of cooperation, successful strategies
-
-\subsection{Expected Results}
-Miscommunication works against cooperating strategies.\\ 
-Programs that reconcile are more successful.\\
-The reward of the learning players is less influenced by the noise.
-
-\subsection{References}
-
-\begin{itemize}
-\item On Evolving Robust Strategies for Iterated Prisoner's Dilemma, P. J. DARWEN and X. YAO, 16. November 1993\\
-\item Multiagent Reinforcement Learning in the Iterated Prisoner's Dilemma, T. W. SANDHOLM and R. H. CRITES\\
-\item Adaptation of Iterated Prisoner's Dilemma Strategies by Evolution and Learning, H. Y. QUEK and C. K. GOH, 2007\\
-\item How to Cope with Noise in the Iterated Prisoner's Dilemma, J. WU and R. AXELROD, JOURNAL OF CONFLIC RTESOLUTION, Vol. 39 No. 1, March1995 183-189\\
-\item Five Rules for the Evolution of Cooperation, M. A. NOWAK, Science 314, 1560 (2006)\\
-\end{itemize}
-\subsubsection{Research Methods}
-
-Agent-Based Model
-
-\subsection{Other}
-The type(s) of the learning strategies we will decide later, after reading some of the literature.
 
 \input{appendix.tex}
 
 \end{document}  
+git@github.com:Sandermatt/ETHAxelrodNoise.git
