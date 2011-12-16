@@ -22,6 +22,7 @@
 \usepackage[colorlinks=true]{hyperref}
 \usepackage{url}
 \usepackage{rotating}
+\usepackage{subfig}
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
@@ -62,7 +63,7 @@ postbreak=\space, breakindent=5pt, breaklines
 \item[\hskip \labelsep {\bfseries Definition (#1).}]}{\end{trivlist}}
 
 %footer and header
-\newcommand{\reportTitle}{Axelrod’s Tournament with Noise}
+\newcommand{\reportTitle}{Axelrod\acute{}s Tournament with Noise}
 \pagestyle{fancy}
 \fancyhead{} % clear all header fields
 \fancyhead[LE,RO]{ \rightmark}

@@ -10,13 +10,13 @@
 	\item Players that do not react immediately to defections look non-responsive.
 \end{itemize}
 
-\subsection{Problem caused by unreliably transmitted cooperation}
+\subsection{Problem caused by unreliably transmitted Cooperation}
 Many of the friendly players perform well without noise, because they have an infinitely long sequence of mutual cooperations with other friendly players. Noise will trigger defections. This state requires then a way to come back into cooperation. Most cooperative players do not have a mechanism to reestablish cooperation if it has been destroyed once, because they rely on a cooperation caused by the first turn decision being cooperative. 
 
-\subsection{Benefit caused by unreliably transmitted defection}
+\subsection{Benefit caused by unreliably transmitted Defection}
 Some players try out defective moves. For \verb0TFT0 mutants this can likely result in mutual defections. A noise that inserts cooperative moves results in the \verb0TFT0 player reacting cooperative again, driving the game in mutual cooperation again. Another thing is that hiding defections allows aggressive players to exploit players that would retaliate otherwise, and an aggressive player exploiting a weak one is better than if both players are defecting each other.
 
-\subsection{Axelrods recommendations}
+\subsection{Axelrods Recommendations}
 Axelrod proposed a certain behavior to be successful \cite{axelrod}. This behavior is known as:
 \begin{itemize}
  \item     Be nice: cooperate, never be the first to defect.\\[-6mm]
@@ -124,7 +124,7 @@ The player's performance is shown in figure~\ref{pic player random}.\\
 
 The player does not get influenced that much by noise. There is a strange peak at zero noise, we were unable to find out why. If the noise makes his moves appear a little more cooperate there is a slight increase in performance, most likely due to more cooperative reactions from \verb0TFT0 mutants.
 
-\subsubsection{Tit For Tat}
+\subsubsection{Tit for Tat}
 The player's performance is shown in figure~\ref{pic player tit for tat}.\\
 \begin{figure}[h]
 	\caption{Reward plot of TFT}
@@ -230,7 +230,7 @@ In the case of perfect information this player can profit from mutual cooperatio
 
 \begin{table}[h]
  \begin{center}
-\caption{Cooperation of Friedmann dependant on the Noise} \vspace{3mm}
+\caption{Cooperation of FRI dependant on the noise} \vspace{3mm}
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
    	& noise2 = 0 & noise2 = 0.05& noise2 = 0.1& noise2 = 0.15 \\
@@ -313,10 +313,10 @@ Traits of the player:
 \end{itemize}
 \renewcommand{\labelitemi}{$\bullet$}
 
-\subsubsection{Tit For 2 Tat}
+\subsubsection{Tit for 2 Tat}
 The player's performance is shown in figure~\ref{pic player tf2t}.\\
 \begin{figure}[h]
-	\caption{Reward plot of the Player Tit For 2 Tat}
+	\caption{Reward plot of TF2T}
 	\label{pic player tf2t}
 \begin{minipage}[hbt]{0.65\textwidth}
 	\centering
@@ -365,7 +365,7 @@ Traits different to \verb0TFT0:
 \subsubsection{Joss}
 The player's performance is shown in figure~\ref{pic player joss}.\\
 \begin{figure}[h]
-	\caption{Reward plot JOSS}
+	\caption{Reward plot of JOSS}
 	\label{pic player joss}
 \begin{minipage}[hbt]{0.65\textwidth}
 	\centering
@@ -383,7 +383,7 @@ While this is a \verb0TFT0 mutant, its performance dependence on noise looks tot
 
 \begin{table}[h]
  \begin{center}
-\caption{Cooperation of JOSS depending on the Noise} \vspace{3mm}
+\caption{Cooperation of JOSS depending on the noise} \vspace{3mm}
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
    	& noise2 = 0 & noise2 = 0.05& noise2 = 0.1& noise2 = 0.15 \\
@@ -459,7 +459,7 @@ Traits different to \verb0TFT0:
 \end{itemize}
 \renewcommand{\labelitemi}{$\bullet$}
  
-\subsubsection{Tit For Average Tat}
+\subsubsection{Tit for Average Tat}
 The player's performance is shown in figure~\ref{pic player tfat}.\\
 \begin{figure}[h]
 	\caption{Reward plot of TFAT}
@@ -592,7 +592,7 @@ If noise1 is zero, then \verb0CDO0 performs stronger than \verb0DDO0. \verb0DDO0
 
 \begin{table}[h]
  \begin{center}
-\caption{Cooperations of CDO depending on the noise} \vspace{3mm}
+\caption{Cooperation of CDO depending on the noise} \vspace{3mm}
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
    	& noise2 = 0 & noise2 = 0.05& noise2 = 0.1& noise2 = 0.15 \\
@@ -611,7 +611,7 @@ If noise1 is zero, then \verb0CDO0 performs stronger than \verb0DDO0. \verb0DDO0
 
 \begin{table}[h]
  \begin{center}
-\caption{Cooperations of DDO depending on the noise} \vspace{3mm}
+\caption{Cooperation of DDO depending on the noise} \vspace{3mm}
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
    	& noise2 = 0 & noise2 = 0.05& noise2 = 0.1& noise2 = 0.15 \\
@@ -631,7 +631,7 @@ If noise1 is zero, then \verb0CDO0 performs stronger than \verb0DDO0. \verb0DDO0
 \verb0DDO0 seems to reject almost all the time, while \verb0CDO0 rejects most of the time if noise1 is greater than 0. A problem of Downing is that it compares decisions that happen at the same time, but at this time the opponent does not know Downing's decision, so his decision can only be dependent on Downing's past decisions.
 
 
-\subsubsection{Tit For Tat with Reputation}
+\subsubsection{Tit for Tat with Reputation}
 The player's performance is shown in figure~\ref{pic player tftwr}.\\
 \begin{figure}[h]
 	\caption{Reward plot of TFTR}
@@ -653,7 +653,7 @@ In an environment where most players are cooperating this player could theoretic
 
 \begin{table}[h]
  \begin{center}
-\caption{Cooperations of TFTR depending on the Noise} \label{tab:tftr}\vspace{3mm}
+\caption{Cooperation of TFTR depending on the noise} \label{tab:tftr}\vspace{3mm}
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
    	& noise2 = 0 & noise2 = 0.05& noise2 = 0.1& noise2 = 0.15 \\
@@ -695,7 +695,7 @@ In long simulations the player can benefit from having the optimal strategy, whi
 
 \begin{table}[h]
  \begin{center}
-\caption{Cooperations of SSW depending on the noise} \vspace{3mm}
+\caption{Cooperation of SSW depending on the noise} \vspace{3mm}
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
    	& noise2 = 0 & noise2 = 0.05& noise2 = 0.1& noise2 = 0.15 \\
@@ -768,7 +768,7 @@ At zero noise \verb0LCDO0 performs well with most players, except \verb0EVO0, \v
 
 \begin{table}[h]
  \begin{center}
-\caption{Cooperations of LCDO depending on the noise} \vspace{3mm}
+\caption{Cooperation of LCDO depending on the noise} \vspace{3mm}
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
    	& noise2 = 0 & noise2 = 0.05& noise2 = 0.1& noise2 = 0.15 \\
@@ -787,7 +787,7 @@ At zero noise \verb0LCDO0 performs well with most players, except \verb0EVO0, \v
 
 \begin{table}[h]
  \begin{center}
-\caption{Cooperations of LDDO depending on the noise} \vspace{3mm}
+\caption{Cooperation of LDDO depending on the noise} \vspace{3mm}
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
    	& noise2 = 0 & noise2 = 0.05& noise2 = 0.1& noise2 = 0.15 \\
@@ -828,7 +828,7 @@ This player generally does not perform very strong. It does not respond and can 
 
 \begin{table}[h]
  \begin{center}
-\caption{Cooperations of WAT depending on the noise} \vspace{3mm}
+\caption{Cooperation of WAT depending on the noise} \vspace{3mm}
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
    	& noise2 = 0 & noise2 = 0.05& noise2 = 0.1& noise2 = 0.15 \\
@@ -868,7 +868,7 @@ This player performs rather poorly at all noises. Less noise is better for him, 
 
 \begin{table}[h]
  \begin{center}
-\caption{Cooperations of EVO depending on the noise} \vspace{3mm}
+\caption{Cooperation of EVO depending on the noise} \vspace{3mm}
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
    	& noise2 = 0 & noise2 = 0.05& noise2 = 0.1& noise2 = 0.15 \\
@@ -888,7 +888,7 @@ This player performs rather poorly at all noises. Less noise is better for him, 
 The decisions seem to be mostly an even mix of defections and cooperations, with a slight preference of defections.\\
 
 
-\subsubsection{Limited Reconciliation Tit For tat}
+\subsubsection{Limited Reconciliation Tit for tat}
 The player's performance is shown in figure~\ref{pic player lrtft}.\\
 \begin{figure}[h]
 	\caption{Reward plot of LTFT}
@@ -909,7 +909,7 @@ At noise1 equal to zero the performance is similar to \verb0TFT0. It does not pe
 
 \begin{table}[h]
  \begin{center}
-\caption{Cooperations of LTFT depending on the noise} \vspace{3mm}
+\caption{Cooperation of LTFT depending on the noise} \vspace{3mm}
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
    	& noise2 = 0 & noise2 = 0.05& noise2 = 0.1& noise2 = 0.15 \\
@@ -951,7 +951,7 @@ Table~\ref{comp} shows the performance of \verb0LTFT0 minus the performance of \
 
 At higher values for noise1, \verb0LTFT0 outperforms \verb0TFT0, while at high noise2 values the reconciliation attempts are not needed, because the noise itself achieves that.
 
-\subsection{Impact of noise on the whole system}
+\subsection{Impact of Noise on the whole System}
 
 Figure~\ref{pic player adf} and figure~\ref{pic player asdf} shows the behavior of the average cooperation and the average reward in the system.\\
 
@@ -991,7 +991,7 @@ Figure~\ref{pic player adf} and figure~\ref{pic player asdf} shows the behavior 
 Noise1 seems to destroy cooperation really fast, while noise2 increases it a little. Generally the average reward is the highest if the number of cooperative moves is the highest. The average reward's dependence on the noise looks very similar to the values a typical \verb0TFT0 mutant has. This may be related to the fact, that there were 8 \verb0TFT0 mutants in the simulation. By mean of this, the entire system is acting like a big \verb0TFT0 player.
 
 
-\subsection{Comparison of the players}
+\subsection{Comparison of the Players}
 
 In figure~\ref{pic player best} the average reward is plotted against the different noise levels (\ref{fig:simul1namedplayer} for simulation 1 and \ref{fig:simul2namedplayer} for simulation 2). The brighter the color, the higher is the average reward. In each cell the player with the highest score is named.\\
 

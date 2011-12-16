@@ -3,27 +3,29 @@
 \renewcommand{\refname}{}
 
 \begin{thebibliography}{99}
-	\bibitem{github}
-		\url{www.github.com}
-
-	\bibitem{stanford}
-		Kuhn, S., "Prisoner's Dilemma". URL: http://plato.stanford.edu/entries/prisoner-dilemma (accessed october 15, 2011)
-
 	\bibitem{axelrod} 
 		Axelrod, R., "Die Evolution der Kooperation". Munich: Oldenbourg Wissenschaftsverlag GmbH, German Edition (2000)
+
+	\bibitem{github}
+		Internet URL: \url{www.github.com} (accessed december 16, 2011)
+
+	\bibitem{stanford}
+		Kuhn, S., "Prisoner's Dilemma". Internet URL: http://plato.stanford.edu/entries/prisoner-dilemma (accessed october 15, 2011)
+
+
 
 	\bibitem{wu}
 		Wu, J. et al, "How to Cope with Noise in the Iterated Prisoner's Dilemma". Journal of Conflict Resolution, Vol. 39, pages 183-189 (1995)
 
 	\bibitem{donninger} 
-		Donninger, C., "Is it always efficient to be nice?". Wien: Physica-Verlag Heidelverg (1986)
+		Donninger, C., "Is it always efficient to be nice?". Wien: Physica-Verlag Heidelberg (1986)
 		%Internet: URL: www.socio.ethz.ch/vlib/pesb/pesb9.pdf
 
 	\bibitem{joss}
-		\url{www.socio.ethz.ch/vlib/pesb/pesb9.pdf}
+		Internet URL: \url{www.socio.ethz.ch/vlib/pesb/pesb9.pdf} (accessed december 16, 2011)
 
 	\bibitem{recon}
-		\url{http://en.wikipedia.org/wiki/Evolution_of_cooperation#Axelrod.27s_Tournaments}
+		Internet URL: \url{http://en.wikipedia.org/wiki/Evolution_of_cooperation#Axelrod.27s_Tournaments} (accessed december 16, 2011)
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.15)  16 DEC 2011 22:46
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.15)  16 DEC 2011 23:55
 entering extended mode
  %&-line parsing enabled.
 **report.tex
@@ -529,9 +529,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [1
 
 ] (./report.toc
@@ -541,9 +538,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [2
 
 ]
@@ -553,9 +547,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [3])
 \tf@toc=\write4
 \openout4 = `report.toc'.
@@ -567,9 +558,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [4] (./report.lof)
 \tf@lof=\write5
 \openout5 = `report.lof'.
@@ -581,9 +569,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [5
 
 ] (./report.lot)
@@ -597,9 +582,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [6
 
 ] (./report.lol)
@@ -613,9 +595,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [7
 
 ] (./abstract.tex
@@ -635,9 +614,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -660,9 +636,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [2
 
 ] (./introductions.tex
@@ -686,9 +659,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [3
 
 ])
@@ -698,9 +668,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [4] (./model.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -708,9 +675,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [5
 
 ]
@@ -720,9 +684,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [6]
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
@@ -733,17 +694,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [7]
 Overfull \hbox (13.79596pt too wide) in paragraph at lines 92--138
 [][] 
  []
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [8])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -751,9 +706,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [9]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -761,9 +713,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [10] (./implementation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
@@ -795,9 +744,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [11
 
 ])
@@ -821,9 +767,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [12]
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 47--47
 [] []
@@ -841,9 +784,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [13] (./results.tex
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -869,9 +809,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [14
 
 ]
@@ -953,9 +890,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [15]
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
@@ -1015,9 +949,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [16 <./pics/simulation1/Reward_vs_Noise_of_Player_Cooperate-eps-converted-to.pd
 f> <./pics/simulation2/Reward_vs_Noise_of_Player_Cooperate-eps-converted-to.pdf
 >]
@@ -1120,9 +1051,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [17 <./pics/simulation1/Reward_vs_Noise_of_Player_Defect-eps-converted-to.pdf> 
 <./pics/simulation2/Reward_vs_Noise_of_Player_Defect-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 154--155
@@ -1151,9 +1079,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [18 <./pics/simulation1/Reward_vs_Noise_of_Player_Random-eps-converted-to.pdf> 
 <./pics/simulation2/Reward_vs_Noise_of_Player_Random-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
@@ -1202,9 +1127,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [19 <./pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_tat-eps-converted-to.
 pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_tat-eps-converted-to
 .pdf>]
@@ -1218,9 +1140,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [20 <./pics/simulation1/Reward_vs_Noise_of_Player_Friedmann-eps-converted-to.pd
 f> <./pics/simulation2/Reward_vs_Noise_of_Player_Friedmann-eps-converted-to.pdf
 >]
@@ -1285,9 +1204,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [21]
 Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
 _Tit_for_2tat.eps>
@@ -1345,9 +1261,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [22 <./pics/simulation1/Reward_vs_Noise_of_Player_Pavlov-eps-converted-to.pdf> 
 <./pics/simulation2/Reward_vs_Noise_of_Player_Pavlov-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 354--355
@@ -1360,9 +1273,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [23 <./pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_2tat-eps-converted-to
 .pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_2tat-eps-converted-
 to.pdf>]
@@ -1464,9 +1374,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [24 <./pics/simulation1/Reward_vs_Noise_of_Player_Joss-eps-converted-to.pdf> <.
 /pics/simulation2/Reward_vs_Noise_of_Player_Joss-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 430--431
@@ -1479,9 +1386,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [25 <./pics/simulation1/Reward_vs_Noise_of_Player_Diekmann-eps-converted-to.pdf
 > <./pics/simulation2/Reward_vs_Noise_of_Player_Diekmann-eps-converted-to.pdf>]
 
@@ -1553,9 +1457,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [26]
 Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
 _Reconcilation_TFT.eps>
@@ -1613,9 +1514,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [27 <./pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_average_tat-eps-conve
 rted-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_average_tat-
 eps-converted-to.pdf>]
@@ -1669,9 +1567,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [28 <./pics/simulation1/Reward_vs_Noise_of_Player_Reconcilation_TFT-eps-convert
 ed-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Reconcilation_TFT-eps-
 converted-to.pdf>]
@@ -1775,9 +1670,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [29 <./pics/simulation1/Reward_vs_Noise_of_Player_CDowning-eps-converted-to.pdf
 > <./pics/simulation2/Reward_vs_Noise_of_Player_CDowning-eps-converted-to.pdf>]
 
@@ -1839,9 +1731,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [30 <./pics/simulation1/Reward_vs_Noise_of_Player_DDowning-eps-converted-to.pdf
 > <./pics/simulation2/Reward_vs_Noise_of_Player_DDowning-eps-converted-to.pdf>]
 
@@ -1858,9 +1747,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [31 <./pics/simulation1/Reward_vs_Noise_of_Player_TFT_with_Reputation-eps-conve
 rted-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_TFT_with_Reputation-
 eps-converted-to.pdf>]
@@ -1878,9 +1764,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [32 <./pics/simulation1/Reward_vs_Noise_of_Player_Strategy_Switcher-eps-convert
 ed-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Strategy_Switcher-eps-
 converted-to.pdf>]
@@ -1986,9 +1869,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [33]
 Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
 _Watcher.eps>
@@ -2044,9 +1924,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [34 <./pics/simulation1/Reward_vs_Noise_of_Player_LookBack_CDowning-eps-convert
 ed-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_LookBack_CDowning-eps-
 converted-to.pdf>]
@@ -2109,9 +1986,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [35 <./pics/simulation1/Reward_vs_Noise_of_Player_LookBack_DDowning-eps-convert
 ed-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_LookBack_DDowning-eps-
 converted-to.pdf>]
@@ -2133,9 +2007,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [36 <./pics/simulation1/Reward_vs_Noise_of_Player_Watcher-eps-converted-to.pdf>
  <./pics/simulation2/Reward_vs_Noise_of_Player_Watcher-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
@@ -2194,9 +2065,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [37 <./pics/simulation1/Reward_vs_Noise_of_Player_Evolutionary-eps-converted-to
 .pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Evolutionary-eps-converted-
 to.pdf>]
@@ -2218,9 +2086,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [38 <./pics/simulation1/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps
 -converted-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Limited_Reconc
 ilation_TFT-eps-converted-to.pdf>]
@@ -2252,9 +2117,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [39 <./pics/simulation1/Total_Cooperation_vs_Noise.pdf> <./pics/simulation2/Tot
 al_Cooperation_vs_Noise.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 996--997
@@ -2286,9 +2148,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [40 <./pics/simulation1/Total_Reward_vs_Noise.pdf> <./pics/simulation2/Total_Re
 ward_vs_Noise.pdf>]
 
@@ -2297,9 +2156,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [41 <./pics/simulation1/Reward_vs_Noise_with_best_Player_named.pdf> <./pics/sim
 ulation2/Reward_vs_Noise_with_best_Player_named.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 1014--1015
@@ -2514,9 +2370,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [42
 
  <./pics/simulation1/Reward_of__all_Players_at_given_Noiselevels_1-eps-converte
@@ -2528,9 +2381,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [43 <./pics/simulation1/Reward_of_all_Players_at_given_Noiselevels_2-eps-conver
 ted-to.pdf> <./pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_2-ep
 s-converted-to.pdf>]
@@ -2540,9 +2390,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [44 <./pics/simulation1/Reward_of_all_Players_at_given_Noiselevels_3-eps-conver
 ted-to.pdf> <./pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_3-ep
 s-converted-to.pdf> <./pics/simulation1/Reward_of_all_Players_at_given_Noiselev
@@ -2569,21 +2416,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [45
 
 ] (./references.tex
-Overfull \hbox (12.67976pt too wide) in paragraph at lines 13--14
-[]\OT1/cmr/m/n/12 Kuhn, S., "Pris-oner's Dilemma". URL: http://plato.stanford.e
-du/entries/prisoner-
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+[]\OT1/cmr/m/n/12 Kuhn, S., "Pris-oner's Dilemma". In-ter-net URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+\OT1/cmr/m/n/12 http://plato.stanford.edu/entries/prisoner-dilemma (ac-cessed o
+c-to-ber 15,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
-[][][]$\OT1/cmtt/m/n/12 http : / / en . wikipedia . org / wiki / Evolution _ of
- _ cooperation # Axelrod .
+[]\OT1/cmr/m/n/12 Internet URL: [][]$\OT1/cmtt/m/n/12 http : / / en . wikipedia
+ . org / wiki / Evolution _ of _
  []
 
 )
@@ -2593,9 +2442,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [46
 
 ] (./appendix.tex
@@ -2634,9 +2480,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [47
 
 ]
@@ -2646,9 +2489,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [48]
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 51--51
 [] []
@@ -2666,9 +2506,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [49
 
 ]
@@ -2681,9 +2518,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [50])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 55--55
 [] []
@@ -2700,9 +2534,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [51] (../matlab/win.m)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2745,9 +2576,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2758,9 +2586,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [53]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2771,9 +2596,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [54]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2784,9 +2606,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [55]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2797,9 +2616,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [56]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2810,9 +2626,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2823,9 +2636,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [58]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2836,9 +2646,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2849,9 +2656,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [60]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2862,9 +2666,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [61]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2875,9 +2676,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [62]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2888,9 +2686,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2901,9 +2696,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [64]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2914,9 +2706,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [65]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2927,9 +2716,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [66])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 63--63
 [] []
@@ -2947,9 +2733,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [67]
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 67--67
 [] []
@@ -2987,9 +2770,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [68])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 79--79
 [] []
@@ -3016,9 +2796,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [69] (../matlab/player5.m)
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 87--87
 [] []
@@ -3036,9 +2813,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [70])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 91--91
 [] []
@@ -3066,9 +2840,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [71])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 99--99
 [] []
@@ -3086,9 +2857,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [72])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 103--103
 [] []
@@ -3106,9 +2874,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [73])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 107--107
 [] []
@@ -3126,9 +2891,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [74])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 111--111
 [] []
@@ -3146,9 +2908,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [75]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3159,9 +2918,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [76])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 115--115
 [] []
@@ -3179,9 +2935,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [77])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 119--119
 [] []
@@ -3199,9 +2952,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [78]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3212,9 +2962,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [79])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 123--123
 [] []
@@ -3232,9 +2979,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [80]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3245,9 +2989,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [81])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 127--127
 [] []
@@ -3265,9 +3006,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [82])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3278,9 +3016,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [83]
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 131--131
 [] []
@@ -3298,9 +3033,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [84])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 135--135
 [] []
@@ -3318,9 +3050,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [85])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 139--139
 [] []
@@ -3338,9 +3067,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [86]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3351,9 +3077,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [87]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3364,9 +3087,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [88])
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 143--143
 [] []
@@ -3383,9 +3103,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [89] (../matlab/player20.m
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3396,9 +3113,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [90]))
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3406,9 +3120,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [91] (./report.aux) ) 
 Here is how much of TeX's memory you used:
  12508 strings out of 495061
@@ -3430,7 +3141,7 @@ xlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts
 /type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/publ
 ic/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on report.pdf (99 pages, 1135009 bytes).
+Output written on report.pdf (99 pages, 1135227 bytes).
 PDF statistics:
  3844 PDF objects out of 4296 (max. 8388607)
  2090 named destinations out of 2487 (max. 500000)
