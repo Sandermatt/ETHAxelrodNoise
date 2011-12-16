@@ -1,0 +1,498 @@
+\documentclass[11pt,twoside]{article}
+\usepackage{geometry}                
+\geometry{letterpaper}                   
+
+
+%packages
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{amssymb, amsmath}
+\usepackage{lscape}
+\usepackage{pdfpages}
+\usepackage{geometry}
+\usepackage{graphicx,float}
+\usepackage{amssymb,amssymb,amsmath,amsthm}
+\usepackage{epstopdf}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{extramarks}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{ifthen}
+\usepackage{listings}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{url}
+\usepackage{rotating}
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+%options
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\geometry{letterpaper}
+\definecolor{MyDarkGreen}{rgb}{0.0,0.4,0.0}
+\lstloadlanguages{Matlab}%
+\lstset{language=Matlab,
+        frame=single,
+        basicstyle=\small\ttfamily,
+        keywordstyle=[1]\color{Blue}\bf,
+        keywordstyle=[2]\color{Purple},
+        keywordstyle=[3]\color{Blue}\underbar,
+        identifierstyle=,
+        commentstyle=\usefont{T1}{pcr}{m}{sl}\color{MyDarkGreen}\small,
+        stringstyle=\color{Purple},
+        showstringspaces=false,
+        tabsize=5,
+        % Put standard MATLAB functions not included in the default
+        % language here
+        morekeywords={xlim,ylim,var,alpha,factorial,poissrnd,normpdf,normcdf},
+        % Put MATLAB function parameters here
+        morekeywords=[2]{on, off, interp},
+        % Put user defined functions here
+        morekeywords=[3]{FindESS},
+        morecomment=[l][\color{Blue}]{...},
+        numbers=left,
+        firstnumber=1,
+        numberstyle=\tiny\color{Blue},
+        stepnumber=5,
+xleftmargin= -24mm,
+        linewidth=160mm,
+postbreak=\space, breakindent=5pt, breaklines
+}
+
+%footer and header
+\newcommand{\reportTitle}{Axelrod’s Tournament with Noise}
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\fancyhead[LE,RO]{ \rightmark}
+\fancyhead[LO,RE]{ \leftmark}
+\fancyfoot{}
+\fancyfoot[LO,RE]{\reportTitle}
+\fancyfoot[LE,RO]{\thepage}
+ \renewcommand\headrulewidth{0.4pt}
+ \renewcommand\footrulewidth{0.4pt}
+
+% Includes a figure
+% The first parameter is the label, which is also the name of the figure
+% with or without the extension (e.g., .eps, .fig, .png, .gif, etc.)
+% IF NO EXTENSION IS GIVEN, LaTeX will look for the most appropriate one.
+% This means that if a DVI (or PS) is being produced, it will look for
+% an eps. If a PDF is being produced, it will look for nearly anything
+% else (gif, jpg, png, et cetera). Because of this, when I generate figures
+% I typically generate an eps and a png to allow me the most flexibility
+% when rendering my document.
+% The second parameter is the width of the figure normalized to column width
+% (e.g. 0.5 for half a column, 0.75 for 75% of the column)
+% The third parameter is the caption.
+\newcommand{\scalefig}[3]{
+  \begin{figure}[ht!]
+    % Requires \usepackage{graphicx}
+    \centering
+    \includegraphics[width=#2\columnwidth]{#1}
+    %%% I think \captionwidth (see above) can go away as long as
+    %%% \centering is above
+    %\captionwidth{#2\columnwidth}%
+    \caption{#3}
+    \label{#1}
+  \end{figure}}
+
+% Includes a MATLAB script.
+% The first parameter is the label, which also is the name of the script
+% without the .m.
+% The second parameter is the optional caption.
+\newcommand{\matlabscript}[2]
+  {\begin{itemize}\item[]\lstinputlisting[caption=#2,label=#1]{#1.m}\end{itemize}}
+
+% The environment takes two arguments, and will indent the left and right margins, respectively,
+% by the parameters’ values. Negative values will cause the margins to be narrowed, so
+% \begin{changemargin}{-1cm}{-1cm} narrows the left and right margins by 1 centimetre.
+
+
+
+
+\begin{document}
+
+\input{cover}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+ \pagenumbering{Roman}
+\section*{Agreement for free download}
+\bigskip
+
+\bigskip
+
+\large We hereby agree to make our source code for this project freely available for download from the web pages of the SOMS chair. Furthermore, we assure that all source code is written by ourselves and is not violating any copyright restrictions.
+
+\begin{center}
+\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip
+
+
+\large Andermatt Samuel
+\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip
+
+\large B\"osser Jonathan
+\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip
+
+\large Meier David
+
+\end{center}
+\newpage
+
+%\includepdf{confirmation_en.pdf}
+
+\tableofcontents
+
+\newpage
+
+\renewcommand{\lstlistlistingname}{Matlabcode}
+\lstlistoflistings
+
+
+\listoffigures
+ \listoftables
+\newpage
+\fancyfoot[LE,RO]{Page\ \thepage}
+\pagenumbering{arabic}
+\section{Abstract}
+
+\clearpage
+
+%\begin{figure}[htbp]
+%	\centering
+%	\includegraphics[width=10cm]{Bildli/DSC_5744}
+%	\caption{Bildbeschrieb}
+%	\label{kafe}
+%\end{figure}
+
+%\ref{kafe}
+
+\section{Individual contributions}
+
+
+
+\subsection{Andermatt Samuel}
+\begin{itemize}
+\item Further development of the game master
+\item Development and implemention of multiple players 
+\item Data analysis and interpretation
+\item Contributions to the report
+\item Contributed experience in game theory
+\end{itemize}
+
+\subsection{B\"osser Jonathan}
+\begin{itemize}
+\item Explore and explain GitHub [www.github.com]
+\item Development and implementation of multiple players 
+\item Data analysis and interpretation
+\item Contributions to the report
+\item Literature study
+\end{itemize}
+
+\subsection{Meier David}
+\begin{itemize}
+\item Write the first version of the program
+\item Development and implementation of multiple players
+\item Responsible for the report
+\item Literature study
+\end{itemize}
+
+\clearpage
+
+\section{Introduction and Motivations}
+\subsection{The Prisoner's Dilemma}
+The prisoner's dilemma is a model from game theory. 2 people are suspected to have done a crime together. Now they are examined separately in different rooms. In this situation, they can either whistle-blowing the other person to protect oneself or keep silent. Over all, it is of advantage, if both keep silent. But for the single person it is better to betray the other person. The risk of betraying is the following: if both accused people betray the other, the penalty for both is the highest. This problem is in game theory called "Prisoner's dilemma" \cite{stanford}.
+
+\subsection{The Axelrod Experiment}
+In the year 1981, Robert Axelrod invited for a competition to the iterated prisoner's dilemma. People from different fields like mathematics, politics, economy or psychology have been asked to develop a winning strategy for this competition. All the different strategies were playing against another to find the most successive strategy. Interestingly, the very simple strategy "Tit for Tat" (TFT) won the tournament. During the first round, TFT keeps silent (cooperation) and during the rest of the game, just does, what its counter player did the round before.
+This sort of experiment is very interesting, because the results can be applied in many different fields in real life. Just one out of many examples: 2 countries make an agreement on their amount of weapons. For the single country it is of advantage to haves more wmilitary strenth than the other nation. But as in the prisoner's dilema, if both nations rise their military strenth, for both it is just a loss money and an increase in danger. \cite{axelrod}
+
+\subsection{Introduction of Noise}
+A further development in the Axelrod Experiment is the introduction of noise. This means, cooperation is wrongly understood as defection and vise versa. The introduction of noise to the axelrod experiment ist nothing new, but very important, because in real world, noise and small distortions is always present. This can lead to serious complications. Just as an example: \textit{"On September 1,1983 a South Korean airliner mistakenly
+flew over the Soviet Union (Hersh 1989). It was shot down by the Soviets, killing all 269
+people aboard. The Americans and Soviets echoed their anger at each other in a short,
+but sharp escalation of cold war tensions."}\cite{wu}
+
+\clearpage
+\section{Description of the Model and Players}
+
+\subsection{Simple Players}
+\subsubsection{Cooperative Player}
+The player 1 is a very simple player: He always cooperates. This "decision" does not depend on any circumstances like the decisions of its antagonist. 
+
+\subsubsection{Defective Player}
+Also the player 2 is a very simple player: He always defects. 
+
+\subsubsection{Random Player}
+Like all players from this subsection, the decision of the random player does not depend on the results of the previous tournaments. The decision is randomly distributed and no decision is preferred.
+
+\subsection{Players from Literature}
+
+All players in this subsection are taken from the first Axelrod's Tournament and implemented by us. Source: Lecture "Game Theory" \cite{donninger}
+
+\subsubsection{Tit for Tat}
+The Player 4 during to the Axelrod Turnament the most successive player of all\cite{donninger}. The decision is the decision of the counter player from the last tournament. In the first round, the decision is cooperation. If the counter player cooperated during the last round, this player will cooperate in the current round.
+
+\subsubsection{Friedmann}
+The Player "Friedmann" cooperates until its counter player defects once. After that, Friedmann now deflects for the rest of the game. This corresponds to "everlasting death".
+
+\subsubsection{Pavlov}
+Pavlov changes its decision every time when the counter player defects. But if the counter player cooperates, Pavlov gives the same decision as in the round before. The first decision is cooperation. 
+
+\subsubsection{Tit for two Tat}
+The first decision is cooperation. If the counter player cooperates, Tit for 2Tat" cooperates as well. Tit for 2 Tat only defects, if the counter player defected the last 2 rounds.
+
+\subsubsection{Joss}
+This is basically the same player like the player "Tit for Tat". The only difference: 10\% of the cooperative decisions are randomly defected.
+www.socio.ethz.ch/vlib/pesb/pesb9.pdf
+
+\subsubsection{Diekmann}
+The player "Diekmann" plays basically Tit for Tat. The difference is, that every 10th move, he playes cooperative twice.
+www.socio.ethz.ch/vlib/pesb/pesb9.pdf
+
+\subsubsection{D-Downing}
+
+Starts always with defection and is calculating afterwards the expected value of the reward if he cooperates or defects. The decision is taken based on the bigger expected value. 
+
+\subsubsection{C-Downing}
+
+Same algorithm as D-Downing, but is starting with cooperation. This algorithm is better than D-Downing, actually C-Downing would have won the tournament of Axelrod \cite{evolution of cooperation}, but there was only D-Downing implemented.
+
+\subsection{Own Players}
+
+\subsubsection{Tit for Average Tat}
+Based on the idea "Tit for Tat", we developed a player who averages the decisions of its opponent over the most recent Rounds. The first few rounds he plays Tit for Tat. Then he starts averaging over the most recent rounds and reacts to the opponents most frequent decision. After a fixed number of rounds, the player restarts from the very beginning. This can prevent beeing stuck in mutual defection.
+
+\subsubsection{Watcher}
+For this player, we investigated one possible concept for a learning algorithm. The idea is to learn by observing and copy the moves of the most succesful player. 
+During the first few rounds, Watcher plays Tit for tat. 
+
+\subsubsection{Reconciliation Tit for tat}
+TFT has a disadvantage. Once the players start a mutual defection it is stable. This makes TFT very susceptible to miscommunications and performs poorly against players like Joss. The approach here is to break this cycle by adding cooperative moves. The risk of adding cooperative moves is that the opponents exploit this strategy.
+This strategy tries to make these moves without becoming exploitable. In case the opponent defects, his recent performance gets calculated. It is also calculated, how good the opponent would have performed if both players were cooperating. In case the damage by the mutual defections is large enough that by defecting the reconciliation attempt he cannot gain enough to outperform cooperation. This way the strategy is not explotaible.
+
+\subsubsection{Tit for Tat with Reputation}
+This is a further Tit for Tat  mutant. The basic strategy remains the same, but the opponents moves against other players are also observed. In case the opponent is mostly cooperative against others, then defection of the oponent is regarded as miscommunication and interpreted as cooperation. 
+
+\subsubsection{Strategy Switcher}
+The strategy switcher is another example for a learning player. The player is equipped with a set of predefined strategies. In our case we chose the strategies TFT, TF2T, Pavlov, always cooperate and always defect. Initially he tries out all five strategies. After he tried out every strategy he calculates each strategies performance. In the subsequent turns he always plays the most successful strategy. After a given set of turns he will reevaluate the performance of the current strategy and compare it with the others. If one of its other strategies has a higher performance this strategy is chosen instead.
+
+\subsubsection{Evolutionary}
+This player tries to find the optimal sequence of moves by an evolutionary algorithm. The strategy of the player consists of a given set of moves. To determine the first set of moves he plays TFT in the first rounds.
+Once he has a sequence of moves he creates clones of this sequence and adds mutations to them. A mutation means that the decision in one move is altered.
+In the next step he plays each clone. After all clones are played he evaluates their performance.
+The clones are split into segments, for each segment the winnings are calculated. The performance includes the one move after the segment ended, otherwise the players would always reject in the last move.
+Then a new parent strategy is formed. Each segment is evaluated, if the first segment of a clone performed stronger then the parent strategy, the parents segment is replaced by the more successful segment.
+This parent is then played and cloned again.
+There is an assumption that with increasing simulation length the sequence becomes closer to the optimal sequence. At this point the mutations become a disadvantage. Therefore the mutability is lowered with time (but does not go to zero).
+
+\subsubsection{Limited Reconciliation Tit for tat}
+This strategy is similar to the Reconciliation Tit for tat. In this case however the number of reconciliation attempts is limited. Some players tend to reject all reconciliation attempts and while this does not exploit this player, it still limits its performance. This player will stop to try to reconcile after he was unsuccessful doing so for a given time. However, if the opponent has two consecutive cooperative rounds the counter for the reconciliation attempts is reseted. 
+
+\subsubsection{Look Back D-Downing}
+
+Is basically the same as D-Downing, but this one is looking back two rounds on his own decisions and just one round on the opponent's decisions. To be able to look back two rounds the player always defects the first two rounds. The idea behind this is, to see the reaction of the opponent on the decisions the player took before. By means of this the player has an advantage (in theory) compared to D-Downing, because the player is looking at two decisions, whereof one is the action (own decision) and the other (opponent's decision) is the reaction.   
+
+\subsubsection{Look Back C-Downing}
+
+Same algorithm as Look Back D-Downing, but is starting with two times cooperation.
+
+\subsection{General view}
+
+In table~\ref{overview} every player is listed and some of theirs characteristics are evaluated. 
+
+%\begin{landscape}
+ \renewcommand\headrulewidth{0pt}
+\fancyhead{} % clear all header fields
+\begin{sidewaystable}
+%\begin{table}
+\begin{tabular}[]{|l|c|c|c|c|c|c|c|}
+  \hline
+  			& Cooperates in&responsive& Memory	&Exploitable	& Can Exploit&Global view	&Learning	\\
+  			&  First Round&		&      		&		&		&		&		\\
+  \hline
+  Cooperative Player& $\times$	&		&0		&$\times$	&		&		&		\\
+ \hline
+  Defective Player 	&  		&		&0		&		&$\times$	&		&		\\
+ \hline  
+Random Player 	& random	&		&0		&		&$\times$	&		&		\\
+ \hline  
+Tit for Tat 		& $\times$	&$\times$	&1		&		&		&		&		\\
+ \hline
+  Friedmann 		& $\times$	&$\times$	&inf		&		&$\times$	&		&		\\
+ \hline
+ Pavlov		& $\times$	&$\times$	&1		&		&		&		&		\\
+ \hline
+Tit for two Tat	& $\times$	&$\times$	&2		&$\times$	&		&		&		\\
+ \hline
+ Joss 			& 90\%	&$\times$	&1		&		&$\times$	&		&		\\
+ \hline
+Diekmann 		& $\times$	&$\times$	&1		&$\times$	&		&		&		\\
+ \hline
+D-Downing 		&  		&$\times$	&inf		&$\times$	&$\times$	&		&($\times$)	\\
+ \hline
+C-Downing 		& $\times$	&$\times$	&inf		&$\times$	&$\times$	&		&($\times$)	\\
+ \hline
+Tit for Average Tat	& $\times$	&slow		&5		&$\times$	&		&		&		\\
+ \hline
+Watcher 		& $\times$	&		&6		&$\times$	&$\times$	&$\times$	&$\times$	\\
+ \hline
+Recon Tit for Tat	& $\times$	&$\times$	&20		&		&		&		&		\\
+ \hline
+TfT with Reputation& $\times$	&$\times$	&1		&$\times$	&		&$\times$	&		\\
+ \hline
+Strategy Switcher	& $\times$	&$\times$	&inf		&$\times$	&$\times$	&		&$\times$	\\
+ \hline
+Evolutionary		& $\times$	&very slow	&31		&$\times$	&$\times$	&		&$\times$	\\
+ \hline
+Lim. Recon. TFT	& $\times$	&$\times$	&20		&		&		&		&		\\
+ \hline
+Look back D-Downing& 		&$\times$	&inf		&$\times$	&$\times$	&		&($\times$)	\\
+ \hline
+Look back C-Downing& $\times$	&$\times$	&inf		&$\times$	&$\times$	&		&($\times$)	\\
+ \hline
+\end{tabular}
+\caption{General view of all the players and their characteristics}
+\label{overview}
+%\end{table}
+\end{sidewaystable}
+%\end{landscape}
+
+\fancyhead[LE,RO]{ \rightmark}
+\fancyhead[LO,RE]{ \leftmark}
+ \renewcommand\headrulewidth{0.4pt}
+\clearpage
+\section{Implementation}
+
+As described in the Introduction, the tournament is a repeated prisoners dilemma. the payoff matrix for this game is shown in figure ....
+
+. To make the simulation more realistc, we added noise to it. Noise means that defection can be transmitted as cooperation and vice versa. The noise applied on cooperation and defection was varied independantly. The two noiselevels are set independantly to 0, 5, 10 and 15\%. The noise only changed the information the players recieved, but not their payoff. For each combination of noise, we performed a tournament with 20000 rounds. In each round, every player plays agains all others and himself. To make the decisions, the player is provided with all the decisions made in the previsous rounds by all players. The playersdo not have information about the noise level. 
+
+The basic structure of a player is shown .... . And an example (TFT) of such a player would be:
+
+
+In the following table 1 is shown the payoff matrix applied in our program.
+
+\begin{table}[h]
+
+ \begin{center}
+\caption{Reward Matrix} \vspace{3mm}
+\begin{tabular}{|l|c|c|}
+
+\hline
+   & Player B cooperates & Player B defects \\
+  \hline
+  Player A cooperates & A:3 B:3 & A:0 B:5 \\
+ \hline
+  Player A defects & A:5 B:0 &A:1 B:1 \\
+ \hline
+\end{tabular}
+ \end{center}
+\end{table}
+
+
+\begin{itemize}
+\item Spielablauf
+\item Informationen, die die Spieler sehen könnten
+\item Art des Noises
+\item 
+\end{itemize}
+\clearpage
+\section{Results and Discussion}
+
+\subsection{General Findings}
+
+\begin{itemize}
+	\item A noise that interprets cooperation as defection decreases cooperation drastically.
+	\item A noise that interprets defections as cooperations increases cooperation, but the effect is weaker.
+	\item Perfect information is not what’s best for the system. If decisions are transmitted better than they are, the whole system gets more efficient.
+	\item Friendly/cooperative players performance drastically decreases if the chance that cooperation is transmitted correct is less than 100\%.
+	\item Players that do not react immediately to defections look non-responsive.
+\end{itemize}
+
+\subsection{Problem caused by unreliably transmitted cooperation}
+Many of the friendly players perform well without noise, because they have an infinitely long sequence of mutual cooperations with other friendly players. Noise will trigger defections. This state requires then a way to come back into cooperation. Most cooperative players do not have a mechanism to reestablish cooperation if it has been destroyed, because they rely on a cooperation caused by the first turn decision being cooperative. 
+
+\subsection{Benefit caused by unreliably transmitted defection}
+Some players try out defective moves. For TFT mutants this can likely result in mutual defections. A noise that inserts cooperative moves results in the TFT player reacting cooperative again, driving the game in mutual cooperation again. Another thing is that hiding defections allows aggresive players to exploit players that would retaliate otherwise, and an aggresive player exploiting a weak one is better than if both players are defecting each other.
+
+\subsection{Axelrods recommendations}
+Axelrod proposed a certain behavior to be successful. This behavior is: Be Nice, Retaliatory, Forgiving and  Clear.  Under noise the opponent will see defections from a player, even if he never defected. This diminishes the use of being nice. It is more successful to find out if he responds to defections and exploit the opponent if he is exploitable. In Axelrods tournament this was not the case, because this attempt might have long lasting effects. However noise somewhat covers up the past. The other recommendations still hold.
+\clearpage
+\section{Summary and Outlook}
+\clearpage
+\section{References}
+
+\begin{thebibliography}{99}
+	\bibitem[1]{donninger} 
+		Donninger, C., "Is it always efficient to be nice?". Wien: Physica-Verlag Heidelverg (1986)
+		%Internet: URL: www.socio.ethz.ch/vlib/pesb/pesb9.pdf
+
+	\bibitem[2]{stanford}
+		Kuhn, S., "Prisoner's Dilemma". URL: http://plato.stanford.edu/entries/prisoner-dilemma (accessed october 15, 2011)
+
+	\bibitem[3]{axelrod} 
+		Axelrod, R., "Die Evolution der Kooperation". Munich: Oldenbourg Wissenschaftsverlag GmbH, German Edition (2000)
+
+	\bibitem[4]{nowak}
+		Nowak, M., "Five Rules for the Evolution of Cooperation".  Science 314, page 1560 (2006)
+
+	\bibitem[5]{sandholm}
+		Sandholm, T. et al, "Multiagent Reinforcement Learning in the Iterated Prisoner's Dilemma". Biosystems Vol 37, pages 147-166 (1995)
+
+	\bibitem[6]{quek}
+		Queck, H. et al, "Adaptation of Iterated Prisoner's Dilemma Strategies by Evolution and Learning". Computational Intelligence and Games, pages: 40-47 (2007)
+
+	\bibitem[7]{wu}
+		Wu, J. et al, "How to Cope with Noise in the Iterated Prisoner's Dilemma". Journal of Conflict Resolution, Vol. 39, pages 183-189 (1995)
+
+\end{thebibliography}
+
+\appendix
+
+\section{Submitted Researchplan}
+\subsection{General Introduction}
+Tournament like simulation of the prisoner's dilemma with repeated inter-
+actions. Random errors are introduced in the information about the player's 
+recent behavior. We want to observe the different outcome of the traditional
+players if noise is introduced. Further we want to try to implement new 
+players with learning strategies. \\
+We believe that this makes the simulation more realistic.\\
+Extension of Axelrod's Tournaments.
+
+\subsection{Fundamental Questions}
+Can a dispute based on miscommunication be overcome?\\
+Can treason be hidden behind pretended miscommunication?\\
+Does miscommunication discourage cooperation?\\
+How much miscommunication can cooperation survive?\\
+Do learning strategies have an advantage over the other ones?\\
+How do the traditional players act and how does the final result change, 
+if noise is introduced?\\
+Independent variables: length of simulation, reliability of communication, rewards\\
+Dependent variables: correlation between cooperation and success, frequency of cooperation, successful strategies
+
+\subsection{Expected Results}
+Miscommunication works against cooperating strategies.\\ 
+Programs that reconcile are more successful.\\
+The reward of the learning players is less influenced by the noise.
+
+\subsection{References}
+
+\begin{itemize}
+\item On Evolving Robust Strategies for Iterated Prisoner's Dilemma, P. J. DARWEN and X. YAO, 16. November 1993\\
+\item Multiagent Reinforcement Learning in the Iterated Prisoner's Dilemma, T. W. SANDHOLM and R. H. CRITES\\
+\item Adaptation of Iterated Prisoner's Dilemma Strategies by Evolution and Learning, H. Y. QUEK and C. K. GOH, 2007\\
+\item How to Cope with Noise in the Iterated Prisoner's Dilemma, J. WU and R. AXELROD, JOURNAL OF CONFLIC RTESOLUTION, Vol. 39 No. 1, March1995 183-189\\
+\item Five Rules for the Evolution of Cooperation, M. A. NOWAK, Science 314, 1560 (2006)\\
+\end{itemize}
+\subsubsection{Research Methods}
+
+Agent-Based Model
+
+\subsection{Other}
+The type(s) of the learning strategies we will decide later, after reading some of the literature.
+
+\input{appendix.tex}
+
+\end{document}  

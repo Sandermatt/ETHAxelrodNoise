@@ -4,14 +4,14 @@ clear all;close all; home               % Initalisation
 %Note: Most standard players are taken from the lecture http://www.socio.ethz.ch/education/fs11/igt/notes/Evolution_von_Kooperation_2011.pdf
 
 tic                                     % start time measurement
-N = 10                               % Number of turns
-maxplayers = 10;                        % Maximum number of players
+N = 20000                               % Number of turns
+maxplayers = 20;                        % Maximum number of players
 K = zeros(maxplayers,maxplayers,N );    % Contains the information about the players true decisions: 1=Cooperate   2=Betray
 K2 = zeros(maxplayers,maxplayers,N );   % Contains the information about the players decision disturbed by noise
-minNoise1 = 0.15                          % The chance that cooperation gets recieved as betrayal goes from the value minNoise1 to maxNoise1
-maxNoise1 = 0.35
-minNoise2 = 0.15                           % The chance that betrayal gets recieved as cooperation goes from the value minNoise2 to maxNoise2
-maxNoise2 = 0.35
+minNoise1 = 0                          % The chance that cooperation gets recieved as betrayal goes from the value minNoise1 to maxNoise1
+maxNoise1 = 0.15
+minNoise2 = 0                           % The chance that betrayal gets recieved as cooperation goes from the value minNoise2 to maxNoise2
+maxNoise2 = 0.15
 NoiseInc=0.05;                          % Noise increment with each simulation
 maxX=(maxNoise1-minNoise1)/NoiseInc+1+10^-15;  % number of points of the x-axis, the last addition is to prevent floating point errors
 maxY=(maxNoise2-minNoise2)/NoiseInc+1+10^-15;  % number of points of the y-axis
@@ -110,6 +110,6 @@ for x=1:maxX
     end
 end
 
-save simulation Rewardmatrix N Names Noise AverageCoop Shorts;
+save simulation2 Rewardmatrix N Names Noise AverageCoop Shorts;
 toc % end time measurement
 

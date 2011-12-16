@@ -1,0 +1,28 @@
+\section{References}
+
+\renewcommand{\refname}{Foo}
+
+\begin{thebibliography}{99}
+	\bibitem[1]{donninger} 
+		Donninger, C., "Is it always efficient to be nice?". Wien: Physica-Verlag Heidelverg (1986)
+		%Internet: URL: www.socio.ethz.ch/vlib/pesb/pesb9.pdf
+
+	\bibitem[2]{stanford}
+		Kuhn, S., "Prisoner's Dilemma". URL: http://plato.stanford.edu/entries/prisoner-dilemma (accessed october 15, 2011)
+
+	\bibitem[3]{axelrod} 
+		Axelrod, R., "Die Evolution der Kooperation". Munich: Oldenbourg Wissenschaftsverlag GmbH, German Edition (2000)
+
+	\bibitem[4]{nowak}
+		Nowak, M., "Five Rules for the Evolution of Cooperation".  Science 314, page 1560 (2006)
+
+	\bibitem[5]{sandholm}
+		Sandholm, T. et al, "Multiagent Reinforcement Learning in the Iterated Prisoner's Dilemma". Biosystems Vol 37, pages 147-166 (1995)
+
+	\bibitem[6]{quek}
+		Queck, H. et al, "Adaptation of Iterated Prisoner's Dilemma Strategies by Evolution and Learning". Computational Intelligence and Games, pages: 40-47 (2007)
+
+	\bibitem[7]{wu}
+		Wu, J. et al, "How to Cope with Noise in the Iterated Prisoner's Dilemma". Journal of Conflict Resolution, Vol. 39, pages 183-189 (1995)
+
+\end{thebibliography}

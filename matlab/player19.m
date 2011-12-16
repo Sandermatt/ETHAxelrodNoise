@@ -10,9 +10,9 @@ properties
     childnum=2; %number of mutated children
     mut=0.1; %mutation rate
     transition=1000; %once the transition turn is reached the mutability is changed, this is because initially larger changes in the strategy are needed
-    mut2=0.05; %the mutability after the transition
+    mut2=0.075; %the mutability after the transition
     transition2=5000; %second transition into the most stable phase
-    mut3=0.025;
+    mut3=0.05;
     child=zeros(1,1,1); %this array stores the children strategies
     parent=zeros(1,1); %the parent strategy
     seglen=1;
@@ -28,7 +28,7 @@ methods
         if (turn == 1)
             decision = 1; %cooperate in turn 1
         elseif(turn<obj.stratlen+1)
-             decision = K(op,4,turn-1); %use TFT to generate the first sequence
+             decision = K(op,obj.playernumber,turn-1); %use TFT to generate the first sequence
              obj.parent(op,turn-1)=decision;
         else
             if (turn==obj.transition) %transition into the second regime
@@ -64,7 +64,7 @@ methods
                 parperf=zeros(obj.subsegs,1);
                 for i=0:obj.childnum
                     for j=1:obj.subsegs
-                        for k=1:obj.seglen
+                        for k=0:obj.seglen
                             turn2=turn-(obj.childnum-i+1)*obj.stratlen+(j-1)*obj.seglen+k-1;
                             w=win([K(obj.playernumber,op,turn2) K(op,obj.playernumber,turn2)]); %calculates the winnings
                             if(i==0)

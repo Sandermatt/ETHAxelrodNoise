@@ -1,0 +1,26 @@
+classdef player10
+    %created by Meier David
+properties
+    name='Tit for average tat';
+    mem=10; %how many moves does the player remember
+end
+methods
+    function decision=decide(obj,K,op,turn)
+        if (turn<obj.mem+2) %play tft in the first 10 rounds
+            if (turn == 1)
+                decision = 1; %cooperate in turn 1
+            elseif (K(op,10,turn-1) == 1)
+                decision = 1;
+            else
+                decision = 2;
+            end
+        else
+            if (sum(K(op,10,turn-obj.mem+1:turn-1))/obj.mem<=1.7) %averaged decision over 10 turns is cooperative
+                decision=1;
+            else
+                decision=2;
+            end
+        end
+    end
+end
+end

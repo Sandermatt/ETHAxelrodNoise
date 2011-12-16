@@ -1,0 +1,14 @@
+classdef player1
+properties
+    Playername='Cooperate';
+end
+methods
+    function name=getName(obj)
+        name=Playername;
+    end
+    function decision=decide(obj)
+        decide=1;
+    end
+end
+end
+        

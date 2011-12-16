@@ -1,0 +1,67 @@
+\BOOKMARK [1][-]{section.1}{Abstract}{}
+\BOOKMARK [1][-]{section.2}{Individual contributions}{}
+\BOOKMARK [2][-]{subsection.2.1}{Andermatt Samuel}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{B\366sser Jonathan}{section.2}
+\BOOKMARK [2][-]{subsection.2.3}{Meier David}{section.2}
+\BOOKMARK [1][-]{section.3}{Introduction and Motivations}{}
+\BOOKMARK [2][-]{subsection.3.1}{The Prisoner's Dilemma}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{The Axelrod Experiment}{section.3}
+\BOOKMARK [2][-]{subsection.3.3}{Introduction of Noise}{section.3}
+\BOOKMARK [1][-]{section.4}{Description of the Model and Players}{}
+\BOOKMARK [2][-]{subsection.4.1}{Simple Players}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Cooperative Player}{subsection.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Defective Player}{subsection.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Random Player}{subsection.4.1}
+\BOOKMARK [2][-]{subsection.4.2}{Players from Literature}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Tit for Tat}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Friedmann}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Pavlov}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Tit for two Tat}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Joss}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.6}{Diekmann}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.7}{D-Downing}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.8}{C-Downing}{subsection.4.2}
+\BOOKMARK [2][-]{subsection.4.3}{Own Players}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Tit for Average Tat}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Watcher}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Reconciliation Tit for tat}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Tit for Tat with Reputation}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.5}{Strategy Switcher}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.6}{Evolutionary}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.7}{Limited Reconciliation Tit for tat}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.8}{Look Back D-Downing}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.9}{Look Back C-Downing}{subsection.4.3}
+\BOOKMARK [1][-]{section.5}{Implementation}{}
+\BOOKMARK [1][-]{section.6}{Results and Discussion}{}
+\BOOKMARK [2][-]{subsection.6.1}{General Findings}{section.6}
+\BOOKMARK [2][-]{subsection.6.2}{Why most friendly players perform badly if cooperation is not reliably transmitted}{section.6}
+\BOOKMARK [2][-]{subsection.6.3}{Why noise that covers up defections is beneficial for the system}{section.6}
+\BOOKMARK [2][-]{subsection.6.4}{How do Axelrods recommendations for a successful strategy work under noise}{section.6}
+\BOOKMARK [2][-]{subsection.6.5}{The Performance of each Player}{section.6}
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Cooperative Player}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.2}{Defective Player}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.3}{Random Player}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.4}{Tit For Tat}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.5}{Friedmann}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.6}{Pavlov}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.7}{Tit For 2 Tat}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.8}{Joss}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.9}{Diekmann}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.10}{Tit For Average Tat}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.11}{Reconciliation Tit for Tat}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.12}{CDowning and DDowning}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.13}{Tit For Tat with Reputation}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.14}{Strategy Switcher}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.15}{Lookback CDowning and Lookback DDowning}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.16}{Watcher}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.17}{Evolutionary}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.18}{Limited Reconciliation Tit For tat}{subsection.6.5}
+\BOOKMARK [1][-]{section.7}{Summary and Outlook}{}
+\BOOKMARK [1][-]{section.8}{References}{}
+\BOOKMARK [1][-]{appendix.A}{Submitted Researchplan}{}
+\BOOKMARK [2][-]{subsection.A.1}{General Introduction}{appendix.A}
+\BOOKMARK [2][-]{subsection.A.2}{Fundamental Questions}{appendix.A}
+\BOOKMARK [2][-]{subsection.A.3}{Expected Results}{appendix.A}
+\BOOKMARK [2][-]{subsection.A.4}{References}{appendix.A}
+\BOOKMARK [3][-]{subsubsection.A.4.1}{Research Methods}{subsection.A.4}
+\BOOKMARK [2][-]{subsection.A.5}{Other}{appendix.A}

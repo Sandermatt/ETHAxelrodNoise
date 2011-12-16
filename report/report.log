@@ -1,0 +1,2981 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.9.24)  16 DEC 2011 14:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@dimlist=\toks15
+
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2009/10/17 v2.4 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2009/10/17 v2.4 Base part for package epstopdf
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 433.
+
+(/usr/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2009/10/26 v1.1 Configuration of epstopdf for TeX Live
+)))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen109
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen110
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks18
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks19
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2009/02/07 v0.4g Insert pages of external PDF documents (AM)
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count103
+\calc@Bcount=\count104
+\calc@Adimen=\dimen118
+\calc@Bdimen=\dimen119
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count105
+\calc@Cskip=\skip48
+)
+(/usr/share/texmf-texlive/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2006/07/14 v1.1d eso-pic (RN)
+
+(/usr/share/texmf-texlive/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2009/02/07 v0.4g Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box28
+\AM@toc@title=\toks22
+\c@AM@survey=\count106
+\AM@templatesizebox=\box29
+)
+(/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count107
+\float@exts=\toks23
+\float@box=\box30
+\@float@everytoks=\toks24
+\@floatcapt=\box31
+)
+(/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip49
+\thm@postskip=\skip50
+\thm@headsep=\skip51
+\dth@everypar=\toks30
+)
+(/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip52
+\f@ncyO@elh=\skip53
+\f@ncyO@erh=\skip54
+\f@ncyO@olh=\skip55
+\f@ncyO@orh=\skip56
+\f@ncyO@elf=\skip57
+\f@ncyO@erf=\skip58
+\f@ncyO@olf=\skip59
+\f@ncyO@orf=\skip60
+)
+(/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/usr/share/texmf-texlive/tex/latex/fancyhdr/extramarks.sty
+\@temptokenb=\toks31
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf-texlive/tex/latex/listings/listings.sty
+\lst@mode=\count108
+\lst@gtempboxa=\box32
+\lst@token=\toks32
+\lst@length=\count109
+\lst@currlwidth=\dimen120
+\lst@column=\count110
+\lst@pos=\count111
+\lst@lostspace=\dimen121
+\lst@width=\dimen122
+\lst@newlines=\count112
+\lst@lineno=\count113
+\lst@maxwidth=\dimen123
+
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count114
+\lst@skipnumbers=\count115
+\lst@framebox=\box33
+)
+(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen124
+\Hy@linkcounter=\count116
+\Hy@pagecounter=\count117
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 2864.
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+))
+\Fld@menulength=\count118
+\Field@Width=\dimen125
+\Fld@charsize=\dimen126
+\Field@toks=\toks33
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring ON on input line 4395.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count119
+\c@Item=\count120
+\c@Hfootnote=\count121
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
+\Fld@listcount=\count122
+)
+(/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count123
+\rotFPtop=\skip61
+\rotFPbot=\skip62
+\rot@float@box=\box34
+\rot@mess@toks=\toks34
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+) (./report.aux
+
+LaTeX Warning: Label `pic player lrtft' multiply defined.
+
+
+LaTeX Warning: Label `pic player lrtft' multiply defined.
+
+)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+
+*geometry auto-detecting driver*
+*geometry detected driver: pdftex*
+-------------------- Geometry parameters
+paper: letterpaper
+landscape: --
+twocolumn: --
+twoside: true
+asymmetric: --
+h-parts: 73.71613pt, 0.7\paperwidth , 110.57425pt (default)
+v-parts: 95.39737pt, 0.7\paperheight , 143.09605pt (default)
+hmarginratio: 2:3
+vmarginratio: 2:3
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  614.295pt
+\paperheight 794.96999pt
+\textwidth  430.00462pt
+\textheight 556.47656pt
+\oddsidemargin  1.44614pt
+\evensidemargin 38.30426pt
+\topmargin  -13.87262pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 113.0pt
+\marginparsep   10.0pt
+\columnsep  10.0pt
+\skip\footins  10.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+\@twosidetrue \@mparswitchtrue 
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count124
+\scratchdimen=\dimen127
+\scratchbox=\box35
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen128
+\MPnumerator=\count128
+\everyMPtoPDFconversion=\toks36
+) ABD: EveryShipout initializing macros
+\c@lstlisting=\count129
+Package hyperref Info: Link coloring ON on input line 115.
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count130
+)
+LaTeX Info: Redefining \ref on input line 115.
+LaTeX Info: Redefining \pageref on input line 115.
+ (./report.out)
+(./report.out)
+\@outlinefile=\write3
+\openout3 = `report.out'.
+
+\AtBeginShipoutBox=\box36
+ (./cover.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[1] (./report.toc
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[2]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[3])
+\tf@toc=\write4
+\openout4 = `report.toc'.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[4] (./report.lol)
+\tf@lol=\write5
+\openout5 = `report.lol'.
+
+ (./report.lof
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[5])
+\tf@lof=\write6
+\openout6 = `report.lof'.
+
+ (./report.lot)
+\tf@lot=\write7
+\openout7 = `report.lot'.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[6]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.163 \clearpage
+                 [1]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 180.
+
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 180.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[2
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[3
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[4
+
+]
+Overfull \hbox (56.85374pt too wide) in paragraph at lines 250--252
+\OT1/cmr/m/n/12 10% of the co-op-er-a-tive de-ci-sions are ran-domly de-fected.
+ www.socio.ethz.ch/vlib/pesb/pesb9.pdf 
+ []
+
+
+LaTeX Warning: Citation `evolution of cooperation' on page 5 undefined on input
+ line 263.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[5]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[6]
+Overfull \hbox (13.79596pt too wide) in paragraph at lines 313--359
+[][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[7]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[8]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ∂ in font cmr12!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[9
+
+] (./results.tex
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[10
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Cooperate.eps>
+(epstopdf)                    date: 2011-12-15 16:38:10
+(epstopdf)                    size: 11657 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Cooperate-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-15 17:14:41
+(epstopdf)                    size: 4176 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Cooperate-eps-converted-to.pdf pics/simulation1/Reward_vs_Noise
+_of_Player_Cooperate.eps>
+(epstopdf)             \includegraphics on input line 42.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Cooperate-eps-converted-to.pdf, id=
+709, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Cooperate-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Cooperate-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Cooperate.eps>
+(epstopdf)                    date: 2011-12-15 16:40:44
+(epstopdf)                    size: 11410 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Cooperate-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-15 17:14:43
+(epstopdf)                    size: 4111 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Cooperate-eps-converted-to.pdf pics/simulation2/Reward_vs_Noise
+_of_Player_Cooperate.eps>
+(epstopdf)             \includegraphics on input line 47.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Cooperate-eps-converted-to.pdf, id=
+710, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Cooperate-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Cooperate-eps-converted-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Defect.eps>
+(epstopdf)                    date: 2011-12-15 16:38:12
+(epstopdf)                    size: 11586 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Defect-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-15 17:20:14
+(epstopdf)                    size: 4148 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Defect-eps-converted-to.pdf pics/simulation1/Reward_vs_Noise_of
+_Player_Defect.eps>
+(epstopdf)             \includegraphics on input line 80.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Defect-eps-converted-to.pdf, id=716
+, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Defect-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Defect-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Defect.eps>
+(epstopdf)                    date: 2011-12-15 16:40:44
+(epstopdf)                    size: 11552 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Defect-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-15 17:20:16
+(epstopdf)                    size: 4134 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Defect-eps-converted-to.pdf pics/simulation2/Reward_vs_Noise_of
+_Player_Defect.eps>
+(epstopdf)             \includegraphics on input line 85.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Defect-eps-converted-to.pdf, id=717
+, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Defect-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Defect-eps-converted-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[12 <./pics/simulation1/Reward_vs_Noise_of_Player_Cooperate-eps-converted-to.pd
+f> <./pics/simulation2/Reward_vs_Noise_of_Player_Cooperate-eps-converted-to.pdf
+>]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Random.eps>
+(epstopdf)                    date: 2011-12-15 16:38:12
+(epstopdf)                    size: 11509 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Random-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:29:56
+(epstopdf)                    size: 8935 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Random-eps-converted-to.pdf pics/simulation1/Reward_vs_Noise_of
+_Player_Random.eps>
+(epstopdf)             \includegraphics on input line 111.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Random-eps-converted-to.pdf, id=732
+, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Random-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Random-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Random.eps>
+(epstopdf)                    date: 2011-12-15 16:40:46
+(epstopdf)                    size: 11504 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Random-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:29:56
+(epstopdf)                    size: 8936 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Random-eps-converted-to.pdf pics/simulation2/Reward_vs_Noise_of
+_Player_Random.eps>
+(epstopdf)             \includegraphics on input line 116.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Random-eps-converted-to.pdf, id=733
+, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Random-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Random-eps-converted-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Tit_for_tat.eps>
+(epstopdf)                    date: 2011-12-15 16:38:12
+(epstopdf)                    size: 11519 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Tit_for_tat-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:33:01
+(epstopdf)                    size: 8547 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Tit_for_tat-eps-converted-to.pdf pics/simulation1/Reward_vs_Noi
+se_of_Player_Tit_for_tat.eps>
+(epstopdf)             \includegraphics on input line 130.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_tat-eps-converted-to.pdf, i
+d=735, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_tat-eps-converted-to.p
+df Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_tat-eps-converted-to.pd
+f>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Tit_for_tat.eps>
+(epstopdf)                    date: 2011-12-15 16:40:46
+(epstopdf)                    size: 11565 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Tit_for_tat-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:33:02
+(epstopdf)                    size: 8553 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Tit_for_tat-eps-converted-to.pdf pics/simulation2/Reward_vs_Noi
+se_of_Player_Tit_for_tat.eps>
+(epstopdf)             \includegraphics on input line 135.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_tat-eps-converted-to.pdf, i
+d=736, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_tat-eps-converted-to.p
+df Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_tat-eps-converted-to.pd
+f>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[13 <./pics/simulation1/Reward_vs_Noise_of_Player_Defect-eps-converted-to.pdf> 
+<./pics/simulation2/Reward_vs_Noise_of_Player_Defect-eps-converted-to.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[14 <./pics/simulation1/Reward_vs_Noise_of_Player_Random-eps-converted-to.pdf> 
+<./pics/simulation2/Reward_vs_Noise_of_Player_Random-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Friedmann.eps>
+(epstopdf)                    date: 2011-12-15 16:38:14
+(epstopdf)                    size: 11360 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Friedmann-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-15 17:59:03
+(epstopdf)                    size: 4101 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Friedmann-eps-converted-to.pdf pics/simulation1/Reward_vs_Noise
+_of_Player_Friedmann.eps>
+(epstopdf)             \includegraphics on input line 215.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Friedmann-eps-converted-to.pdf, id=
+772, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Friedmann-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Friedmann-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Friedmann.eps>
+(epstopdf)                    date: 2011-12-15 16:40:46
+(epstopdf)                    size: 11410 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Friedmann-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-15 17:59:05
+(epstopdf)                    size: 4107 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Friedmann-eps-converted-to.pdf pics/simulation2/Reward_vs_Noise
+_of_Player_Friedmann.eps>
+(epstopdf)             \includegraphics on input line 220.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Friedmann-eps-converted-to.pdf, id=
+773, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Friedmann-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Friedmann-eps-converted-to.pdf>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[15 <./pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_tat-eps-converted-to.
+pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_tat-eps-converted-to
+.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[16 <./pics/simulation1/Reward_vs_Noise_of_Player_Friedmann-eps-converted-to.pd
+f> <./pics/simulation2/Reward_vs_Noise_of_Player_Friedmann-eps-converted-to.pdf
+>]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Pavlov.eps>
+(epstopdf)                    date: 2011-12-15 16:38:14
+(epstopdf)                    size: 11503 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Pavlov-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-15 18:04:04
+(epstopdf)                    size: 4129 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Pavlov-eps-converted-to.pdf pics/simulation1/Reward_vs_Noise_of
+_Player_Pavlov.eps>
+(epstopdf)             \includegraphics on input line 266.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Pavlov-eps-converted-to.pdf, id=807
+, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Pavlov-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Pavlov-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Pavlov.eps>
+(epstopdf)                    date: 2011-12-15 16:40:46
+(epstopdf)                    size: 11348 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Pavlov-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:33:02
+(epstopdf)                    size: 8267 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Pavlov-eps-converted-to.pdf pics/simulation2/Reward_vs_Noise_of
+_Player_Pavlov.eps>
+(epstopdf)             \includegraphics on input line 271.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Pavlov-eps-converted-to.pdf, id=808
+, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Pavlov-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Pavlov-eps-converted-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[17]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Tit_for_2tat.eps>
+(epstopdf)                    date: 2011-12-15 16:38:14
+(epstopdf)                    size: 11464 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Tit_for_2tat-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:33:02
+(epstopdf)                    size: 8601 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Tit_for_2tat-eps-converted-to.pdf pics/simulation1/Reward_vs_No
+ise_of_Player_Tit_for_2tat.eps>
+(epstopdf)             \includegraphics on input line 319.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_2tat-eps-converted-to.pdf, 
+id=813, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_2tat-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_2tat-eps-converted-to.p
+df>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Tit_for_2tat.eps>
+(epstopdf)                    date: 2011-12-15 16:40:46
+(epstopdf)                    size: 11608 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Tit_for_2tat-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:33:02
+(epstopdf)                    size: 8647 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Tit_for_2tat-eps-converted-to.pdf pics/simulation2/Reward_vs_No
+ise_of_Player_Tit_for_2tat.eps>
+(epstopdf)             \includegraphics on input line 324.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_2tat-eps-converted-to.pdf, 
+id=814, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_2tat-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_2tat-eps-converted-to.p
+df>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[18 <./pics/simulation1/Reward_vs_Noise_of_Player_Pavlov-eps-converted-to.pdf> 
+<./pics/simulation2/Reward_vs_Noise_of_Player_Pavlov-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Joss.eps>
+(epstopdf)                    date: 2011-12-15 16:38:14
+(epstopdf)                    size: 11401 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Joss-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:33:02
+(epstopdf)                    size: 8643 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Joss-eps-converted-to.pdf pics/simulation1/Reward_vs_Noise_of_P
+layer_Joss.eps>
+(epstopdf)             \includegraphics on input line 368.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Joss-eps-converted-to.pdf, id=832, 
+506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Joss-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Joss-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Joss.eps>
+(epstopdf)                    date: 2011-12-15 16:40:48
+(epstopdf)                    size: 11444 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Joss-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:33:02
+(epstopdf)                    size: 8641 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Joss-eps-converted-to.pdf pics/simulation2/Reward_vs_Noise_of_P
+layer_Joss.eps>
+(epstopdf)             \includegraphics on input line 373.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Joss-eps-converted-to.pdf, id=833, 
+506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Joss-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Joss-eps-converted-to.pdf>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[19 <./pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_2tat-eps-converted-to
+.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_2tat-eps-converted-
+to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[20 <./pics/simulation1/Reward_vs_Noise_of_Player_Joss-eps-converted-to.pdf> <.
+/pics/simulation2/Reward_vs_Noise_of_Player_Joss-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[21]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Diekmann.eps>
+(epstopdf)                    date: 2011-12-15 16:38:16
+(epstopdf)                    size: 11407 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Diekmann-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-15 18:14:08
+(epstopdf)                    size: 4108 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Diekmann-eps-converted-to.pdf pics/simulation1/Reward_vs_Noise_
+of_Player_Diekmann.eps>
+(epstopdf)             \includegraphics on input line 420.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Diekmann-eps-converted-to.pdf, id=8
+78, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Diekmann-eps-converted-to.pdf 
+Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Diekmann-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Diekmann.eps>
+(epstopdf)                    date: 2011-12-15 16:40:48
+(epstopdf)                    size: 11364 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Diekmann-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:33:02
+(epstopdf)                    size: 8711 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Diekmann-eps-converted-to.pdf pics/simulation2/Reward_vs_Noise_
+of_Player_Diekmann.eps>
+(epstopdf)             \includegraphics on input line 425.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Diekmann-eps-converted-to.pdf, id=8
+79, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Diekmann-eps-converted-to.pdf 
+Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Diekmann-eps-converted-to.pdf>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[22 <./pics/simulation1/Reward_vs_Noise_of_Player_Diekmann-eps-converted-to.pdf
+> <./pics/simulation2/Reward_vs_Noise_of_Player_Diekmann-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Tit_for_average_tat.eps>
+(epstopdf)                    date: 2011-12-15 16:38:16
+(epstopdf)                    size: 11490 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Tit_for_average_tat-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:33:03
+(epstopdf)                    size: 8561 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Tit_for_average_tat-eps-converted-to.pdf pics/simulation1/Rewar
+d_vs_Noise_of_Player_Tit_for_average_tat.eps>
+(epstopdf)             \includegraphics on input line 469.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_average_tat-eps-converted-t
+o.pdf, id=896, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_average_tat-eps-conver
+ted-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_average_tat-eps-convert
+ed-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Tit_for_average_tat.eps>
+(epstopdf)                    date: 2011-12-15 16:40:48
+(epstopdf)                    size: 11572 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Tit_for_average_tat-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:33:03
+(epstopdf)                    size: 8565 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Tit_for_average_tat-eps-converted-to.pdf pics/simulation2/Rewar
+d_vs_Noise_of_Player_Tit_for_average_tat.eps>
+(epstopdf)             \includegraphics on input line 474.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_average_tat-eps-converted-t
+o.pdf, id=897, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_average_tat-eps-conver
+ted-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_average_tat-eps-convert
+ed-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[23 <./pics/simulation1/Reward_vs_Noise_of_Player_Tit_for_average_tat-eps-conve
+rted-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Tit_for_average_tat-
+eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Reconcilation_TFT.eps>
+(epstopdf)                    date: 2011-12-15 16:38:16
+(epstopdf)                    size: 11575 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Reconcilation_TFT-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:34:13
+(epstopdf)                    size: 8863 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Reconcilation_TFT-eps-converted-to.pdf pics/simulation1/Reward_
+vs_Noise_of_Player_Reconcilation_TFT.eps>
+(epstopdf)             \includegraphics on input line 518.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Reconcilation_TFT-eps-converted-to.
+pdf, id=918, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Reconcilation_TFT-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Reconcilation_TFT-eps-converted
+-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Reconcilation_TFT.eps>
+(epstopdf)                    date: 2011-12-15 16:40:48
+(epstopdf)                    size: 11526 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Reconcilation_TFT-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:34:13
+(epstopdf)                    size: 8860 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Reconcilation_TFT-eps-converted-to.pdf pics/simulation2/Reward_
+vs_Noise_of_Player_Reconcilation_TFT.eps>
+(epstopdf)             \includegraphics on input line 523.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Reconcilation_TFT-eps-converted-to.
+pdf, id=919, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Reconcilation_TFT-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Reconcilation_TFT-eps-converted
+-to.pdf>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[24 <./pics/simulation1/Reward_vs_Noise_of_Player_Reconcilation_TFT-eps-convert
+ed-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Reconcilation_TFT-eps-
+converted-to.pdf>]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_CDowning.eps>
+(epstopdf)                    date: 2011-12-15 16:38:18
+(epstopdf)                    size: 11451 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_CDowning-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:34:13
+(epstopdf)                    size: 8748 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_CDowning-eps-converted-to.pdf pics/simulation1/Reward_vs_Noise_
+of_Player_CDowning.eps>
+(epstopdf)             \includegraphics on input line 565.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_CDowning-eps-converted-to.pdf, id=9
+41, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_CDowning-eps-converted-to.pdf 
+Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_CDowning-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_CDowning.eps>
+(epstopdf)                    date: 2011-12-15 16:40:50
+(epstopdf)                    size: 11407 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_CDowning-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:35:38
+(epstopdf)                    size: 8740 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_CDowning-eps-converted-to.pdf pics/simulation2/Reward_vs_Noise_
+of_Player_CDowning.eps>
+(epstopdf)             \includegraphics on input line 570.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_CDowning-eps-converted-to.pdf, id=9
+42, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_CDowning-eps-converted-to.pdf 
+Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_CDowning-eps-converted-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_DDowning.eps>
+(epstopdf)                    date: 2011-12-15 16:38:20
+(epstopdf)                    size: 11550 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_DDowning-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:35:38
+(epstopdf)                    size: 8756 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_DDowning-eps-converted-to.pdf pics/simulation1/Reward_vs_Noise_
+of_Player_DDowning.eps>
+(epstopdf)             \includegraphics on input line 579.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_DDowning-eps-converted-to.pdf, id=9
+43, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_DDowning-eps-converted-to.pdf 
+Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_DDowning-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_DDowning.eps>
+(epstopdf)                    date: 2011-12-15 16:40:52
+(epstopdf)                    size: 11407 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_DDowning-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:35:38
+(epstopdf)                    size: 8637 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_DDowning-eps-converted-to.pdf pics/simulation2/Reward_vs_Noise_
+of_Player_DDowning.eps>
+(epstopdf)             \includegraphics on input line 584.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_DDowning-eps-converted-to.pdf, id=9
+44, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_DDowning-eps-converted-to.pdf 
+Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_DDowning-eps-converted-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[25]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_TFT_with_Reputation.eps>
+(epstopdf)                    date: 2011-12-15 16:38:18
+(epstopdf)                    size: 11579 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_TFT_with_Reputation-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:36:36
+(epstopdf)                    size: 8964 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_TFT_with_Reputation-eps-converted-to.pdf pics/simulation1/Rewar
+d_vs_Noise_of_Player_TFT_with_Reputation.eps>
+(epstopdf)             \includegraphics on input line 641.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_TFT_with_Reputation-eps-converted-t
+o.pdf, id=949, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_TFT_with_Reputation-eps-conver
+ted-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_TFT_with_Reputation-eps-convert
+ed-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_TFT_with_Reputation.eps>
+(epstopdf)                    date: 2011-12-15 16:40:50
+(epstopdf)                    size: 11534 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_TFT_with_Reputation-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:36:36
+(epstopdf)                    size: 8972 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_TFT_with_Reputation-eps-converted-to.pdf pics/simulation2/Rewar
+d_vs_Noise_of_Player_TFT_with_Reputation.eps>
+(epstopdf)             \includegraphics on input line 646.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_TFT_with_Reputation-eps-converted-t
+o.pdf, id=950, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_TFT_with_Reputation-eps-conver
+ted-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_TFT_with_Reputation-eps-convert
+ed-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[26 <./pics/simulation1/Reward_vs_Noise_of_Player_CDowning-eps-converted-to.pdf
+> <./pics/simulation2/Reward_vs_Noise_of_Player_CDowning-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Strategy_Switcher.eps>
+(epstopdf)                    date: 2011-12-15 16:38:18
+(epstopdf)                    size: 11430 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Strategy_Switcher-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:35:38
+(epstopdf)                    size: 8850 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Strategy_Switcher-eps-converted-to.pdf pics/simulation1/Reward_
+vs_Noise_of_Player_Strategy_Switcher.eps>
+(epstopdf)             \includegraphics on input line 685.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Strategy_Switcher-eps-converted-to.
+pdf, id=971, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Strategy_Switcher-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Strategy_Switcher-eps-converted
+-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Strategy_Switcher.eps>
+(epstopdf)                    date: 2011-12-15 16:40:50
+(epstopdf)                    size: 11389 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Strategy_Switcher-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:35:38
+(epstopdf)                    size: 8866 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Strategy_Switcher-eps-converted-to.pdf pics/simulation2/Reward_
+vs_Noise_of_Player_Strategy_Switcher.eps>
+(epstopdf)             \includegraphics on input line 690.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Strategy_Switcher-eps-converted-to.
+pdf, id=972, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Strategy_Switcher-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Strategy_Switcher-eps-converted
+-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[27 <./pics/simulation1/Reward_vs_Noise_of_Player_DDowning-eps-converted-to.pdf
+> <./pics/simulation2/Reward_vs_Noise_of_Player_DDowning-eps-converted-to.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1867) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[28 <./pics/simulation1/Reward_vs_Noise_of_Player_TFT_with_Reputation-eps-conve
+rted-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_TFT_with_Reputation-
+eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[29 <./pics/simulation1/Reward_vs_Noise_of_Player_Strategy_Switcher-eps-convert
+ed-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Strategy_Switcher-eps-
+converted-to.pdf>]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_LookBack_CDowning.eps>
+(epstopdf)                    date: 2011-12-15 16:38:20
+(epstopdf)                    size: 11692 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_LookBack_CDowning-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:37:50
+(epstopdf)                    size: 9083 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_LookBack_CDowning-eps-converted-to.pdf pics/simulation1/Reward_
+vs_Noise_of_Player_LookBack_CDowning.eps>
+(epstopdf)             \includegraphics on input line 746.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_LookBack_CDowning-eps-converted-to.
+pdf, id=1033, 506.89375pt x 408.52625pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_LookBack_CDowning-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_LookBack_CDowning-eps-converted
+-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_LookBack_CDowning.eps>
+(epstopdf)                    date: 2011-12-15 16:40:52
+(epstopdf)                    size: 11805 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_LookBack_CDowning-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:37:50
+(epstopdf)                    size: 9162 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_LookBack_CDowning-eps-converted-to.pdf pics/simulation2/Reward_
+vs_Noise_of_Player_LookBack_CDowning.eps>
+(epstopdf)             \includegraphics on input line 751.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_LookBack_CDowning-eps-converted-to.
+pdf, id=1034, 506.89375pt x 408.52625pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_LookBack_CDowning-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_LookBack_CDowning-eps-converted
+-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_LookBack_DDowning.eps>
+(epstopdf)                    date: 2011-12-15 16:38:20
+(epstopdf)                    size: 11650 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_LookBack_DDowning-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:37:50
+(epstopdf)                    size: 8857 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_LookBack_DDowning-eps-converted-to.pdf pics/simulation1/Reward_
+vs_Noise_of_Player_LookBack_DDowning.eps>
+(epstopdf)             \includegraphics on input line 761.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_LookBack_DDowning-eps-converted-to.
+pdf, id=1035, 506.89375pt x 408.52625pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_LookBack_DDowning-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_LookBack_DDowning-eps-converted
+-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_LookBack_DDowning.eps>
+(epstopdf)                    date: 2011-12-15 16:40:52
+(epstopdf)                    size: 11653 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_LookBack_DDowning-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:37:50
+(epstopdf)                    size: 8862 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_LookBack_DDowning-eps-converted-to.pdf pics/simulation2/Reward_
+vs_Noise_of_Player_LookBack_DDowning.eps>
+(epstopdf)             \includegraphics on input line 766.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_LookBack_DDowning-eps-converted-to.
+pdf, id=1036, 506.89375pt x 408.52625pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_LookBack_DDowning-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_LookBack_DDowning-eps-converted
+-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[30 <./pics/simulation1/Reward_vs_Noise_of_Player_LookBack_CDowning-eps-convert
+ed-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_LookBack_CDowning-eps-
+converted-to.pdf>]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Watcher.eps>
+(epstopdf)                    date: 2011-12-15 16:38:22
+(epstopdf)                    size: 11450 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Watcher-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:37:50
+(epstopdf)                    size: 8662 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Watcher-eps-converted-to.pdf pics/simulation1/Reward_vs_Noise_o
+f_Player_Watcher.eps>
+(epstopdf)             \includegraphics on input line 825.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Watcher-eps-converted-to.pdf, id=10
+58, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Watcher-eps-converted-to.pdf G
+raphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Watcher-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Watcher.eps>
+(epstopdf)                    date: 2011-12-15 16:40:54
+(epstopdf)                    size: 11447 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Watcher-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:37:51
+(epstopdf)                    size: 8675 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Watcher-eps-converted-to.pdf pics/simulation2/Reward_vs_Noise_o
+f_Player_Watcher.eps>
+(epstopdf)             \includegraphics on input line 830.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Watcher-eps-converted-to.pdf, id=10
+59, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Watcher-eps-converted-to.pdf G
+raphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Watcher-eps-converted-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[31 <./pics/simulation1/Reward_vs_Noise_of_Player_LookBack_DDowning-eps-convert
+ed-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_LookBack_DDowning-eps-
+converted-to.pdf>]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Evolutionary.eps>
+(epstopdf)                    date: 2011-12-15 16:38:22
+(epstopdf)                    size: 11518 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Evolutionary-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:37:51
+(epstopdf)                    size: 8746 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Evolutionary-eps-converted-to.pdf pics/simulation1/Reward_vs_No
+ise_of_Player_Evolutionary.eps>
+(epstopdf)             \includegraphics on input line 869.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Evolutionary-eps-converted-to.pdf, 
+id=1080, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Evolutionary-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Evolutionary-eps-converted-to.p
+df>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Evolutionary.eps>
+(epstopdf)                    date: 2011-12-15 16:40:54
+(epstopdf)                    size: 11560 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Evolutionary-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:37:51
+(epstopdf)                    size: 8749 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Evolutionary-eps-converted-to.pdf pics/simulation2/Reward_vs_No
+ise_of_Player_Evolutionary.eps>
+(epstopdf)             \includegraphics on input line 874.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Evolutionary-eps-converted-to.pdf, 
+id=1081, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Evolutionary-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Evolutionary-eps-converted-to.p
+df>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[32 <./pics/simulation1/Reward_vs_Noise_of_Player_Watcher-eps-converted-to.pdf>
+ <./pics/simulation2/Reward_vs_Noise_of_Player_Watcher-eps-converted-to.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[33 <./pics/simulation1/Reward_vs_Noise_of_Player_Evolutionary-eps-converted-to
+.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Evolutionary-eps-converted-
+to.pdf>]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT.eps>
+(epstopdf)                    date: 2011-12-15 16:38:22
+(epstopdf)                    size: 11544 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:26:50
+(epstopdf)                    size: 9088 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Limited_Reconcilation_TFT-eps-converted-to.pdf pics/simulation1
+/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT.eps>
+(epstopdf)             \includegraphics on input line 913.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-conve
+rted-to.pdf, id=1122, 506.89375pt x 403.5075pt>
+File: pics/simulation1/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-c
+onverted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT.eps>
+(epstopdf)                    date: 2011-12-15 16:40:54
+(epstopdf)                    size: 11590 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:26:50
+(epstopdf)                    size: 9074 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Limited_Reconcilation_TFT-eps-converted-to.pdf pics/simulation2
+/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT.eps>
+(epstopdf)             \includegraphics on input line 918.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-conve
+rted-to.pdf, id=1123, 506.89375pt x 403.5075pt>
+File: pics/simulation2/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-c
+onverted-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[34 <./pics/simulation1/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps
+-converted-to.pdf> <./pics/simulation2/Reward_vs_Noise_of_Player_Limited_Reconc
+ilation_TFT-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT.eps>
+(epstopdf)                    date: 2011-12-15 16:38:22
+(epstopdf)                    size: 11544 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:26:50
+(epstopdf)                    size: 9088 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Limited_Reconcilation_TFT-eps-converted-to.pdf pics/simulation1
+/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT.eps>
+(epstopdf)             \includegraphics on input line 980.
+Package epstopdf Info: Output file is already uptodate.
+File: pics/simulation1/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-c
+onverted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT.eps>
+(epstopdf)                    date: 2011-12-15 16:40:54
+(epstopdf)                    size: 11590 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:26:50
+(epstopdf)                    size: 9074 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Limited_Reconcilation_TFT-eps-converted-to.pdf pics/simulation2
+/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT.eps>
+(epstopdf)             \includegraphics on input line 985.
+Package epstopdf Info: Output file is already uptodate.
+File: pics/simulation2/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-c
+onverted-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT.eps>
+(epstopdf)                    date: 2011-12-15 16:38:22
+(epstopdf)                    size: 11544 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:26:50
+(epstopdf)                    size: 9088 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Limited_Reconcilation_TFT-eps-converted-to.pdf pics/simulation1
+/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT.eps>
+(epstopdf)             \includegraphics on input line 997.
+Package epstopdf Info: Output file is already uptodate.
+File: pics/simulation1/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-c
+onverted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT.eps>
+(epstopdf)                    date: 2011-12-15 16:40:54
+(epstopdf)                    size: 11590 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:26:50
+(epstopdf)                    size: 9074 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Limited_Reconcilation_TFT-eps-converted-to.pdf pics/simulation2
+/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT.eps>
+(epstopdf)             \includegraphics on input line 1002.
+Package epstopdf Info: Output file is already uptodate.
+File: pics/simulation2/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-c
+onverted-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT.eps>
+(epstopdf)                    date: 2011-12-15 16:38:22
+(epstopdf)                    size: 11544 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:26:50
+(epstopdf)                    size: 9088 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_vs_
+Noise_of_Player_Limited_Reconcilation_TFT-eps-converted-to.pdf pics/simulation1
+/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT.eps>
+(epstopdf)             \includegraphics on input line 1019.
+Package epstopdf Info: Output file is already uptodate.
+File: pics/simulation1/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-c
+onverted-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT.eps>
+(epstopdf)                    date: 2011-12-15 16:40:54
+(epstopdf)                    size: 11590 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_vs_Noise_of_Player
+_Limited_Reconcilation_TFT-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 13:26:50
+(epstopdf)                    size: 9074 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_vs_
+Noise_of_Player_Limited_Reconcilation_TFT-eps-converted-to.pdf pics/simulation2
+/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT.eps>
+(epstopdf)             \includegraphics on input line 1024.
+Package epstopdf Info: Output file is already uptodate.
+File: pics/simulation2/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_vs_Noise_of_Player_Limited_Reconcilation_TFT-eps-c
+onverted-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[35]
+Package epstopdf Info: Source file: <pics/simulation1/Reward_of__all_Players_at
+_given_Noiselevels_1.eps>
+(epstopdf)                    date: 2011-12-15 16:49:22
+(epstopdf)                    size: 13503 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_of__all_Players_at
+_given_Noiselevels_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 14:30:41
+(epstopdf)                    size: 9704 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_of_
+_all_Players_at_given_Noiselevels_1-eps-converted-to.pdf pics/simulation1/Rewar
+d_of__all_Players_at_given_Noiselevels_1.eps>
+(epstopdf)             \includegraphics on input line 1039.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation1/Reward_of__all_Players_at_given_Noiselevels_1-eps-converted-t
+o.pdf, id=1148, 484.81125pt x 405.515pt>
+File: pics/simulation1/Reward_of__all_Players_at_given_Noiselevels_1-eps-conver
+ted-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_of__all_Players_at_given_Noiselevels_1-eps-convert
+ed-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_of_all_Players_at_
+given_Noiselevels_1.eps>
+(epstopdf)                    date: 2011-12-15 16:51:00
+(epstopdf)                    size: 13503 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_of_all_Players_at_
+given_Noiselevels_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 14:31:37
+(epstopdf)                    size: 9719 bytes
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_of_
+all_Players_at_given_Noiselevels_1-eps-converted-to.pdf pics/simulation2/Reward
+_of_all_Players_at_given_Noiselevels_1.eps>
+(epstopdf)             \includegraphics on input line 1044.
+Package epstopdf Info: Output file is already uptodate.
+
+<pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_1-eps-converted-to
+.pdf, id=1149, 484.81125pt x 405.515pt>
+File: pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_1-eps-convert
+ed-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_1-eps-converte
+d-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Package epstopdf Info: Source file: <pics/simulation1/Reward_of_all_Players_at_
+given_Noiselevels_2.eps>
+(epstopdf)                    date: 2011-12-15 16:49:48
+(epstopdf)                    size: 13377 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_of_all_Players_at_
+given_Noiselevels_2-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_of_
+all_Players_at_given_Noiselevels_2-eps-converted-to.pdf pics/simulation1/Reward
+_of_all_Players_at_given_Noiselevels_2.eps>
+(epstopdf)             \includegraphics on input line 1057.
+runsystem(epstopdf --outfile=pics/simulation1/Reward_of_all_Players_at_given_No
+iselevels_2-eps-converted-to.pdf pics/simulation1/Reward_of_all_Players_at_give
+n_Noiselevels_2.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <pics/simulation1/Reward_of_all_Players_at_
+given_Noiselevels_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 14:34:56
+(epstopdf)                    size: 9691 bytes.
+
+<pics/simulation1/Reward_of_all_Players_at_given_Noiselevels_2-eps-converted-to
+.pdf, id=1150, 484.81125pt x 405.515pt>
+File: pics/simulation1/Reward_of_all_Players_at_given_Noiselevels_2-eps-convert
+ed-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_of_all_Players_at_given_Noiselevels_2-eps-converte
+d-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_of_all_Players_at_
+given_Noiselevels_2.eps>
+(epstopdf)                    date: 2011-12-15 16:50:52
+(epstopdf)                    size: 13503 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_of_all_Players_at_
+given_Noiselevels_2-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_of_
+all_Players_at_given_Noiselevels_2-eps-converted-to.pdf pics/simulation2/Reward
+_of_all_Players_at_given_Noiselevels_2.eps>
+(epstopdf)             \includegraphics on input line 1062.
+runsystem(epstopdf --outfile=pics/simulation2/Reward_of_all_Players_at_given_No
+iselevels_2-eps-converted-to.pdf pics/simulation2/Reward_of_all_Players_at_give
+n_Noiselevels_2.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <pics/simulation2/Reward_of_all_Players_at_
+given_Noiselevels_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 14:34:56
+(epstopdf)                    size: 9862 bytes.
+
+<pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_2-eps-converted-to
+.pdf, id=1151, 484.81125pt x 405.515pt>
+File: pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_2-eps-convert
+ed-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_2-eps-converte
+d-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <pics/simulation1/Reward_of_all_Players_at_
+given_Noiselevels_3.eps>
+(epstopdf)                    date: 2011-12-15 16:50:00
+(epstopdf)                    size: 13505 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_of_all_Players_at_
+given_Noiselevels_3-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_of_
+all_Players_at_given_Noiselevels_3-eps-converted-to.pdf pics/simulation1/Reward
+_of_all_Players_at_given_Noiselevels_3.eps>
+(epstopdf)             \includegraphics on input line 1074.
+runsystem(epstopdf --outfile=pics/simulation1/Reward_of_all_Players_at_given_No
+iselevels_3-eps-converted-to.pdf pics/simulation1/Reward_of_all_Players_at_give
+n_Noiselevels_3.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <pics/simulation1/Reward_of_all_Players_at_
+given_Noiselevels_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 14:34:57
+(epstopdf)                    size: 9724 bytes.
+
+<pics/simulation1/Reward_of_all_Players_at_given_Noiselevels_3-eps-converted-to
+.pdf, id=1152, 484.81125pt x 405.515pt>
+File: pics/simulation1/Reward_of_all_Players_at_given_Noiselevels_3-eps-convert
+ed-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_of_all_Players_at_given_Noiselevels_3-eps-converte
+d-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_of_all_Players_at_
+given_Noiselevels_3.eps>
+(epstopdf)                    date: 2011-12-15 16:50:42
+(epstopdf)                    size: 13505 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_of_all_Players_at_
+given_Noiselevels_3-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_of_
+all_Players_at_given_Noiselevels_3-eps-converted-to.pdf pics/simulation2/Reward
+_of_all_Players_at_given_Noiselevels_3.eps>
+(epstopdf)             \includegraphics on input line 1079.
+runsystem(epstopdf --outfile=pics/simulation2/Reward_of_all_Players_at_given_No
+iselevels_3-eps-converted-to.pdf pics/simulation2/Reward_of_all_Players_at_give
+n_Noiselevels_3.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <pics/simulation2/Reward_of_all_Players_at_
+given_Noiselevels_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 14:34:57
+(epstopdf)                    size: 9721 bytes.
+
+<pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_3-eps-converted-to
+.pdf, id=1153, 484.81125pt x 405.515pt>
+File: pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_3-eps-convert
+ed-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_3-eps-converte
+d-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Package epstopdf Info: Source file: <pics/simulation1/Reward_of_all_Players_at_
+given_Noiselevels_4.eps>
+(epstopdf)                    date: 2011-12-15 16:50:08
+(epstopdf)                    size: 13379 bytes
+(epstopdf)             Output file: <pics/simulation1/Reward_of_all_Players_at_
+given_Noiselevels_4-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation1/Reward_of_
+all_Players_at_given_Noiselevels_4-eps-converted-to.pdf pics/simulation1/Reward
+_of_all_Players_at_given_Noiselevels_4.eps>
+(epstopdf)             \includegraphics on input line 1092.
+runsystem(epstopdf --outfile=pics/simulation1/Reward_of_all_Players_at_given_No
+iselevels_4-eps-converted-to.pdf pics/simulation1/Reward_of_all_Players_at_give
+n_Noiselevels_4.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <pics/simulation1/Reward_of_all_Players_at_
+given_Noiselevels_4-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 14:34:57
+(epstopdf)                    size: 9699 bytes.
+
+<pics/simulation1/Reward_of_all_Players_at_given_Noiselevels_4-eps-converted-to
+.pdf, id=1154, 484.81125pt x 405.515pt>
+File: pics/simulation1/Reward_of_all_Players_at_given_Noiselevels_4-eps-convert
+ed-to.pdf Graphic file (type pdf)
+
+<use pics/simulation1/Reward_of_all_Players_at_given_Noiselevels_4-eps-converte
+d-to.pdf>
+Package epstopdf Info: Source file: <pics/simulation2/Reward_of_all_Players_at_
+given_Noiselevels_4.eps>
+(epstopdf)                    date: 2011-12-15 16:50:34
+(epstopdf)                    size: 13251 bytes
+(epstopdf)             Output file: <pics/simulation2/Reward_of_all_Players_at_
+given_Noiselevels_4-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pics/simulation2/Reward_of_
+all_Players_at_given_Noiselevels_4-eps-converted-to.pdf pics/simulation2/Reward
+_of_all_Players_at_given_Noiselevels_4.eps>
+(epstopdf)             \includegraphics on input line 1097.
+runsystem(epstopdf --outfile=pics/simulation2/Reward_of_all_Players_at_given_No
+iselevels_4-eps-converted-to.pdf pics/simulation2/Reward_of_all_Players_at_give
+n_Noiselevels_4.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <pics/simulation2/Reward_of_all_Players_at_
+given_Noiselevels_4-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-12-16 14:34:57
+(epstopdf)                    size: 9675 bytes.
+
+<pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_4-eps-converted-to
+.pdf, id=1155, 484.81125pt x 405.515pt>
+File: pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_4-eps-convert
+ed-to.pdf Graphic file (type pdf)
+
+<use pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_4-eps-converte
+d-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[36]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[37]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[38 <./pics/simulation1/Reward_of__all_Players_at_given_Noiselevels_1-eps-conve
+rted-to.pdf> <./pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_1-e
+ps-converted-to.pdf> <./pics/simulation1/Reward_of_all_Players_at_given_Noisele
+vels_2-eps-converted-to.pdf> <./pics/simulation2/Reward_of_all_Players_at_given
+_Noiselevels_2-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[39 <./pics/simulation1/Reward_of_all_Players_at_given_Noiselevels_3-eps-conver
+ted-to.pdf> <./pics/simulation2/Reward_of_all_Players_at_given_Noiselevels_3-ep
+s-converted-to.pdf> <./pics/simulation1/Reward_of_all_Players_at_given_Noiselev
+els_4-eps-converted-to.pdf> <./pics/simulation2/Reward_of_all_Players_at_given_
+Noiselevels_4-eps-converted-to.pdf>] (./summary.tex)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[40
+
+] (./references.tex
+Overfull \hbox (12.67976pt too wide) in paragraph at lines 11--12
+[]\OT1/cmr/m/n/12 Kuhn, S., "Pris-oner's Dilemma". URL: http://plato.stanford.e
+du/entries/prisoner-
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[41
+
+] (./appendix.tex
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[42
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[43] (../matlab/Master.m
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
+ (/usr/share/texmf-texlive/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[44
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[45]) (../matlab/win.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[46])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 55.
+
+(../matlab/show_data.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[49]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[52]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[54]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[59]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[61]) (../matlab/playerlist.m) (../matlab/player1.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[62]) (../matlab/player2.m) (../matlab/player3.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[63]) (../matlab/player4.m) (../matlab/player5.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[64]) (../matlab/player6.m) (../matlab/player7.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[65]) (../matlab/player8.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[66]) (../matlab/player9.m) (../matlab/player10.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[67]) (../matlab/player11.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[68]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[69]) (../matlab/player12.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[70])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[71] (../matlab/player13.m) (../matlab/player14.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[73])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[74] (../matlab/player15.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[75]) (../matlab/player16.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[76]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[77]) (../matlab/player17.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[78]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[79]) (../matlab/player18.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[80]) (../matlab/player19.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[81]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[82]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[83]) (../matlab/player20.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[84]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[85]))
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[86] (./report.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 11317 strings out of 495061
+ 173694 string characters out of 1182621
+ 676152 words of memory out of 3000000
+ 12186 multiletter control sequences out of 15000+50000
+ 14918 words of font info for 57 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 42i,15n,43p,1040b,2334s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/urw/courier/ucrro8a.p
+fb>
+Output written on report.pdf (93 pages, 1042305 bytes).
+PDF statistics:
+ 3617 PDF objects out of 4296 (max. 8388607)
+ 2003 named destinations out of 2073 (max. 500000)
+ 1001 words of extra memory for PDF output out of 10000 (max. 10000000)
+

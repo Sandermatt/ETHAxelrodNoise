@@ -1,99 +1,88 @@
 Players in a 0.05 range for each noise level 
 
-Noise level 1: 0.15, Noise level 2: 0.15, highest reward: 2.5300, in range (>2.4035):
-Defect (2.5200)
-Tit for tat (2.5000)
-Friedmann (2.4500)
-Tit for 2tat (2.4300)
-Diekmann (2.5100)
-Tit for average tat (2.5300)
+Noise level 1: 0.00, Noise level 2: 0.00, highest reward: 2.6479, in range (>2.5155):
+Tit for tat (2.6408)
+Tit for 2tat (2.5396)
+Diekmann (2.6479)
+Tit for average tat (2.6131)
+Reconcilation TFT (2.5979)
+TFT with Reputation (2.6388)
+Strategy Switcher (2.5168)
+Limited Reconcilation TFT (2.6052)
 
-Noise level 1: 0.15, Noise level 2: 0.20, highest reward: 2.7200, in range (>2.5840):
-Defect (2.7200)
+Noise level 1: 0.00, Noise level 2: 0.05, highest reward: 2.7407, in range (>2.6037):
+Tit for tat (2.6609)
+Pavlov (2.6725)
+Diekmann (2.7407)
+Tit for average tat (2.6494)
+Reconcilation TFT (2.7036)
+TFT with Reputation (2.6598)
+LookBack_CDowning (2.6096)
+Limited Reconcilation TFT (2.6460)
 
-Noise level 1: 0.15, Noise level 2: 0.25, highest reward: 2.4100, in range (>2.2895):
-Defect (2.4000)
-Random (2.3500)
-Tit for tat (2.3500)
-Friedmann (2.4000)
-Joss (2.4100)
+Noise level 1: 0.00, Noise level 2: 0.10, highest reward: 2.7717, in range (>2.6331):
+Tit for tat (2.7717)
+Diekmann (2.7414)
+Tit for average tat (2.7508)
+Reconcilation TFT (2.7181)
+TFT with Reputation (2.6590)
+Limited Reconcilation TFT (2.7531)
 
-Noise level 1: 0.15, Noise level 2: 0.30, highest reward: 2.9200, in range (>2.7740):
-Defect (2.9200)
+Noise level 1: 0.00, Noise level 2: 0.15, highest reward: 2.7651, in range (>2.6269):
+Tit for tat (2.7651)
+Tit for 2tat (2.6787)
+Tit for average tat (2.6392)
+TFT with Reputation (2.6405)
+Limited Reconcilation TFT (2.7333)
 
-Noise level 1: 0.15, Noise level 2: 0.35, highest reward: 2.6100, in range (>2.4795):
-Defect (2.5600)
-Random (2.6100)
-Friedmann (2.5200)
-Joss (2.5400)
+Noise level 1: 0.05, Noise level 2: 0.00, highest reward: 2.5303, in range (>2.4038):
+Strategy Switcher (2.5303)
 
-Noise level 1: 0.20, Noise level 2: 0.15, highest reward: 2.5600, in range (>2.4320):
-Random (2.5600)
-Tit for tat (2.4700)
+Noise level 1: 0.05, Noise level 2: 0.05, highest reward: 2.5292, in range (>2.4027):
+Strategy Switcher (2.5292)
+LookBack_CDowning (2.4252)
 
-Noise level 1: 0.20, Noise level 2: 0.20, highest reward: 2.5800, in range (>2.4510):
-Defect (2.5200)
-Friedmann (2.5800)
+Noise level 1: 0.05, Noise level 2: 0.10, highest reward: 2.6245, in range (>2.4933):
+Strategy Switcher (2.6245)
 
-Noise level 1: 0.20, Noise level 2: 0.25, highest reward: 3.0800, in range (>2.9260):
-Defect (3.0800)
+Noise level 1: 0.05, Noise level 2: 0.15, highest reward: 2.4902, in range (>2.3657):
+Tit for tat (2.4174)
+TFT with Reputation (2.4224)
+Strategy Switcher (2.4902)
+LookBack_CDowning (2.3969)
 
-Noise level 1: 0.20, Noise level 2: 0.30, highest reward: 2.7600, in range (>2.6220):
-Defect (2.7600)
+Noise level 1: 0.10, Noise level 2: 0.00, highest reward: 2.4332, in range (>2.3115):
+Strategy Switcher (2.4332)
+LookBack_CDowning (2.3378)
 
-Noise level 1: 0.20, Noise level 2: 0.35, highest reward: 3.1200, in range (>2.9640):
-Defect (3.1200)
+Noise level 1: 0.10, Noise level 2: 0.05, highest reward: 2.5391, in range (>2.4122):
+Strategy Switcher (2.5391)
 
-Noise level 1: 0.25, Noise level 2: 0.15, highest reward: 2.7600, in range (>2.6220):
-Defect (2.7600)
+Noise level 1: 0.10, Noise level 2: 0.10, highest reward: 2.3077, in range (>2.1923):
+Tit for tat (2.2546)
+Joss (2.2687)
+Diekmann (2.2234)
+Tit for average tat (2.2113)
+Reconcilation TFT (2.2179)
+TFT with Reputation (2.2167)
+Strategy Switcher (2.3077)
+LookBack_CDowning (2.2657)
+LookBack_DDowning (2.2630)
+Limited Reconcilation TFT (2.2903)
 
-Noise level 1: 0.25, Noise level 2: 0.20, highest reward: 2.5600, in range (>2.4320):
-Defect (2.5600)
+Noise level 1: 0.10, Noise level 2: 0.15, highest reward: 2.4276, in range (>2.3063):
+Joss (2.3081)
+Strategy Switcher (2.4276)
 
-Noise level 1: 0.25, Noise level 2: 0.25, highest reward: 2.6000, in range (>2.4700):
-Defect (2.6000)
+Noise level 1: 0.15, Noise level 2: 0.00, highest reward: 2.4686, in range (>2.3452):
+Strategy Switcher (2.4686)
 
-Noise level 1: 0.25, Noise level 2: 0.30, highest reward: 2.7200, in range (>2.5840):
-Defect (2.7200)
+Noise level 1: 0.15, Noise level 2: 0.05, highest reward: 2.4595, in range (>2.3365):
+Strategy Switcher (2.4595)
 
-Noise level 1: 0.25, Noise level 2: 0.35, highest reward: 2.8100, in range (>2.6695):
-Friedmann (2.8100)
+Noise level 1: 0.15, Noise level 2: 0.10, highest reward: 2.4454, in range (>2.3231):
+Strategy Switcher (2.4454)
 
-Noise level 1: 0.30, Noise level 2: 0.15, highest reward: 2.4400, in range (>2.3180):
-Defect (2.4400)
-Friedmann (2.3300)
-Tit for 2tat (2.3400)
-
-Noise level 1: 0.30, Noise level 2: 0.20, highest reward: 2.7600, in range (>2.6220):
-Defect (2.7600)
-
-Noise level 1: 0.30, Noise level 2: 0.25, highest reward: 2.8500, in range (>2.7075):
-Friedmann (2.8500)
-
-Noise level 1: 0.30, Noise level 2: 0.30, highest reward: 2.8900, in range (>2.7455):
-Defect (2.7600)
-Friedmann (2.8900)
-
-Noise level 1: 0.30, Noise level 2: 0.35, highest reward: 2.8100, in range (>2.6695):
-Friedmann (2.8100)
-
-Noise level 1: 0.35, Noise level 2: 0.15, highest reward: 2.4800, in range (>2.3560):
-Defect (2.4800)
-Friedmann (2.4500)
-
-Noise level 1: 0.35, Noise level 2: 0.20, highest reward: 2.4500, in range (>2.3275):
-Defect (2.4400)
-Tit for tat (2.4500)
-Friedmann (2.3300)
-
-Noise level 1: 0.35, Noise level 2: 0.25, highest reward: 2.6400, in range (>2.5080):
-Defect (2.6400)
-Friedmann (2.5300)
-
-Noise level 1: 0.35, Noise level 2: 0.30, highest reward: 2.8400, in range (>2.6980):
-Defect (2.8400)
-
-Noise level 1: 0.35, Noise level 2: 0.35, highest reward: 2.6800, in range (>2.5460):
-Defect (2.6800)
-Friedmann (2.6600)
+Noise level 1: 0.15, Noise level 2: 0.15, highest reward: 2.5357, in range (>2.4089):
+Strategy Switcher (2.5357)
 

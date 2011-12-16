@@ -4,9 +4,11 @@
 % 2.cell: plot reward of all players with given noiselevels
 % 3.cell: plot cooperation of all players with given noiselevels
 % 4.cell: plot statistics for a given player (reward vs given noiselevels)
-% 5.cell: plot statistics for a given player (cooperation vs given noiselevels)
+% with surface plot
+% 5.cell: plot statistics for a given player (cooperation vs given
+% noiselevels) with surfac plot
 % 6.cell: reward vs noise with name of the best player in plot
-% 7.cell: total cooperation/reward normed
+% 7.cell: total cooperation/reward normed with surface plot
 % 8.cell: 2 given Players against each other 
 
 % Use of file:
@@ -26,7 +28,7 @@
 % hint: just run one cell, if only this result is desired
 % warning: the more things you want to plot, the more plots you got
 
-%##########################################################################
+%#################################################################################
 
 %% Initialize and get data of the simulation file
 
@@ -37,7 +39,7 @@ clear filename vars rewardMatrix numberOfPlayers numberOfTurns listOfPlayers ...
 
 % Inputs:
 filename = 'simulation.mat';               % name of the simulation-file
-
+nummberOfSimulation = 1;                   % number of simulation
 % Calc:
 vars=load(filename);                       % load variables of the simulation-file
 figureCounter = 1;                         % open new figure for each plot
@@ -97,9 +99,11 @@ rewardVectors = zeros(lengthN,numberOfPlayers);% the reward vector for each
 
 
 h = figure(figureCounter);                               % initialize figure
+
 set(h,'NumberTitle','off')
-set(h,'Position',[10 500 1200 800])         % position and size of figure
-set(h,'Name','Reward of all Players at given Noiselevels')  % set title of figure
+set(h,'Position',[10 100 1000 600])         % position and size of figure
+set(h,'Name',['Reward of all Players at given Noiselevels ' int2str(1)])  
+                                            % set title of figure
 
 for i = 1:lengthN                    % iterate over all noise lever constellations
     for k = 1:numberOfPlayers               % iterate over all players
@@ -123,8 +127,9 @@ for i = 1:lengthN                    % iterate over all noise lever constellatio
         ,'bold','FontSize',12);
     xlabel('Players','FontWeight','bold','FontSize',10)
     ylabel('Average profit of Player','FontWeight','bold','FontSize',10)
+    
 end
-
+saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\'get(h,'Name') '.eps'])
 figureCounter = figureCounter + 1;  % update figurecounter
 
 %% Plot Cooperation of all players with given noiselevels
@@ -133,26 +138,31 @@ figureCounter = figureCounter + 1;  % update figurecounter
 clear noiseLevel tempCoopMatrix coopectors i k h lengthN
 
 % Inputs:
-noiseLevel = [1;...                   % Noise Level 1 (player --> opponent)
-              1];                     % Noise Level 2 (opponent --> player)
+noiseLevel = [1 2;...                   % Noise Level 1 (player --> opponent)
+              1 2];                     % Noise Level 2 (opponent --> player)
           
 
 % Calc: 
 tempCoopMatrix = zeros(numberOfPlayers);  % temporary rewardmatrix
-lengthN = size(noiseLevel,2);               % number of diffrent noise level constellations
-coopVectors = zeros(lengthN,numberOfPlayers); % the cooperation vector for each noise level constellation is saved
+lengthN = size(noiseLevel,2);      % number of diffrent noise level constellations
+coopVectors = zeros(lengthN,numberOfPlayers); % the cooperation vector for each 
+                                              % noise level constellation is saved
 
 
 h = figure(figureCounter);                               % initialize figure
 set(h,'NumberTitle','off')
-set(h,'Position',[10 500 1200 800])         % position and size of figure
-set(h,'Name','Cooperation of all Players at given Noiselevels')  % set title of figure
+set(h,'Position',[10 100 900 600])         % position and size of figure
+set(h,'Name','Cooperation of all Players at given Noiselevels')  % set title of 
+                                            % figure
 
-for i = 1:lengthN                           % iterate over all noise lever constellations
-    for k = 1:numberOfPlayers               % iterate over all players
-        eval(['tempCoopMatrix(' int2str(k) ',:)=C' int2str(k) '(noiseLevel(1,i),noiseLevel(2,i),:);']); % save cooperation of each player in temporary cooperation matrix
+for i = 1:lengthN                    % iterate over all noise lever constellations
+    for k = 1:numberOfPlayers        % iterate over all players
+        eval(['tempCoopMatrix(' int2str(k) ',:)=C' int2str(k) ...
+            '(noiseLevel(1,i),noiseLevel(2,i),:);']); % save cooperation of each 
+                                          % player in temporary cooperation matrix
     end
-    coopVectors(i,:)=mean(tempCoopMatrix,2); % coopvector of each noise level constellation is saved
+    coopVectors(i,:)=mean(tempCoopMatrix,2); % coopvector of each noise level 
+                                             % constellation is saved
     
     
     subplot(lengthN,1,i)                    % plotting options
@@ -161,35 +171,44 @@ for i = 1:lengthN                           % iterate over all noise lever const
     set(gca,'XTick',1:1:numberOfPlayers)
     set(gca,'XTickLabel',short,'FontSize',8)
     set(gca,'XLim',[0 numberOfPlayers+1])
-    set(gca,'YLim',[max((min(coopVectors(i,:))-0.05),0) min((max(coopVectors(i,:))+0.05),1)]) 
-    title(['Noiseplot with Noiselevel 1: ',num2str(noise(1,noiseLevel(1,i))),', and Noiselevel 2: ', num2str(noise(2,noiseLevel(2,i)))],'FontWeight','bold','FontSize',12);
+    set(gca,'YLim',[max((min(coopVectors(i,:))-0.05),0) min((...
+        max(coopVectors(i,:))+0.05),1)]) 
+    title(['Noiseplot with Noiselevel 1: ',num2str(noise(1,noiseLevel(1,i))),...
+        ', and Noiselevel 2: ', num2str(noise(2,noiseLevel(2,i)))],'FontWeight'...
+        ,'bold','FontSize',12);
     xlabel('Players','FontWeight','bold','FontSize',10)
     ylabel('Cooperation of Player in %','FontWeight','bold','FontSize',10)
 end
-
+saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\'get(h,'Name') '.eps'])
 figureCounter = figureCounter + 1;  % update figurecounter
 
 %% Plot statistics for a given player (Reward vs given Noiselevels)
 
 % Clear used Variables:
-clear position noiseLevel lengthN givenPlayers tempRewardMatrix k tempRewardVector i h
+clear position noiseLevel lengthN givenPlayers tempRewardMatrix k ...
+    tempRewardVector i h
 
 % Inputs: 
-position = [1];                 % Numbers of the players (hint: type listOfPlayers to see which player has which number)
+position = [1];                 % Numbers of the players (hint: type listOfPlayers
+                                % to see which player has which number)
 noiseLevel = [1  ;...          % Noise Level 1
               1];             % Noise Level 2
 
 % Calc:
 givenPlayers = length(position);    % number of given players
 lengthN = size(noiseLevel,2);       % number of given noise level constellations
+tempSurf = zeros(lengthOfNoise);
 
-tempRewardMatrix = zeros(givenPlayers,numberOfPlayers,lengthN); % temporary reward matrix
+tempRewardMatrix = zeros(givenPlayers,numberOfPlayers,lengthN); 
+                                                        % temporary reward matrix
 tempRewardVector = zeros(1,numberOfPlayers);
 
-for i = 1:givenPlayers              % fill tempRewardMatrix(given Player, all opponents, given noise level)
+for i = 1:givenPlayers              % fill tempRewardMatrix(given Player, all
+                                                % opponents, given noise level)
     for k = 1:numberOfPlayers
         for l = 1:lengthN
-            tempRewardMatrix(i,k,l) = eval(['R' int2str(position(i)) '(noiseLevel(1,l),noiseLevel(2,l),k);']); 
+            tempRewardMatrix(i,k,l) = eval(['R' int2str(position(i))...
+                '(noiseLevel(1,l),noiseLevel(2,l),k);']); 
         end
     end
 end
@@ -197,10 +216,12 @@ end
 for i = 1:givenPlayers              % iterate over all given players        
     h = figure(i+figureCounter);                              % initialize figure
     set(h,'NumberTitle','off')
-    set(h,'Position',[10 500 1000 900])         % position and size of figure
-    set(h,'Name',['Reward of Player "' listOfPlayers{position(i)} '" against all Players at given Noiselevels'])  % set title of figure
+    set(h,'Position',[10 100 800 720])         % position and size of figure
+    set(h,'Name',['Reward of Player ' listOfPlayers{position(i)} ...
+        ' against all Players at given Noiselevels'])  % set title of figure
     for k = 1:lengthN               % iterate over each noiselevel constellation
-        tempRewardVector = tempRewardMatrix(i,:,k)/numberOfTurns; % take right vector out of the tempRewardMatrix
+        tempRewardVector = tempRewardMatrix(i,:,k)/numberOfTurns; 
+                                % take right vector out of the tempRewardMatrix
         
         subplot(lengthN,1,k)        % plotting options
         bar(tempRewardVector);
@@ -208,14 +229,55 @@ for i = 1:givenPlayers              % iterate over all given players
         set(gca,'XTick',1:1:numberOfPlayers)
         set(gca,'XTickLabel',short,'FontSize',8)
         set(gca,'XLim',[0 numberOfPlayers+1])
-        set(gca,'YLim',[max((min(tempRewardVector)-0.25),0) min((max(tempRewardVector)+0.25),5)])         
-        title(['Noiseplot with Noiselevel 1: ',num2str(noise(1,noiseLevel(1,k))),' and Noiselevel 2: ', num2str(noise(2,noiseLevel(2,k))),' for Player "' listOfPlayers{position(i)}, '"'],'FontWeight','bold','FontSize',12);
+        set(gca,'YLim',[max((min(tempRewardVector)-0.25),0)...
+            min((max(tempRewardVector)+0.25),5)])         
+        title(['Noiseplot with Noiselevel 1: ',num2str(noise(1,noiseLevel...
+            (1,k))),' and Noiselevel 2: ', num2str(noise(2,noiseLevel(2,k))),...
+            ' for Player ' listOfPlayers{position(i)}, ''],'FontWeight','bold'...
+            ,'FontSize',12);
         xlabel('Opponents','FontWeight','bold','FontSize',10)
-        ylabel(['Average profit of Player "' listOfPlayers{position(i)} '"'],'FontWeight','bold','FontSize',8)
+        ylabel(['Average profit of Player ' listOfPlayers{position(i)} ''],...
+            'FontWeight','bold','FontSize',8)
     end
+%saveas(h,['pics\simulation'num2str(nummberOfSimulation) '\'get(h,'Name') '.eps'])
 end
 
-figureCounter = figureCounter + givenPlayers; % update figurecounter
+for i = 1:givenPlayers              % iterate over all given players   
+    
+    tempSurf = sum(eval(['R' int2str(position(i))]),3)/...
+        (numberOfPlayers*numberOfTurns);
+    
+    h = figure(figureCounter+givenPlayers+i);                  % initialize figure
+    set(h,'NumberTitle','off')
+    set(h,'Position',[10 100 700 700])         % position and size of figure
+    set(h,'Name',['Reward vs Noise of Player ' listOfPlayers{position(i)} '']) 
+                                                             % set title of figure
+    
+
+    surf(tempSurf)
+    title(['Average profit of Player ' listOfPlayers{position(i)} ''],...
+        'FontWeight','bold','FontSize',12);
+
+    % set a colormap for the figure.
+    colormap(hot);
+
+    % set the view angle.
+    view(150,47);
+
+    % labels
+    set(gca,'XTick',1:1:lengthOfNoise)
+    set(gca,'YTick',1:1:lengthOfNoise)
+    set(gca,'XTickLabel',noise(2,:))
+    set(gca,'YTickLabel',noise(1,:))
+
+
+    xlabel('Noise 2');
+    ylabel('Noise 1');
+    zlabel('Reward');
+saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\'get(h,'Name') '.eps'])
+end
+
+figureCounter = figureCounter + 2* givenPlayers; % update figurecounter
 
 %% Plot statistics for a given player (Cooperation vs given Noiselevels)
 
@@ -223,7 +285,8 @@ figureCounter = figureCounter + givenPlayers; % update figurecounter
 clear position noiseLevel lengthN givenPlayers tempCoopMatrix k tempCoopVector i h
 
 % Inputs: 
-position = [1];                 % Numbers of the players (hint: type listOfPlayers to see which player has which number)
+position = [1,2,3,4,5];                 % Numbers of the players (hint: type 
+                             % listOfPlayers to see which player has which number)
 noiseLevel = [1  ;...          % Noise Level 1
               1];             % Noise Level 2
 
@@ -231,13 +294,17 @@ noiseLevel = [1  ;...          % Noise Level 1
 givenPlayers = length(position);    % number of given players
 lengthN = size(noiseLevel,2);       % number of given noise level constellations
 
-tempCoopMatrix = zeros(givenPlayers,numberOfPlayers,lengthN); % temporary cooperation matrix
+tempCoopMatrix = zeros(givenPlayers,numberOfPlayers,lengthN); 
+                                                    % temporary cooperation matrix
 tempCoopVector = zeros(1,numberOfPlayers);
+tempSurf = zeros(lengthOfNoise);
 
-for i = 1:givenPlayers              % fill tempCoopMatrix(given Player, all opponents, given noise level)
+for i = 1:givenPlayers              % fill tempCoopMatrix(given Player, all
+                                    % opponents, given noise level)
     for k = 1:numberOfPlayers
         for l = 1:lengthN
-            tempCoopMatrix(i,k,l) = eval(['C' int2str(position(i)) '(noiseLevel(1,l),noiseLevel(2,l),k);']); 
+            tempCoopMatrix(i,k,l) = eval(['C' int2str(position(i)) ...
+                '(noiseLevel(1,l),noiseLevel(2,l),k);']); 
         end
     end
 end
@@ -246,9 +313,11 @@ for i = 1:givenPlayers              % iterate over all given players
     h = figure(i+figureCounter);                              % initialize figure
     set(h,'NumberTitle','off')
     set(h,'Position',[10 500 1000 900])         % position and size of figure
-    set(h,'Name',['Cooperation of Player "' listOfPlayers{position(i)} '" against all Players at given Noiselevels'])  % set title of figure
+    set(h,'Name',['Cooperation of Player ' listOfPlayers{position(i)} ...
+        ' against all Players at given Noiselevels'])  % set title of figure
     for k = 1:lengthN               % iterate over each noiselevel constellation
-        tempCoopVector = tempCoopMatrix(i,:,k); % take right vector out of the tempCoopMatrix
+        tempCoopVector = tempCoopMatrix(i,:,k); % take right vector
+                                                % out of the tempCoopMatrix
         
         subplot(lengthN,1,k)        % plotting options
         bar(tempCoopVector);
@@ -256,40 +325,87 @@ for i = 1:givenPlayers              % iterate over all given players
         set(gca,'XTick',1:1:numberOfPlayers)
         set(gca,'XTickLabel',short,'FontSize',8)
         set(gca,'XLim',[0 numberOfPlayers+1])
-        set(gca,'YLim',[max((min(tempCoopVector)-0.05),0) min((max(tempCoopVector)+0.05),1)])         
-        title(['Noiseplot with Noiselevel 1: ',num2str(noise(1,noiseLevel(1,k))),' and Noiselevel 2: ', num2str(noise(2,noiseLevel(2,k))),' for Player "' listOfPlayers{position(i)}, '"'],'FontWeight','bold','FontSize',12);
+        set(gca,'YLim',[max((min(tempCoopVector)-0.05),0)...
+            min((max(tempCoopVector)+0.05),1)])         
+        title(['Noiseplot with Noiselevel 1: ',num2str(noise(1,noiseLevel...
+            (1,k))),' and Noiselevel 2: ', num2str(noise(2,noiseLevel(2,k)))...
+            ,' for Player ' listOfPlayers{position(i)}, ''],'FontWeight','bold'...
+            ,'FontSize',12);
         xlabel('Opponents','FontWeight','bold','FontSize',10)
-        ylabel(['Cooperation of Player "' listOfPlayers{position(i)} '"'],'FontWeight','bold','FontSize',8)
+        ylabel(['Cooperation of Player ' listOfPlayers{position(i)} ''],...
+            'FontWeight','bold','FontSize',8)
     end
+saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\'get(h,'Name') '.eps'])
+end
+for i = 1:givenPlayers              % iterate over all given players   
+    
+    tempSurf = mean(eval(['C' int2str(position(i))]),3);
+    
+    h = figure(figureCounter+givenPlayers+i);                  % initialize figure
+    set(h,'NumberTitle','off')
+    set(h,'Position',[10 500 800 800])         % position and size of figure
+    set(h,'Name',['Cooperation vs Noise of Player ' listOfPlayers{position(i)}]) 
+                                                % set title of figure
+
+
+    surf(tempSurf)
+    title(['Average cooperation of Player ' listOfPlayers{position(i)} ''],...
+        'FontWeight','bold','FontSize',12);
+
+    % set a colormap for the figure.
+    colormap(hot);
+
+    % set the view angle.
+    view(225,35);
+
+    % labels
+    set(gca,'XTick',0:1:lengthOfNoise)
+    set(gca,'YTick',0:1:lengthOfNoise)
+    set(gca,'XTickLabel',noise(1,:))
+    set(gca,'YTickLabel',noise(2,:))
+
+
+    xlabel('Noise 1');
+    ylabel('Noise 2');
+    zlabel('Cooperation');
+saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\'get(h,'Name') '.eps'])
 end
 
-figureCounter = figureCounter + givenPlayers; % update figurecounter
+figureCounter = figureCounter + 2* givenPlayers; % update figurecounter
 
 %% Reward vs Noise with name of the best player
 
 % Clear used Variables:
-clear positions h tempRewardMatrix value position player noiseLevel tempPositions endPositions endReward playersInRange range filename file
+clear positions h tempRewardMatrix value position player noiseLevel ...
+    tempPositions endPositions endReward playersInRange range filename file
 
 % Inputs: 
-playersInRange = true;  % true: calculate players in range, false, don't calculate players in range
+playersInRange = true;  % true: calculate players in range, false, don't calculate 
+                        % players in range
 range = 0.05;            % how close have other players be, to be mentioned
 filename = 'range.txt'; % file, where players in range are saved
 
 % Calc:
-positions = zeros(lengthOfNoise^2,numberOfPlayers);                           % vector for player with maximum reward for given noise
-tempRewardMatrix = zeros(lengthOfNoise^2,numberOfPlayers);    % create new temporary reward matrix
+positions = zeros(lengthOfNoise^2,numberOfPlayers);           % vector for player
+                                            % with maximum reward for given noise
+tempRewardMatrix = zeros(lengthOfNoise^2,numberOfPlayers);    % create new 
+                                                        % temporary reward matrix
 
 for i = 1:lengthOfNoise                     % iterate over all noise combinations
     for k = 1:lengthOfNoise
         for l = 1:numberOfPlayers                       % iterate over all players
-            for m = 1:numberOfPlayers                   % iterate over all opponents
-            tempRewardMatrix(k+(i-1)*lengthOfNoise,l) = tempRewardMatrix(k+(i-1)*lengthOfNoise,l) + eval(['R' int2str(l) '(' int2str(i) ',' int2str(k) ',' int2str(m)   ');']); % add temporary rewardmatrix (1,player)
+            for m = 1:numberOfPlayers                 % iterate over all opponents
+            tempRewardMatrix(k+(i-1)*lengthOfNoise,l) = tempRewardMatrix(k+...
+                (i-1)*lengthOfNoise,l) + eval(['R' int2str(l) '(' int2str(i)...
+                ',' int2str(k) ',' int2str(m)   ');']); 
+                                        % add temporary rewardmatrix (1,player)
             end
         end
     end
 end
 
-[value, position] = max(tempRewardMatrix'/(numberOfTurns*numberOfPlayers));     % take maximas
+[value, position] = max(tempRewardMatrix'/(numberOfTurns*numberOfPlayers));   
+                                                                    % take maximas
 
 for i = 1:lengthOfNoise^2                       % fill positionmatrix
     positions(i,position(i)) =  value(i);
@@ -298,10 +414,11 @@ end
 [noiseLevel ,player] = find(positions);
 tempPositions = sortrows([noiseLevel player],1);
 
-for i = 1:lengthOfNoise                         % get positions matrix and reward matrix ready for plotting
+for i = 1:lengthOfNoise% get positions matrix and reward matrix ready for plotting
     for k = 1:lengthOfNoise
         endPositions(i,k) = tempPositions(k+(i-1)*lengthOfNoise,2);
-        endReward(i,k) = positions(k+(i-1)*lengthOfNoise,tempPositions(k+(i-1)*lengthOfNoise,2));
+        endReward(i,k) = positions(k+(i-1)*lengthOfNoise,tempPositions(...
+            k+(i-1)*lengthOfNoise,2));
     end
 end
 
@@ -321,7 +438,8 @@ for i = 1:lengthOfNoise
     for k = 1:lengthOfNoise
         text(k-1,i-1,...
         [listOfPlayers{endPositions(i,k)}],...
-        'HorizontalAlignment','center','VerticalAlignment','bottom','FontWeight','bold','FontSize',12);
+        'HorizontalAlignment','center','VerticalAlignment','bottom',...
+        'FontWeight','bold','FontSize',12);
         text(k-1,i-1,...
         [num2str(endReward(i,k))],...
         'HorizontalAlignment','center','VerticalAlignment','top');
@@ -329,39 +447,49 @@ for i = 1:lengthOfNoise
        
    end
 end
+saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\'get(h,'Name') '.eps'])
 
 
 
-if(playersInRange)                                                          % caluclate players in range:
-    result=zeros(lengthOfNoise^2,numberOfPlayers);                          % empty matrix for position of players
-    tempRewardMatrix = tempRewardMatrix./(numberOfPlayers*numberOfTurns);   % norm tempRewardMatrix
-    lowerValue = endReward .* (1-range);                                    % calculate lower value
-    for i = 1:lengthOfNoise                                                 % iterate over all noise levels
+if(playersInRange)                          % caluclate players in range:
+    result=zeros(lengthOfNoise^2,numberOfPlayers); % empty matrix for position 
+                                                    % of players
+    tempRewardMatrix = tempRewardMatrix./(numberOfPlayers*numberOfTurns);   
+                                                    % norm tempRewardMatrix
+    lowerValue = endReward .* (1-range);            % calculate lower value
+    for i = 1:lengthOfNoise                         % iterate over all noise levels
         for k = 1:lengthOfNoise
             clear tempResult
-            tempResult = find(tempRewardMatrix(k+(i-1)*lengthOfNoise,:)>=lowerValue(i,k));  % find players in range
+            tempResult = find(tempRewardMatrix(k+(i-1)*lengthOfNoise,:)>=...
+                lowerValue(i,k));  % find players in range
             result(k+(i-1)*lengthOfNoise,1:length(tempResult)) = tempResult;
         end
     end
 
 
-file = fopen(filename,'w');                                                 % open file with given filename
-fprintf(file, 'Players in a %1.2f range for each noise level \n\n',range);  % print header
+file = fopen(filename,'w');  % open file with given filename
+fprintf(file, 'Players in a %1.2f range for each noise level \n\n',range); 
+                                                                    % print header
 
-for i = 1:lengthOfNoise                                                     % print file
+for i = 1:lengthOfNoise                                             % print file
     for k = 1:lengthOfNoise
-        fprintf(file, 'Noise level 1: %1.2f, Noise level 2: %1.2f, highest reward: %1.4f, in range (>%1.4f):\n',noise(1,i),noise(2,k),endReward(i,k),lowerValue(i,k));
+        fprintf(file, 'Noise level 1: %1.2f, Noise level 2: %1.2f',...
+            noise(1,i),noise(2,k));
+        fprintf(file,', highest reward: %1.4f, in range (>%1.4f):\n',...
+            endReward(i,k),lowerValue(i,k));
         for l=find(result(k+(i-1)*lengthOfNoise,:))
-            fprintf(file, '%s (%1.4f)\n',listOfPlayers{result(k+(i-1)*lengthOfNoise,l)},tempRewardMatrix(k+(i-1)*lengthOfNoise,result(k+(i-1)*lengthOfNoise,l)));
+            fprintf(file, '%s (%1.4f)\n',listOfPlayers{result(k+(i-1)*...
+                lengthOfNoise,l)},tempRewardMatrix(k+(i-1)*lengthOfNoise,...
+                result(k+(i-1)*lengthOfNoise,l)));
         end
         fprintf(file, '\n');
     end
 end
 
-fclose(file);                                                               % close file
+fclose(file);                                  % close file
 
 end
-figureCounter = figureCounter + 2;                                          % update figurecounter
+figureCounter = figureCounter + 2;                % update figurecounter
 
 
 %% Total Cooperation/Reward normed
@@ -370,35 +498,89 @@ figureCounter = figureCounter + 2;                                          % up
 clear i k totalReward totalCoop tempTotalCoop filename file
 
 % Inputs:
-filename = 'totalresult.txt';                                % filename of file for total results
+filename = 'totalresult.txt';               % filename of file for total results
 
 % Calc:
 
-totalReward = zeros(lengthOfNoise);                         % create total reward matrix
-totalCoop = zeros(lengthOfNoise);                           % create total cooperation matrix
+totalReward = zeros(lengthOfNoise);  % create total reward matrix
+totalCoop = zeros(lengthOfNoise);         % create total cooperation matrix
 
-for k=1:numberOfPlayers                                     % iterate over all players
-    for i=1:numberOfPlayers                                 % calculate total reward matrix
-        totalReward(:,:)=totalReward(:,:)+eval(['R' int2str(k) '(:,:,' int2str(i) ')'  ';'])/(numberOfPlayers*numberOfTurns*numberOfPlayers);
+for k=1:numberOfPlayers                     % iterate over all players
+    for i=1:numberOfPlayers        % calculate total reward matrix
+        totalReward(:,:)=totalReward(:,:)+eval(['R' int2str(k) '(:,:,' ...
+            int2str(i) ')'  ';'])/(numberOfPlayers*numberOfTurns*numberOfPlayers);
 
     end
-    for i=1:lengthOfNoise                                   % calculate temporary total cooperation matrix
+    for i=1:lengthOfNoise          % calculate temporary total cooperation matrix
         for j=1:lengthOfNoise
             tempTotalCoop(i,j,k)=mean(eval(['C' int2str(k) '(i,j,:)'  ';']));
         end
     end
 end
 
-for l=1:lengthOfNoise                                       % calculate total cooperation matrix
+for l=1:lengthOfNoise                % calculate total cooperation matrix
     for j=1:lengthOfNoise
         totalCoop(l,j)=mean(tempTotalCoop(l,j,:));
     end
 end
 
-file = fopen(filename,'w');                                 % open file with given filename
-fprintf(file, 'Total Rewardmatrix: \n\nNoise ',range);      % print header for rewardmatrix
+h = figure(figureCounter+1);                               % initialize figure
+set(h,'NumberTitle','off')
+set(h,'Position',[10 500 800 800])         % position and size of figure
+set(h,'Name','Total Reward vs Noise')  % set title of figure
 
-fprintf(file, '| %1.2f ',noise(1,:));                       % print reward matrix
+ 
+surf(totalReward)
+
+ 
+% set a colormap for the figure.
+colormap(hot);
+ 
+% set the view angle.
+view(225,35);
+ 
+% labels
+set(gca,'XTick',0:1:lengthOfNoise)
+set(gca,'YTick',0:1:lengthOfNoise)
+set(gca,'XTickLabel',noise(1,:))
+set(gca,'YTickLabel',noise(2,:))
+
+ 
+xlabel('Noise 1');
+ylabel('Noise 2');
+zlabel('Reward');
+saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\'get(h,'Name') '.eps'])
+h = figure(figureCounter+2);                               % initialize figure
+set(h,'NumberTitle','off')
+set(h,'Position',[10 500 800 800])         % position and size of figure
+set(h,'Name','Total Cooperation vs Noise')  % set title of figure
+
+ 
+surf(totalCoop)
+
+ 
+% set a colormap for the figure.
+colormap(jet);
+ 
+% set the view angle.
+view(225,35);
+ 
+% labels
+set(gca,'XTick',0:1:lengthOfNoise)
+set(gca,'YTick',0:1:lengthOfNoise)
+set(gca,'XTickLabel',noise(1,:))
+set(gca,'YTickLabel',noise(2,:))
+
+ 
+xlabel('Noise 1');
+ylabel('Noise 2');
+zlabel('Cooperation');
+saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\'get(h,'Name') '.eps'])
+file = fopen(filename,'w');     % open file with given filename
+fprintf(file, 'Total Rewardmatrix: \n\nNoise ',range);      
+                                                   % print header for rewardmatrix
+
+fprintf(file, '| %1.2f ',noise(1,:));               % print reward matrix
 fprintf(file, '\n -----|');
 for k=1:lengthOfNoise
     for i = 1:lengthOfNoise
@@ -412,7 +594,8 @@ for i = 1:lengthOfNoise
     fprintf(file, '-------');
 end
 
-fprintf(file, '\n\nTotal Cooperatiomatrix: \n\nNoise ',range);  % print header for coopmatrix
+fprintf(file, '\n\nTotal Cooperatiomatrix: \n\nNoise ',range);  
+                                                    % print header for coopmatrix
 
 fprintf(file, '| %1.2f   ',noise(1,:));                     % print coopmatrix
 fprintf(file, '\n -----|');
@@ -430,6 +613,8 @@ end
 
 fclose(file);                                               % close file
 
+figureCounter=figureCounter+2;
+
 %% 2 given Players against each other 
 
 % Clear used Variables:
@@ -442,14 +627,19 @@ player = [1 ;...               % player 1
       
 % Calc:
 players = size(player,2);         % number of faceoffs
-tempRewardMatrix = zeros(lengthOfNoise^2,2,players);    % create temporary rewardmatrix(noiselevel,2,faceoff)
+tempRewardMatrix = zeros(lengthOfNoise^2,2,players);   
+                            % create temporary rewardmatrix(noiselevel,2,faceoff)
 
 
 for l = 1:players                 % create rewardmatrix
     for i = 1:lengthOfNoise
         for k = 1:lengthOfNoise
-            tempRewardMatrix(k+(i-1)*lengthOfNoise,1,l) = eval(['R' int2str(player(1,l)) '(' int2str(i) ',' int2str(k) ',' int2str(player(2,l)) ');'])/numberOfTurns; 
-            tempRewardMatrix(k+(i-1)*lengthOfNoise,2,l) = eval(['R' int2str(player(2,l)) '(' int2str(i) ',' int2str(k) ',' int2str(player(1,l)) ');'])/numberOfTurns;
+            tempRewardMatrix(k+(i-1)*lengthOfNoise,1,l) = eval(['R' int2str...
+                (player(1,l)) '(' int2str(i) ',' int2str(k) ',' int2str...
+                (player(2,l)) ');'])/numberOfTurns; 
+            tempRewardMatrix(k+(i-1)*lengthOfNoise,2,l) = eval(['R' int2str...
+                (player(2,l)) '(' int2str(i) ',' int2str(k) ',' int2str...
+                (player(1,l)) ');'])/numberOfTurns;
         end
     end
 end
@@ -458,7 +648,8 @@ for l = 1:players               % iterate over faceoffs
     h = figure(l+figureCounter);                              % initialize figure
     set(h,'NumberTitle','off')
     set(h,'Position',[10 500 1600 900])         % position and size of figure
-    set(h,'Name',['"' listOfPlayers{player(1,l)} '" against "' listOfPlayers{player(2,l)} ' and vice versa'])  % set title of figure
+    set(h,'Name',['' listOfPlayers{player(1,l)} ' against ' listOfPlayers...
+        {player(2,l)} ' and vice versa'])  % set title of figure
     for i = 1:lengthOfNoise
         for k = 1:lengthOfNoise
             subplot(lengthOfNoise, lengthOfNoise, k+(i-1)*lengthOfNoise)
@@ -469,10 +660,14 @@ for l = 1:players               % iterate over faceoffs
             shortTemp{2} = short{player(2,l)};
             set(gca,'XTickLabel',shortTemp,'FontSize',8)
             set(gca,'XLim',[0 3])
-            set(gca,'YLim',[max((min(tempRewardMatrix(k+(i-1)*lengthOfNoise,:,l))-0.25),0) min((max(tempRewardMatrix(k+(i-1)*lengthOfNoise,:,l))+0.25),5)])         
-            title(['Noiselv 1: ',num2str(noise(1,k)),' and Noiselv 2: ', num2str(noise(1,i)),],'FontWeight','bold','FontSize',12);
+            set(gca,'YLim',[max((min(tempRewardMatrix(k+(i-1)*...
+                lengthOfNoise,:,l))-0.25),0) min((max(tempRewardMatrix(...
+                k+(i-1)*lengthOfNoise,:,l))+0.25),5)])         
+            title(['Noiselv 1: ',num2str(noise(1,k)),' and Noiselv 2: ',...
+                num2str(noise(1,i)),],'FontWeight','bold','FontSize',12);
             xlabel('Opponents','FontWeight','bold','FontSize',10)
             ylabel(['Reward'],'FontWeight','bold','FontSize',8)
         end
-    end    
+    end 
+saveas(h,['pics\simulation' num2str(nummberOfSimulation) '\'get(h,'Name') '.eps'])
 end

@@ -1,0 +1,95 @@
+\contentsline {section}{\numberline {1}Abstract}{1}{section.1}
+\contentsline {section}{\numberline {2}Individual contributions}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Andermatt Samuel}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}B\"osser Jonathan}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Meier David}{2}{subsection.2.3}
+\contentsline {section}{\numberline {3}Introduction and Motivations}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}The Prisoner's Dilemma}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}The Axelrod Experiment}{3}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Introduction of Noise}{3}{subsection.3.3}
+\contentsline {section}{\numberline {4}Description of the Model and Players}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Simple Players}{4}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Cooperative Player}{4}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Defective Player}{4}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Random Player}{4}{subsubsection.4.1.3}
+\contentsline {subsection}{\numberline {4.2}Players from Literature}{4}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Tit for Tat}{4}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Friedmann}{4}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Pavlov}{4}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}Tit for two Tat}{5}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}Joss}{5}{subsubsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.6}Diekmann}{5}{subsubsection.4.2.6}
+\contentsline {subsubsection}{\numberline {4.2.7}D-Downing}{5}{subsubsection.4.2.7}
+\contentsline {subsubsection}{\numberline {4.2.8}C-Downing}{5}{subsubsection.4.2.8}
+\contentsline {subsection}{\numberline {4.3}Own Players}{5}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Tit for Average Tat}{5}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Watcher}{6}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Reconciliation Tit for tat}{6}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}Tit for Tat with Reputation}{6}{subsubsection.4.3.4}
+\contentsline {subsubsection}{\numberline {4.3.5}Strategy Switcher}{6}{subsubsection.4.3.5}
+\contentsline {subsubsection}{\numberline {4.3.6}Evolutionary}{6}{subsubsection.4.3.6}
+\contentsline {subsubsection}{\numberline {4.3.7}Limited Reconciliation Tit for tat}{7}{subsubsection.4.3.7}
+\contentsline {subsubsection}{\numberline {4.3.8}Look Back D-Downing}{7}{subsubsection.4.3.8}
+\contentsline {subsubsection}{\numberline {4.3.9}Look Back C-Downing}{7}{subsubsection.4.3.9}
+\contentsline {subsection}{\numberline {4.4}General view}{7}{subsection.4.4}
+\contentsline {section}{\numberline {5}Implementation}{9}{section.5}
+\contentsline {section}{\numberline {6}Results and Discussion}{10}{section.6}
+\contentsline {subsection}{\numberline {6.1}General Findings}{10}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Problem caused by unreliably transmitted cooperation}{10}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Benefit caused by unreliably transmitted defection}{10}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Axelrods recommendations}{10}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}The Performance of each Player}{11}{subsection.6.5}
+\contentsline {subsubsection}{\numberline {6.5.1}Cooperative Player}{11}{subsubsection.6.5.1}
+\contentsline {subsubsection}{\numberline {6.5.2}Defective Player}{12}{subsubsection.6.5.2}
+\contentsline {subsubsection}{\numberline {6.5.3}Random Player}{13}{subsubsection.6.5.3}
+\contentsline {subsubsection}{\numberline {6.5.4}Tit For Tat}{13}{subsubsection.6.5.4}
+\contentsline {subsubsection}{\numberline {6.5.5}Friedmann}{16}{subsubsection.6.5.5}
+\contentsline {subsubsection}{\numberline {6.5.6}Pavlov}{17}{subsubsection.6.5.6}
+\contentsline {subsubsection}{\numberline {6.5.7}Tit For 2 Tat}{18}{subsubsection.6.5.7}
+\contentsline {subsubsection}{\numberline {6.5.8}Joss}{20}{subsubsection.6.5.8}
+\contentsline {subsubsection}{\numberline {6.5.9}Diekmann}{22}{subsubsection.6.5.9}
+\contentsline {subsubsection}{\numberline {6.5.10}Tit For Average Tat}{23}{subsubsection.6.5.10}
+\contentsline {subsubsection}{\numberline {6.5.11}Reconciliation Tit for Tat}{24}{subsubsection.6.5.11}
+\contentsline {subsubsection}{\numberline {6.5.12}CDowning and DDowning}{25}{subsubsection.6.5.12}
+\contentsline {subsubsection}{\numberline {6.5.13}Tit For Tat with Reputation}{26}{subsubsection.6.5.13}
+\contentsline {subsubsection}{\numberline {6.5.14}Strategy Switcher}{27}{subsubsection.6.5.14}
+\contentsline {subsubsection}{\numberline {6.5.15}Lookback CDowning and Lookback DDowning}{30}{subsubsection.6.5.15}
+\contentsline {subsubsection}{\numberline {6.5.16}Watcher}{31}{subsubsection.6.5.16}
+\contentsline {subsubsection}{\numberline {6.5.17}Evolutionary}{32}{subsubsection.6.5.17}
+\contentsline {subsubsection}{\numberline {6.5.18}Limited Reconciliation Tit For tat}{34}{subsubsection.6.5.18}
+\contentsline {subsection}{\numberline {6.6}Impact of Noise on the whole system}{35}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Comparison of the players}{35}{subsection.6.7}
+\contentsline {section}{\numberline {7}Summary and Outlook}{40}{section.7}
+\contentsline {section}{\numberline {8}References}{41}{section.8}
+\contentsline {section}{\numberline {A}Submitted Researchplan}{42}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}General Introduction}{42}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Fundamental Questions}{42}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}Expected Results}{42}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}References}{42}{subsection.A.4}
+\contentsline {subsubsection}{\numberline {A.4.1}Research Methods}{43}{subsubsection.A.4.1}
+\contentsline {subsection}{\numberline {A.5}Other}{43}{subsection.A.5}
+\contentsline {section}{\numberline {B}Matlabcode}{44}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Master.m}{44}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}win.m}{46}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}show\relax $\@@underline {\hbox {\ }}\mathsurround \z@ $\relax data.m}{47}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}playerlist.m}{62}{subsection.B.4}
+\contentsline {subsection}{\numberline {B.5}player1.m}{62}{subsection.B.5}
+\contentsline {subsection}{\numberline {B.6}player2.m}{63}{subsection.B.6}
+\contentsline {subsection}{\numberline {B.7}player3.m}{63}{subsection.B.7}
+\contentsline {subsection}{\numberline {B.8}player4.m}{64}{subsection.B.8}
+\contentsline {subsection}{\numberline {B.9}player5.m}{64}{subsection.B.9}
+\contentsline {subsection}{\numberline {B.10}player6.m}{65}{subsection.B.10}
+\contentsline {subsection}{\numberline {B.11}player7.m}{65}{subsection.B.11}
+\contentsline {subsection}{\numberline {B.12}player8.m}{66}{subsection.B.12}
+\contentsline {subsection}{\numberline {B.13}player9.m}{67}{subsection.B.13}
+\contentsline {subsection}{\numberline {B.14}player10.m}{67}{subsection.B.14}
+\contentsline {subsection}{\numberline {B.15}player11.m}{68}{subsection.B.15}
+\contentsline {subsection}{\numberline {B.16}player12.m}{70}{subsection.B.16}
+\contentsline {subsection}{\numberline {B.17}player13.m}{72}{subsection.B.17}
+\contentsline {subsection}{\numberline {B.18}player14.m}{72}{subsection.B.18}
+\contentsline {subsection}{\numberline {B.19}player15.m}{75}{subsection.B.19}
+\contentsline {subsection}{\numberline {B.20}player16.m}{76}{subsection.B.20}
+\contentsline {subsection}{\numberline {B.21}player17.m}{78}{subsection.B.21}
+\contentsline {subsection}{\numberline {B.22}player18.m}{80}{subsection.B.22}
+\contentsline {subsection}{\numberline {B.23}player19.m}{81}{subsection.B.23}
+\contentsline {subsection}{\numberline {B.24}player20.m}{84}{subsection.B.24}
