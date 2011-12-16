@@ -1,4 +1,0 @@
-function [decision] = player2(K)
-%Never Cooperates
-decision=2;
-end
